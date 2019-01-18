@@ -17,3 +17,7 @@ Vous pouvez téléchager l'outils pour créer et convertir les fichiers .loo cr�
 ## Contact
 
 Si vous avez des questions ou que vous souhaitez participer vous pouvez rejoindre le discord de la communauté à cette adresse https://discord.gg/wQ3SYxs
+
+## Remerciement - Thanks
+
+Huge thanks to Tao for making all that possible and teaching me how to use this !
