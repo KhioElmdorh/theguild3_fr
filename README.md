@@ -2,7 +2,7 @@
 
 ## Téléchargement
 
-* Rendez-vous à https://github.com/KhioElmdorh/theguild3_fr/relases
+* Rendez-vous à https://github.com/KhioElmdorh/theguild3_fr/releases
 * Téléchargez "Source code (zip)" pour la dernière version ( la même que la version du jeu ).
 
 ## Installation
