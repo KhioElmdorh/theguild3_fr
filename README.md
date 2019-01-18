@@ -2,13 +2,13 @@
 
 ## Téléchargement
 
-Rendez-vous à https://github.com/KhioElmdorh/theguild3_fr/relases
-Téléchargez "Source code (zip)" pour la dernière version ( la même que la version du jeu ).
+* Rendez-vous à https://github.com/KhioElmdorh/theguild3_fr/relases
+* Téléchargez "Source code (zip)" pour la dernière version ( la même que la version du jeu ).
 
 ## Installation
 
-Extrayez le fichier .zip que vous avez téléchargé et copiez le fichier locdirect_english.loo ;
-Ouvez le dossier du jeu suivant : The Guild 3\media\localization\, copiez-y et remplacez locdirect_english.loo ;
+* Extrayez le fichier .zip que vous avez téléchargé et copiez le fichier locdirect_english.loo ;
+* Ouvez le dossier du jeu suivant : The Guild 3\media\localization\, copiez-y et remplacez locdirect_english.loo ;
 
 ## Outils
 
