@@ -15,7 +15,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$AboutTalents1";
-			Text = "A propos du talent I";
+			Text = "Question de talent I";
 		},
 		LocDirectEntry
 		{
@@ -25,7 +25,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$AboutTalents2";
-			Text = "A propos du talent II";
+			Text = "Question de talent II";
 		},
 		LocDirectEntry
 		{
@@ -375,7 +375,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.Commended";
-			Text = "%CharacterSource% a parlé en votre faveur à la population dans le >%neighborhood%< !";
+			Text = "%CharacterSource% a parlé en votre faveur à la population dans le %neighborhood% !";
 		},
 		LocDirectEntry
 		{
@@ -690,7 +690,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.EndLiaisonAction";
-			Text = "Rompre";
+			Text = "Mettre fin à la liaison amoureuse";
 		},
 		LocDirectEntry
 		{
@@ -1535,12 +1535,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.Longshore2.Success";
-			Text = "Après tout ce temps, %character% est finalement revenu de son voyage par delà les mers. Il vous raconte qu'il a %location%, %thing% %event%.\nDébordant de fierté, il vous montre ce qu'il a ramené de son voyage: %items%.\n\nLe voyage de %character% a rapporté %xp% points d'expérience à votre dynastie.";
+			Text = "Après tout ce temps, %character% est finalement revenu de son voyage par delà les mers. Il vous raconte qu'il a %location%, %thing% %event%.\nDébordant de fierté, il vous montre ce qu'il a ramené de son voyage : %items%.\n\nLe voyage de %character% a rapporté %xp% points d'expérience à votre dynastie.";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.Longshore2.Success.female";
-			Text = "Après tout ce temps, %character% est finalement revenue de son voyage par delà les mers. Ellle vous raconte qu'elle a %location%, %thing% %event%.\nDébordante de fierté, elle vous montre ce qu'elle a ramené de son voyage: %items%.\n\nLe voyage de %character% a rapporté %xp% points d'expérience à votre dynastie.";
+			Text = "Après tout ce temps, %character% est finalement revenue de son voyage par delà les mers. Ellle vous raconte qu'elle a %location%, %thing% %event%.\nDébordante de fierté, elle vous montre ce qu'elle a ramené de son voyage : %items%.\n\nLe voyage de %character% a rapporté %xp% points d'expérience à votre dynastie.";
 		},
 		LocDirectEntry
 		{
@@ -1635,7 +1635,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.NOT_ENOUGH_MONEY";
-			Text = "%action% a échoué - vous n'avez pas assez d'or !";
+			Text = "%action% échouée - vous avez besoin d'au moins %price% !";
 		},
 		LocDirectEntry
 		{
@@ -1765,7 +1765,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.Praised";
-			Text = "%CharacterSource% vous a glorifié à %characterTargets%";
+			Text = "%CharacterSource% vous a glorifié à %characterTargets% !";
 		},
 		LocDirectEntry
 		{
@@ -3220,7 +3220,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$build.ArtisanLevel1";
-			Text = "Cabane d'artisan grossière";
+			Text = "Cabane d'artisan";
 		},
 		LocDirectEntry
 		{
@@ -3345,7 +3345,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$build.ArtisanName4";
-			Text = "L'artisan vulgaire";
+			Text = "Chez l'artisan";
 		},
 		LocDirectEntry
 		{
@@ -4555,7 +4555,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$build.CountryHouseName16";
-			Text = "Charpenterie brute";
+			Text = "Charpenterie Artisanale";
 		},
 		LocDirectEntry
 		{
@@ -8480,7 +8480,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$cf.OEmpl.Culi.0";
-			Text = "Salut !";
+			Text = "C'est l'heure du dîner.";
 		},
 		LocDirectEntry
 		{
@@ -9185,17 +9185,17 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$CitizenClothes3";
-			Text = "Habit de marchand";
+			Text = "Vêtements de citoyen";
 		},
 		LocDirectEntry
 		{
 			Key = "$CitizenClothes3Desc";
-			Text = "Cet attirail bourgeois est la tenue préférée des marchands";
+			Text = "Vous êtes un citoyen libre et vous devriez vous habiller en tant que tel.";
 		},
 		LocDirectEntry
 		{
 			Key = "$CitizenClothes4";
-			Text = "Habit de lettré";
+			Text = "Vêtements de patricien";
 		},
 		LocDirectEntry
 		{
@@ -9350,7 +9350,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$CulinaryDesc";
-			Text = "La préparation alimentaire consiste à préparer des aliments et des boissons. Le premier niveau de ce talent vous fournit déjà toutes les compétences et les connaissances nécessaires pour transformer le grain en farine. Ensuite, vous vous entraînez pour devenir agriculteur, boulanger et/ou boucher. Si vous continuez à suivre cette voie, vous pourrez un jour être capable de devenir aubergiste.";
+			Text = "La préparation alimentaire consiste à préparer des aliments et des boissons. Le premier niveau de cette compétence vous fournit déjà tout le savoir et les connaissances nécessaires pour transformer le grain en farine. Ensuite, vous vous entraînez pour devenir agriculteur, boulanger et/ou boucher. Si vous continuez à suivre cette voie, vous pourrez un jour être capable de devenir aubergiste.";
 		},
 		LocDirectEntry
 		{
@@ -10275,7 +10275,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$FightingDesc";
-			Text = "Si vous choisissez ce talent, vous vous engagez sur le chemin dangereux et un peu infâme d'un lansquenet - vous apprendrez à vous battre, à protéger les autres et à attraper les criminels...";
+			Text = "Si vous choisissez cette compétence, vous vous engagez sur le chemin dangereux et un peu infâme d'un lansquenet - vous apprendrez à vous battre, à protéger les autres et à attraper les criminels...";
 		},
 		LocDirectEntry
 		{
@@ -13470,7 +13470,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$HandicraftDesc";
-			Text = "L'artisanat est le talent de base nécessaire à la production de biens. Une fois que vous avez terminé votre apprentissage dans ce talent, vous pouvez vous spécialiser dans l'un des quatre domaines : forgeron, menuisier, maçon ou tailleur.";
+			Text = "L'artisanat est la compétence de base nécessaire à la production de biens. Une fois que vous avez terminé votre apprentissage dans cette compétence, vous pouvez vous spécialiser dans l'un des quatre domaines : forgeron, menuisier, maçon ou tailleur.";
 		},
 		LocDirectEntry
 		{
@@ -13480,7 +13480,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$HandicraftMetalDesc";
-			Text = "Le talent Travail du métal permet de posséder et d'exploiter des bâtiments de métallurgie.";
+			Text = "La compétence Travail du métal permet de posséder et d'exploiter des bâtiments de métallurgie.";
 		},
 		LocDirectEntry
 		{
@@ -13500,7 +13500,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$HandicraftWoodDesc";
-			Text = "Le talent Travail du bois permet de posséder et d'exploiter des bâtiments de menuiserie.";
+			Text = "La compétence Travail du bois permet de posséder et d'exploiter des bâtiments de menuiserie.";
 		},
 		LocDirectEntry
 		{
@@ -14480,7 +14480,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$InvestigationDesc";
-			Text = "Ce talent permet aux plus doués d'espionner les autres. A plus haut niveau, un >repaire d'espion< peut être construit pour y engager des espion et les faire travailler pour vous ou pour quelqu'un d'autre.";
+			Text = "Cette compétence permet aux plus doués d'espionner les autres. A plus haut niveau, un >repaire d'espion< peut être construit pour y engager des espion et les faire travailler pour vous ou pour quelqu'un d'autre.";
 		},
 		LocDirectEntry
 		{
@@ -14685,7 +14685,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$MathDesc";
-			Text = "Ce talent permet non seulement la bonne évaluation des pertes et profits, mais également aux spécialistes de soudoyer secrètement les décideurs du conseil municipal et des tribunaux.";
+			Text = "Cette compétence permet non seulement la bonne évaluation des pertes et profits, mais également aux spécialistes de soudoyer secrètement les décideurs du conseil municipal et des tribunaux.";
 		},
 		LocDirectEntry
 		{
@@ -14860,7 +14860,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.FamilyMemberCured";
-			Text = "%character% est guéri. L'étendue de la guérison est : %cure%.";
+			Text = "%character% est guéri. L'effet du traitement est : %cure%.";
 		},
 		LocDirectEntry
 		{
@@ -15260,7 +15260,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$NegotiatingDesc";
-			Text = "Si vous obtenez ce talent vous pourrez facturer davantage vos produits et payer moins pour les matières premières et les marchandises que vous achetez.";
+			Text = "Si vous obtenez cette compétence vous pourrez facturer davantage vos produits et payer moins pour les matières premières et les marchandises que vous achetez.";
 		},
 		LocDirectEntry
 		{
@@ -16135,7 +16135,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$profession.ArtisanDesc";
-			Text = "Artisans peuvent produire les biens les plus basiques, ils sont donc modestement rémunérés.";
+			Text = "Les artisans peuvent produire les biens les plus basiques, ils sont donc modestement rémunérés.";
 		},
 		LocDirectEntry
 		{
@@ -16655,7 +16655,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$randomEvents.negative.25";
-			Text = "Vous déposez %coins% sur un autel et priez pour une bonne santé, une longue vie, une fortune sans pareille et le bonheur éternel.\nLe saint vous a probablement mal compris, puisqu'il vous a maudit à la place : %malediction% !";
+			Text = "Vous déposez %coins% pièces sur un autel et priez pour une bonne santé, une longue vie, une fortune sans pareille et le bonheur éternel.\nLe saint vous a probablement mal compris, puisqu'il vous a maudit à la place : %malediction% !";
 		},
 		LocDirectEntry
 		{
@@ -17005,7 +17005,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$randomEvents.TradeMarket.Demand.Alcohol";
-			Text = "Écoutez ! Le conseil municipal de %city% est ravi d'annoncer que les citoyens de la ville sont invités à une grande fête pour honorer les aînés de la ville. Alors des %productcategory% seront vendus à bon prix pour le festival jusqu'en %date%.";
+			Text = "Écoutez ! Le conseil municipal de %city% est ravi d'annoncer que les citoyens de la ville sont invités à une grande fête pour honorer les aînés de la ville. Alors des %productcategory% seront achetés à bon prix pour le festival jusqu'en %date%.";
 		},
 		LocDirectEntry
 		{
@@ -17230,7 +17230,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$RhetoricPublicDesc";
-			Text = "Ce talent fera de vous un orateur magistral capable de rassembler votre public sous votre charme.";
+			Text = "Cette compétence fera de vous un orateur magistral capable de rassembler votre public sous votre charme.";
 		},
 		LocDirectEntry
 		{
@@ -18265,7 +18265,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$sce.name.Mazovia";
-			Text = "Duché de Mazovie";
+			Text = "Varsovie";
 		},
 		LocDirectEntry
 		{
@@ -18560,7 +18560,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$SleightOfHandDesc";
-			Text = "Tour de passe-passe permet aux personnes douées de ce talent de gagner leur vie en tant que voleur. Si vous continuez sur ce chemin, vous vous enfoncerez de plus en plus profondément dans le crime mondial, où vous pourrez apprendre d'autres >compétences<...";
+			Text = "Tour de passe-passe permet aux personnes douées de cette compétence de gagner leur vie en tant que voleur. Si vous continuez sur ce chemin, vous vous enfoncerez de plus en plus profondément dans le crime mondial, où vous pourrez apprendre d'autres >compétences<...";
 		},
 		LocDirectEntry
 		{
@@ -18570,7 +18570,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$SleightOfHandStealthDesc";
-			Text = "Quiconque choisit d'acquérir ce talent doit être conscient qu'on ne peut pas revenir en arrière ! Une fois formé pour cet >Art<, vous serez un scélérat redouté et méprisé par tous et il ne faudra pas longtemps avant que le sang d'un innocent repose sur vos mains...";
+			Text = "Quiconque choisit d'acquérir cette compétence doit être conscient qu'on ne peut pas revenir en arrière ! Une fois formé pour cet >Art<, vous serez un scélérat redouté et méprisé par tous et il ne faudra pas longtemps avant que le sang d'un innocent repose sur vos mains...";
 		},
 		LocDirectEntry
 		{
@@ -19345,12 +19345,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Status.StatusReapHerbs";
-			Text = "récolté";
+			Text = "récolte";
 		},
 		LocDirectEntry
 		{
 			Key = "$Status.StatusReprimending";
-			Text = "réprimandé";
+			Text = "réprimande";
 		},
 		LocDirectEntry
 		{
@@ -19405,7 +19405,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Status.StatusSurveying";
-			Text = "surveillé";
+			Text = "surveille";
 		},
 		LocDirectEntry
 		{
@@ -19605,7 +19605,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$TailorDesc";
-			Text = "Le talent Couturier permet de posséder et d'opérer des bâtiments sur tissage.";
+			Text = "La compétence Couturier permet de posséder et d'opérer des bâtiments sur tissage.";
 		},
 		LocDirectEntry
 		{
@@ -19675,7 +19675,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.AttackPowerDesc";
-			Text = "La puissance d'attaque décrit les capacités offensives du personnage en combat rapproché.\nInfluencé positivement par : Dextérité\nInfluencé négativement par : Force";
+			Text = "La puissance d'attaque décrit les chances du personnage de toucher un adversaire en combat rapproché.\nInfluencé positivement par : Dextérité\nInfluencé négativement par : Force";
 		},
 		LocDirectEntry
 		{
@@ -22855,7 +22855,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Offices.OfficeDescSalary";
-			Text = "Salaire pour le poste : %salary%";
+			Text = "Salaire pour le poste : %salary% + %prestige%$(Prestige)";
 		},
 		LocDirectEntry
 		{
@@ -23715,7 +23715,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Subquest.Desc10";
-			Text = "Détruisez les 3 dynasties traitresses, et déclenchez une querelle contre une autre dynastie en vous assurant que tous les dirigeants et héritiers des 3 dynasties ne puissent plus diriger leurs familles...";
+			Text = "Détruisez les 3 dynasties traitresses en vous assurant que tous les dirigeants et héritiers des 3 dynasties ne puissent plus diriger leurs familles...";
 		},
 		LocDirectEntry
 		{
@@ -24320,7 +24320,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.IndictmentSelect";
-			Text = "Si vous décidez avant le début du procès";
+			Text = "Vous pouvez prendre une décision avant le début du procès";
 		},
 		LocDirectEntry
 		{
@@ -24450,7 +24450,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.PoliticsInitiateTrial";
-			Text = "Transmettez vos preuves à la ville, en démarrant un procès pour l'accusé";
+			Text = "Accusez la dynastie avec les preuves que vous possédez";
 		},
 		LocDirectEntry
 		{
@@ -24700,17 +24700,17 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.SkillCurrent";
-			Text = "Compétence recherchée actuellement";
+			Text = "Compétence en apprentissage";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.SkillProgress";
-			Text = "Progrès vers le déblocage de votre prochaine compétence recherchée";
+			Text = "Progrès vers le déblocage de votre prochaine compétence en apprentissage";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.SkillResearch";
-			Text = "Prochaine compétence recherchée";
+			Text = "Prochaine compétence sélectionnée";
 		},
 		LocDirectEntry
 		{
@@ -24865,17 +24865,17 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.TradeWindow.PrisonersHeader";
-			Text = "Prisonniers";
+			Text = "Otages";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.TradeWindow.TrialVotesHeader";
-			Text = "Verdict au tribunal";
+			Text = "Votes en cours";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.TradeWindow.WeddingHeader";
-			Text = "Mariages";
+			Text = "Mariage";
 		},
 		LocDirectEntry
 		{
@@ -24985,7 +24985,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.WarningWindow.SkillUnlocked";
-			Text = "Vous avez appris un nouveau talent";
+			Text = "Vous avez appris une nouvelle compétence";
 		},
 		LocDirectEntry
 		{
@@ -26385,7 +26385,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.dialog.PreviousLevelNotUnlocked";
-			Text = "Vous devez déverrouiller la compétence précédente.";
+			Text = "Vous devez d'abord déverrouiller la compétence précédente.";
 		},
 		LocDirectEntry
 		{
@@ -26814,6 +26814,11 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$tooltip.Intimidation";
+			Text = "Intimidation";
+		},
+		LocDirectEntry
+		{
 			Key = "$action.KissCheek";
 			Text = "Donner un baiser sur la joue";
 		},
@@ -26910,7 +26915,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.DonateToChurchDesc";
-			Text = "Que vous soyez pieux ou non, vous ne pouvez pas nier qu’être en règle avec l’église est également bon pour votre statut social.";
+			Text = "Que vous soyez pieux ou non, vous ne pouvez pas nier qu’être en règle avec l’église est également bon pour votre statut social. Cette action vous aidera à acquérir de l’influence.";
 		},
 		LocDirectEntry
 		{
@@ -26992,5 +26997,435 @@ LocDirectData
 			Key = "$action.MarryConcubine.Request";
 			Text = "Vous êtes sur le point de demander la main de %target% sans demander l'autorisation du chef de la famille %family%. Cela ne leur plaira pas.\nPour demander d'abord la permission au chef de famille, utilisez l'action >Échange entre Dynastie<.";
 		},
-	)
+		LocDirectEntry
+		{
+			Key = "$sce.dist.Nusle";
+			Text = "Nusle";
+		},
+		LocDirectEntry
+		{
+			Key = "$CityGuardArmor";
+			Text = "Armure de la garde de la ville";
+		},
+		LocDirectEntry
+		{
+			Key = "$CityGuardArmorDesc";
+			Text = "Armure spéciale portée par les hommes chargés de la sécurité de la ville.";
+		},
+		LocDirectEntry
+		{
+			Key = "$TransporterClothes";
+			Text = "Vêtements de transporteur";
+		},
+		LocDirectEntry
+		{
+			Key = "$TransporterClothesDesc";
+			Text = "Les transporteurs sont souvent debout, ils portent donc des vêtements confortables qui leur permettent de se déplacer librement.";
+		},
+		LocDirectEntry
+		{
+			Key = "$HenchmenArmor";
+			Text = "Armure d'homme de main";
+		},
+		LocDirectEntry
+		{
+			Key = "$HenchmenArmorDesc";
+			Text = "Armure standard pour un homme de main qui se respecte.";
+		},
+		LocDirectEntry
+		{
+			Key = "$MillerClothes";
+			Text = "Vêtements de meunier";
+		},
+		LocDirectEntry
+		{
+			Key = "$MillerClothesDesc";
+			Text = "Les vêtements préférés des meuniers de la région.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ButcherClothes";
+			Text = "Vêtements de boucher";
+		},
+		LocDirectEntry
+		{
+			Key = "$ButcherClothesDesc";
+			Text = "Vêtements de travail légèrement tachés des bouchers.";
+		},
+		LocDirectEntry
+		{
+			Key = "$BakerClothes";
+			Text = "Vêtements de boulanger";
+		},
+		LocDirectEntry
+		{
+			Key = "$BakerClothesDesc";
+			Text = "Les boulangers remplissent un devoir important envers la société. Ils sont donc fiers de porter leur uniforme, parfois même lorsqu'ils ne travaillent pas.";
+		},
+		LocDirectEntry
+		{
+			Key = "$FarmerClothes";
+			Text = "Vêtements de fermier";
+		},
+		LocDirectEntry
+		{
+			Key = "$FarmerClothesDesc";
+			Text = "Des vêtements de travail solides capables de supporter le dur labeur des journées de travail d'un agriculteur.";
+		},
+		LocDirectEntry
+		{
+			Key = "$InnkeeperClothes";
+			Text = "Vêtements d'aubergiste";
+		},
+		LocDirectEntry
+		{
+			Key = "$InnkeeperClothesDesc";
+			Text = "Vêtements de travail quotidiens pratiques préférés des aubergistes.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ArtisanClothes";
+			Text = "Vêtements d'artisan";
+		},
+		LocDirectEntry
+		{
+			Key = "$ArtisanClothesDesc";
+			Text = "Les artisans doivent souvent travailler à genoux, ces vêtements sont donc rembourrés pour plus de confort.";
+		},
+		LocDirectEntry
+		{
+			Key = "$TailorClothes";
+			Text = "Vêtements de tailleur";
+		},
+		LocDirectEntry
+		{
+			Key = "$TailorClothesDesc";
+			Text = "Les tailleurs portent les vêtements les plus luxueux de tous les citoyens de la classe ouvrière. Pas étonnant, ils doivent vendre ce qu'ils portent.";
+		},
+		LocDirectEntry
+		{
+			Key = "$CarpenterClothes";
+			Text = "Vêtements de charpentier";
+		},
+		LocDirectEntry
+		{
+			Key = "$CarpenterClothesDesc";
+			Text = "Vêtements ordinaires couverts de sciure.";
+		},
+		LocDirectEntry
+		{
+			Key = "$StonemasonClothes";
+			Text = "Vêtements de tailleur de pierre";
+		},
+		LocDirectEntry
+		{
+			Key = "$StonemasonClothesDesc";
+			Text = "On dit que sous les couches de poussière, l'uniforme des tailleurs de pierre est vraiment très agréable à regarder.";
+		},
+		LocDirectEntry
+		{
+			Key = "$SmithClothes";
+			Text = "Vêtements de forgeron";
+		},
+		LocDirectEntry
+		{
+			Key = "$SmithClothesDesc";
+			Text = "Un tablier en cuir couvre la majeure partie de la tenue pour le protéger des étincelles volantes.";
+		},
+		LocDirectEntry
+		{
+			Key = "$HerbalistClothes";
+			Text = "Vêtements d'herboriste";
+		},
+		LocDirectEntry
+		{
+			Key = "$HerbalistClothesDesc";
+			Text = "Des vêtements simples, recouverts de poussière à cause du travail dans le jardin.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ApothecaryClothes";
+			Text = "Vêtements d'apothicaire";
+		},
+		LocDirectEntry
+		{
+			Key = "$ApothecaryClothesDesc";
+			Text = "Une robe très soignée et propre que les apothicaires portent au travail.";
+		},
+		LocDirectEntry
+		{
+			Key = "$AlchemistClothes";
+			Text = "Vêtements d'alchimiste";
+		},
+		LocDirectEntry
+		{
+			Key = "$AlchemistClothesDesc";
+			Text = "Des expériences infructueuses ont déjà fait des trous dans ces vêtements.";
+		},
+		LocDirectEntry
+		{
+			Key = "$MedicusClothes";
+			Text = "Vêtements de medicus";
+		},
+		LocDirectEntry
+		{
+			Key = "$MedicusClothesDesc";
+			Text = "Ces robes ont été témoins des succès et des échecs des plus hauts standards de la médecine connus. Les taches de sang séché en sont la preuve.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ScholarClothes";
+			Text = "Vêtements d'érudit";
+		},
+		LocDirectEntry
+		{
+			Key = "$ScholarClothesDesc";
+			Text = "Des vêtements propres et soignés montrant que la personne qui les porte s'est engagée dans une vie dédié à l'enseignement supérieur.";
+		},
+		LocDirectEntry
+		{
+			Key = "$RobberClothes";
+			Text = "Guenilles de voleur";
+		},
+		LocDirectEntry
+		{
+			Key = "$RobberClothesDesc";
+			Text = "Sale et usé, la personne qui porte ces guenilles ne peut être que quelqu'un de mauvais.";
+		},
+		LocDirectEntry
+		{
+			Key = "$MercenaryArmor";
+			Text = "Armure de lansquenets";
+		},
+		LocDirectEntry
+		{
+			Key = "$MercenaryArmorDesc";
+			Text = "Armure portée par les lansquenets. Ce n'est peut-être pas la plus solide ni la plus belle, mais au moins elle est bon marché.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ThiefClothes";
+			Text = "Capuche de voleur";
+		},
+		LocDirectEntry
+		{
+			Key = "$ThiefClothesDesc";
+			Text = "Un capuchon qui cache le visage du porteur auxgardes et aux passants un peu curieux.";
+		},
+		LocDirectEntry
+		{
+			Key = "$effect.brokenBone";
+			Text = "Fracture osseuse";
+		},
+		LocDirectEntry
+		{
+			Key = "$kidnap.Success";
+			Text = "Kidnappé !";
+		},
+		LocDirectEntry
+		{
+			Key = "$kidnap.Failure";
+			Text = "Inventaire plein !";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Char.Armor";
+			Text = "Armure";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Char.DamageReduction";
+			Text = "Réduction de dégats";
+		},
+		LocDirectEntry
+		{
+			Key = "$tooltip.ArmorDesc";
+			Text = "L'armure affecte la réduction des dégâts infligés lors des combats physiques. L'armure ne peut être gagnée que par des objets.";
+		},
+		LocDirectEntry
+		{
+			Key = "$tooltip.DamageReductionDesc";
+			Text = "Ce pourcentage indique la réduction de vos dégâts en combat physique. Il est directement affecté par votre armure.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Char.StorageSlots";
+			Text = "Emplacements de stockage";
+		},
+		LocDirectEntry
+		{
+			Key = "$tooltip.StorageSlotsDesc";
+			Text = "Le nombre d'emplacements dans lesquels des objets peuvent être placés.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Char.StorageSpace";
+			Text = "Espace de stockage";
+		},
+		LocDirectEntry
+		{
+			Key = "$tooltip.StorageSpaceDesc";
+			Text = "La capacité des emplacements de stockage.";
+		},
+		LocDirectEntry
+		{
+			Key = "$selectionPrompt.SelectResidence";
+			Text = "Sélectionnez l'un de vos bâtiments résidentiels.";
+		},
+		LocDirectEntry
+		{
+			Key = "$selectionPrompt.NoResidence";
+			Text = "Vous devez avoir au moins un bâtiment résidentiel !";
+		},
+		LocDirectEntry
+		{
+			Key = "$StartingOutfit";
+			Text = "Vêtements robustes";
+		},
+		LocDirectEntry
+		{
+			Key = "$StartingOutfitDesc";
+			Text = "Des vêtements humbles mais durables. La tenue parfaite si vous voulez créer votre propre entreprise.";
+		},
+		LocDirectEntry
+		{
+			Key = "$effect.Unconscious";
+			Text = "Inconscient";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.MapIntro.Exit";
+			Text = "Appuyez sur $(#17) pour continuer";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Budget.Winning10";
+			Text = "Influence";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.Character.Adult.Unconscious";
+			Text = "Sélectionnez un personnage adulte inconscient !";
+		},
+		LocDirectEntry
+		{
+			Key = "$message.politics.OfficeWin.Title";
+			Text = "Votre candidature a été retenue !";
+		},
+		LocDirectEntry
+		{
+			Key = "$message.politics.OfficeWin.Effect";
+			Text = "Vous avez gagné %prestige%";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Offices.ApplicationFee";
+			Text = "Frais de candidature : %prestige%";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Office.RejectReasonNotEnoughPrestige";
+			Text = "Vous ne possédez pas assez d'Influence pour postuler à ce poste.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Confirmation.ApplyForOffice.Title";
+			Text = "Postuler pour %office%";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Confirmation.ApplyForOffice.Body";
+			Text = "Voulez-vous dépenser %prestige% pour postuler à ce poste ?";
+		},
+		LocDirectEntry
+		{
+			Key = "$PlayDiceGame";
+			Text = "Jouer au dés";
+		},
+		LocDirectEntry
+		{
+			Key = "$PlayDiceGameDesc";
+			Text = "La plupart des voleurs maîtrisent le jeu de dés depuis leurs plus jeune age. Ils parviennent généralement à convaincre une pauvre âme de jouer avec eux pour lui vider leurs poches. Mais sachez que même s'ils trichent, il y a toujours une part de chance, alors il y a une légère chance que vous perdiez quand même.";
+		},
+		LocDirectEntry
+		{
+			Key = "$tooltip.Honest";
+			Text = "Honnête";
+		},
+		LocDirectEntry
+		{
+			Key = "$tooltip.Shady";
+			Text = "Véreux";
+		},
+		LocDirectEntry
+		{
+			Key = "$tooltip.Philanthropic";
+			Text = "Généreux";
+		},
+		LocDirectEntry
+		{
+			Key = "$tooltip.Egoistic";
+			Text = "Égoïste";
+		},
+		LocDirectEntry
+		{
+			Key = "$tooltip.Diplomatic";
+			Text = "Diplomatique";
+		},
+		LocDirectEntry
+		{
+			Key = "$tooltip.Aggressive";
+			Text = "Agressif";
+		},
+		LocDirectEntry
+		{
+			Key = "$UI.LosingCondition.NoHeir.Title";
+			Text = "Pas d'héritier !";
+		},
+		LocDirectEntry
+		{
+			Key = "$UI.LosingCondition.NoHeir.Body";
+			Text = "Si vous avez des enfants, vous pouvez désigner un héritier dans votre arbre généalogique.";
+		},
+		LocDirectEntry
+		{
+			Key = "$UI.LosingCondition.NoMoney.Title";
+			Text = "Ruiné !";
+		},
+		LocDirectEntry
+		{
+			Key = "$UI.LosingCondition.NoMoney.Body";
+			Text = "Si vous ne gagnez pas un peu d'argent vous perdrez ! Vous avez jusqu'au : %date%.";
+		},
+		LocDirectEntry
+		{
+			Key = "$UI.LosingCondition.NoResidence.Title";
+			Text = "Sans abri !";
+		},
+		LocDirectEntry
+		{
+			Key = "$UI.LosingCondition.NoResidence.Body";
+			Text = "Vous devez fournir une maison à votre famille ou vous perdrez ! Vous avez jusqu'au : %date%.";
+		},
+		LocDirectEntry
+		{
+			Key = "$message.GameOver.NoMoney";
+			Text = "Vous avez été négligent avec votre argent et maintenant vous n'en avez plus. Je suis désolé mais votre voyage se termine ici.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.AskFeud.Victim.Headline";
+			Text = "Vous êtes maintenant dans une querelle !";
+		},
+		LocDirectEntry
+		{
+			Key = "$message.FamilyStartedAFeud.Headline";
+			Text = "Une querelle de famille commence";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Office.RejectReasonNotEnoughNobility";
+			Text = "Vous avez besoin d'un titre plus élevé";
+		},
+	);
 };
