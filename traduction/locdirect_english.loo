@@ -75,7 +75,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.AskAllianceAction.Request";
-			Text = "La dynastie %family% veut forger une alliance éternelle avec vous.";
+			Text = "La dynastie %family% veut forger une alliance éternelle avec vous.";
 		},
 		LocDirectEntry
 		{
@@ -85,17 +85,17 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.AskAllianceAction.SecretSociety.Denied";
-			Text = "La >%SS1%< refuse une alliance avec votre guilde !";
+			Text = "La %SocietyTarget% refuse une alliance avec votre guilde !";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.AskAllianceAction.SecretSociety.Request";
-			Text = "La >%ss%< veut forger une alliance permanente avec votre guilde.";
+			Text = "La %SocietySource% veut forger une alliance permanente avec votre guilde.";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.AskAllianceAction.SecretSociety.Success";
-			Text = "Les >%SS1%< et la >%SS2%< sont maintenant alliées !";
+			Text = "Les %SocietyTarget% et la %SocietySource% sont maintenant alliées !";
 		},
 		LocDirectEntry
 		{
@@ -105,7 +105,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.AskFeud.Victim";
-			Text = "La dynastie %family% vous a déclaré querelle !";
+			Text = "La dynastie %family% vous a déclaré querelle !";
 		},
 		LocDirectEntry
 		{
@@ -190,7 +190,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.BreakFeudAction.Request";
-			Text = "la dynastie %family% veut faire la paix avec vous.";
+			Text = "la dynastie %family% veut faire la paix avec vous.";
 		},
 		LocDirectEntry
 		{
@@ -200,7 +200,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.BreakFeudAction.SecretSociety.Denied";
-			Text = "La société >%ss%< n'est pas enclin de règler la querelle avec votre société !";
+			Text = "La société %SocietySource% n'est pas enclin de règler la querelle avec votre société !";
 		},
 		LocDirectEntry
 		{
@@ -210,7 +210,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.BreakFeudAction.SecretSociety.Request";
-			Text = ">%ss%< veut règler la querelle avec votre guilde.";
+			Text = "%SocietySource% veut règler la querelle avec votre guilde.";
 		},
 		LocDirectEntry
 		{
@@ -220,7 +220,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.BreakFeudAction.SecretSociety.Success";
-			Text = "La >%SS1%< et la >%SS2%< ont règlé leur querelle.";
+			Text = "La %SocietyTarget% et la %SocietySource% ont terminé leur querelle.";
 		},
 		LocDirectEntry
 		{
@@ -440,7 +440,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.ConquerBuilding.StartTarget";
-			Text = "Les hommes de main de la dynastie %dynasty% essaient de prendre le contrôle de votre bâtiment %building%.";
+			Text = "Les hommes de main de la %family% essaient de prendre le contrôle de votre bâtiment %building%.";
 		},
 		LocDirectEntry
 		{
@@ -450,7 +450,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.ConquerBuilding.StartTargetAllies";
-			Text = "La dynastie %attacker% attaque le bâtiment %building% de la famille %allies%, un de vos alliés !";
+			Text = "La dynastie %FamilySource% attaque le bâtiment %BuildingTarget% de la famille %FamilyTarget%, un de vos alliés !";
 		},
 		LocDirectEntry
 		{
@@ -460,7 +460,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.ConquerBuilding.SuccessSource";
-			Text = "Vous avez pris le contrôle du bâtiment %building%.";
+			Text = "Vous avez pris le contrôle du bâtiment %BuildingTarget%.";
 		},
 		LocDirectEntry
 		{
@@ -470,12 +470,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.ConquerBuilding.SuccessSourceAllies";
-			Text = "La famille %allies%, un de vos alliés, a pris le contrôle du bâtiment %building% de la dynastie %defender%.";
+			Text = "La famille %allies%, un de vos alliés, a pris le contrôle du bâtiment %building% de la dynastie %defender%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.ConquerBuilding.SuccessTarget";
-			Text = "La dynastie %attacker% a conquis votre bâtiment %building%.";
+			Text = "La dynastie %FamilySource% a conquis votre bâtiment %BuildingTarget%.";
 		},
 		LocDirectEntry
 		{
@@ -485,7 +485,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.ConquerBuilding.SuccessTargetAllies";
-			Text = "La famille %allies%, un de vos alliés, a perdu le contrôle de %building% à la dynastie %attacker%.";
+			Text = "La famille %FamilyTarget%, un de vos alliés, a perdu le contrôle de %building% à la dynastie %FamilySource%.";
 		},
 		LocDirectEntry
 		{
@@ -820,7 +820,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.FindEvidence.Success";
-			Text = "%character% a trouvé des preuves dans le %neighborhood% de %city%: >%evidence%<";
+			Text = "%character% a trouvé des preuves dans le %neighborhood% de %city% : >%evidence%<";
 		},
 		LocDirectEntry
 		{
@@ -990,7 +990,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.HireEmployee.AskToPay";
-			Text = "Un nouvel employé dans >%business%< vous couterait %price% par an. Voulez-vous chercher un nouvel employé ?";
+			Text = "Un nouvel employé dans %business% vous couterait %price% par an. Voulez-vous chercher un nouvel employé ?";
 		},
 		LocDirectEntry
 		{
@@ -1020,7 +1020,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.Hostage.Victim.Employee";
-			Text = "%charactername%, employé dans votre %business%, a disparu sans laisser de trace.";
+			Text = "%employee%, employé dans votre %business%, a disparu sans laisser de trace.";
 		},
 		LocDirectEntry
 		{
@@ -1030,7 +1030,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.Hostage.Victim.Kin";
-			Text = "Quelqu'un a pris %charactername% en otage !";
+			Text = "Quelqu'un a pris %character% en otage !";
 		},
 		LocDirectEntry
 		{
@@ -1040,7 +1040,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.Hostage.Victim.Leader";
-			Text = "Quelqu'un a pris %charactername% en otage !";
+			Text = "Quelqu'un a pris %character% en otage !";
 		},
 		LocDirectEntry
 		{
@@ -1765,7 +1765,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.Praised";
-			Text = "%CharacterSource% vous a glorifié à %characterTargets% !";
+			Text = "%CharacterSource% vous a glorifié à %characterTargets% !";
 		},
 		LocDirectEntry
 		{
@@ -1860,7 +1860,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.Reprimand.quick.toTrial";
-			Text = "Pour vos crimes, vous êtes par la présente convoqué à votre procès qui se tiendra dans 1 an.";
+			Text = "%character% est par la présente convoqué à son procès qui se tiendra dans un proche futur.";
 		},
 		LocDirectEntry
 		{
@@ -1980,7 +1980,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.Smeared";
-			Text = "%CharacterSource% a monté les gens du %neighborhood% contre vous !";
+			Text = "%character% a monté les gens du %neighborhood% contre vous !";
 		},
 		LocDirectEntry
 		{
@@ -2005,7 +2005,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.SocietyInviteMemberAction.Members";
-			Text = "%character% a récemment rejoint votre guilde.";
+			Text = "%character% a récemment rejoint votre guilde.";
 		},
 		LocDirectEntry
 		{
@@ -2015,7 +2015,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.SocietyInviteMemberAction.Request";
-			Text = "La >%ss%< vous invite à rejoindre leur groupe. Voulez-vous accepter l'offre ?";
+			Text = "La %SocietySource% vous invite à rejoindre leur groupe. Voulez-vous accepter l'offre ?";
 		},
 		LocDirectEntry
 		{
@@ -2035,12 +2035,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.SocietyKickMember.Other";
-			Text = "La famille %family% a été exclue de votre guilde.";
+			Text = "La famille %family% a été exclue de votre guilde.";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.SocietyKickMember.Player";
-			Text = "Vous avez été exclu de la >%society%< !";
+			Text = "Vous avez été exclu de la %society% !";
 		},
 		LocDirectEntry
 		{
@@ -2140,7 +2140,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.StartLiaisonActionFail";
-			Text = "%character% rejette votre désir pour une histoire d'amour...";
+			Text = "%CharacterTarget% rejette votre désir pour une histoire d'amour...";
 		},
 		LocDirectEntry
 		{
@@ -2150,7 +2150,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.StartLiaisonActionSuccess";
-			Text = "%character% partage votre désir d'histoire d'amour entre vous deux.";
+			Text = "%CharacterTarget% partage votre désir d'histoire d'amour entre vous deux.";
 		},
 		LocDirectEntry
 		{
@@ -2330,7 +2330,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.WriteLoveLetter.Accept";
-			Text = "Avec grand enchantement %character% a accepté votre lettre d'amour !";
+			Text = "Avec grand enchantement %CharacterTarget% a accepté votre lettre d'amour !";
 		},
 		LocDirectEntry
 		{
@@ -2340,7 +2340,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.WriteLoveLetter.Refuse";
-			Text = "%character% ne veut rien faire avec votre lettre d'amour.";
+			Text = "%CharacterTarget% ne veut rien faire avec votre lettre d'amour.";
 		},
 		LocDirectEntry
 		{
@@ -10135,7 +10135,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Event.Plague.Infected";
-			Text = "%target% a attrapé la peste !";
+			Text = "%character% a attrapé la peste !";
 		},
 		LocDirectEntry
 		{
@@ -10155,7 +10155,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Event.WarStarted";
-			Text = "Calamité ! Il va y avoir une guerre contre %target% !";
+			Text = "Calamité ! Il va y avoir une guerre contre %target% !";
 		},
 		LocDirectEntry
 		{
@@ -10180,7 +10180,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$fb.Compliment.Failure.Target";
-			Text = "%ActionActor% vous a insulté.";
+			Text = "%CharacterSource% vous a insulté.";
 		},
 		LocDirectEntry
 		{
@@ -10195,12 +10195,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$fb.Compliment.Success.Actor.Dynasty";
-			Text = "%TargetCharacter% est flatté par votre compliment. Votre reputation avec la famille %dynasty% a augmenté.";
+			Text = "%TargetCharacter% est flatté par votre compliment. Votre reputation avec la famille %dynasty% a augmenté.";
 		},
 		LocDirectEntry
 		{
 			Key = "$fb.Compliment.Success.Target";
-			Text = "%ActionActor% vous a complimenté.";
+			Text = "%ActionActor% vous a complimenté.";
 		},
 		LocDirectEntry
 		{
@@ -10210,7 +10210,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$fb.Insult.Duel.Actor";
-			Text = "%TargetCharacter% vous demande réparation immédiate pour votre insulte. Dégainez votre épée et défendez-vous !";
+			Text = "%CharacterTarget% vous demande réparation immédiate pour votre insulte. Dégainez votre épée et défendez-vous !";
 		},
 		LocDirectEntry
 		{
@@ -10740,7 +10740,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.business.fireEmployee";
-			Text = "Êtes-vous sûr de vouloir licencier %employeeName% %levelName% ?";
+			Text = "Êtes-vous sûr de vouloir licencier %employeeName% ?";
 		},
 		LocDirectEntry
 		{
@@ -11105,12 +11105,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.concubineDead";
-			Text = "Votre amant %character% est décédé. Vous êtes submergé par la douleur...";
+			Text = "Votre amant %character% est décédé. Vous êtes submergé par la douleur...";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.concubineDead.female";
-			Text = "Votre amante %character% est décédée. Vous êtes submergé par la douleur...";
+			Text = "Votre amante %character% est décédée. Vous êtes submergé par la douleur...";
 		},
 		LocDirectEntry
 		{
@@ -12070,7 +12070,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.Options.chinese";
-			Text = "Chinois";
+			Text = "中文";
 		},
 		LocDirectEntry
 		{
@@ -12085,7 +12085,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.Options.english";
-			Text = "Anglais";
+			Text = "English";
 		},
 		LocDirectEntry
 		{
@@ -12110,7 +12110,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.Options.german";
-			Text = "Allemand";
+			Text = "Deutsch";
 		},
 		LocDirectEntry
 		{
@@ -12130,17 +12130,17 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.Options.italian";
-			Text = "Italien";
+			Text = "Italiano";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.Options.japanese";
-			Text = "Japonais";
+			Text = "日本語";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.Options.korean";
-			Text = "Coréen";
+			Text = "한국어";
 		},
 		LocDirectEntry
 		{
@@ -12230,7 +12230,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.Options.polish";
-			Text = "Polonais";
+			Text = "Polski";
 		},
 		LocDirectEntry
 		{
@@ -12270,7 +12270,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.Options.russian";
-			Text = "Russe";
+			Text = "Русский";
 		},
 		LocDirectEntry
 		{
@@ -12310,7 +12310,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.Options.spanish";
-			Text = "Espanol";
+			Text = "Español";
 		},
 		LocDirectEntry
 		{
@@ -14725,12 +14725,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.AskAllianceAction.Denied";
-			Text = "La dynaste %family% refuse de faire alliance avec vous.";
+			Text = "La dynastie %FamilyTarget% refuse de faire alliance avec vous.";
 		},
 		LocDirectEntry
 		{
 			Key = "$message.AskAllianceAction.Success";
-			Text = "Les dynasties %family1% et %family2% sont maintenant alliés.";
+			Text = "Les dynasties %FamilySource% et %FamilyTarget% sont maintenant alliés.";
 		},
 		LocDirectEntry
 		{
@@ -14745,12 +14745,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.BreakFeudAction.Denied";
-			Text = "La dynastie %family% insiste pour continuer la querelle avec vous!";
+			Text = "La dynastie %family% insiste pour continuer la querelle avec vous!";
 		},
 		LocDirectEntry
 		{
 			Key = "$message.BreakFeudAction.Success";
-			Text = "Les dynasties %family1% et %family2% ont mis fin à leur querelle.";
+			Text = "Les dynasties %FamilySource% et %FamilyTarget% ont mis fin à leur querelle.";
 		},
 		LocDirectEntry
 		{
@@ -14775,7 +14775,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.EmployeeDead";
-			Text = "%employee% de %level%, qui travaille à %business%, est malheureusement décédé...";
+			Text = "%employee%, qui travaille à %business%, est malheureusement décédé...";
 		},
 		LocDirectEntry
 		{
@@ -14805,7 +14805,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.EmployeePoisoned";
-			Text = "%employee% de %level%, qui travaille à %business%, est empoisonné. L'ampleur de l'empoisonnement est : %ailment%.";
+			Text = "%employee%, qui travaille à %business%, est empoisonné.";
 		},
 		LocDirectEntry
 		{
@@ -14815,17 +14815,17 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.EmployeesCantWork";
-			Text = "Les employés de %business% ont dû arrêter de travailler !";
+			Text = "Les employés de %business% ont dû arrêter de travailler !";
 		},
 		LocDirectEntry
 		{
 			Key = "$message.EmployeesCantWork.Header";
-			Text = "La production a été interrompue";
+			Text = "La production a été interrompue !";
 		},
 		LocDirectEntry
 		{
 			Key = "$message.EmployeesCantWork.NoStorageSpace";
-			Text = "Tous les espaces de stockage de votre entreprise %business% sont occupés !";
+			Text = "Tous les espaces de stockage de votre entreprise %business% sont occupés !";
 		},
 		LocDirectEntry
 		{
@@ -14835,7 +14835,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.EmployeeSick";
-			Text = "%employee% de %level%, qui travaille à %business%, est malade : %disease% !";
+			Text = "%employee%, qui travaille à %business%, est malade : %disease% !";
 		},
 		LocDirectEntry
 		{
@@ -14845,7 +14845,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.EmployeeWounded";
-			Text = "%employee% de %level%, qui travaille à %business%, est blessé. L'ampleur de la blessure est : %ailment%.";
+			Text = "%employee%, qui travaille à %business%, est blessé.";
 		},
 		LocDirectEntry
 		{
@@ -14855,7 +14855,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.FamilyBreakAlliance";
-			Text = "Les dynasties %family1% et %family2% ne sont plus alliés.";
+			Text = "Les dynasties %FamilySource% et %FamilyTarget% ne sont plus alliés.";
 		},
 		LocDirectEntry
 		{
@@ -14865,7 +14865,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.FamilyMemberDied";
-			Text = "%character% est décédé d'une mort naturelle à l'âge de %age% ...";
+			Text = "%character% est décédé à l'âge de %age% ...";
 		},
 		LocDirectEntry
 		{
@@ -14875,7 +14875,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.FamilyMemberInebriated";
-			Text = "%character% a un peu trop usé de la bouteille. L'ampleur de l'ivresse est %ailment%.";
+			Text = "%character% a un peu trop usé de la bouteille.";
 		},
 		LocDirectEntry
 		{
@@ -14885,7 +14885,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.FamilyMemberPoisoned";
-			Text = "%character% a été empoisonné(e). L'ampleur de l'empoisonnement %ailment%.";
+			Text = "%character% a été empoisonné(e).";
 		},
 		LocDirectEntry
 		{
@@ -14895,7 +14895,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.FamilyMemberSick";
-			Text = "%character% souffre de %disease%. L'ampleur de la maladie est %ailment%.";
+			Text = "%character% souffre de %disease%.";
 		},
 		LocDirectEntry
 		{
@@ -14905,7 +14905,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.FamilyMemberWounded";
-			Text = "%character% est blessé(e). L'ampleur de la blessure est %ailment%.";
+			Text = "%character% est blessé(e).";
 		},
 		LocDirectEntry
 		{
@@ -14915,7 +14915,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.FamilyStartedAFeud";
-			Text = "Les dynasties %family1% et %family2% entre en querelle.";
+			Text = "Les dynasties %FamilySource% et %FamilyTarget% entre en querelle.";
 		},
 		LocDirectEntry
 		{
@@ -14960,17 +14960,17 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.LongerLife";
-			Text = "Vous avez augmenté votre espérance de vie de %number% ans !";
+			Text = "Vous avez augmenté votre espérance de vie de %number% ans !";
 		},
 		LocDirectEntry
 		{
 			Key = "$message.Medicus.NPCCured";
-			Text = "Un résident du quartier a payé %coins% pour être soigné dans votre établissement %business%.";
+			Text = "Un résident du quartier a payé %coins% pour être soigné dans votre établissement %business%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$message.Medicus.SomeoneCured";
-			Text = "%character% a payé %coins% pour être soigné dans votre établissement %business%.";
+			Text = "%character% a payé %coins% pour être soigné dans votre établissement %business%.";
 		},
 		LocDirectEntry
 		{
@@ -14985,12 +14985,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.OtherFamilyMember.Dead";
-			Text = "%character% de la dynastie %family% est mort.";
+			Text = "%character% de la dynastie %family% est mort.";
 		},
 		LocDirectEntry
 		{
 			Key = "$message.OtherLeader.Dead";
-			Text = "%character%, chef de la dynastie %family% est mort.";
+			Text = "%character%, chef de la dynastie %family% est mort.";
 		},
 		LocDirectEntry
 		{
@@ -15000,7 +15000,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.OtherLeader.Execution";
-			Text = "%character%, chef de la dynastie %family%, va être exécuté.";
+			Text = "%character%, chef de la dynastie %family%, va être exécuté.";
 		},
 		LocDirectEntry
 		{
@@ -15075,17 +15075,17 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.SecretSociety.BreakAlliance";
-			Text = "La >%SS1%< et la >%SS2%< ne sont plus alliées !";
+			Text = "La %SocietyTarget% et la %SocietySource% ne sont plus alliées !";
 		},
 		LocDirectEntry
 		{
 			Key = "$message.SecretSociety.StartedAFeud";
-			Text = "La >%SS1%< et la >%SS2%< ont engagé une querelle.";
+			Text = "La %SocietyTarget% et la %SocietySource% ont engagé une querelle.";
 		},
 		LocDirectEntry
 		{
 			Key = "$message.SecretSociety.StartedAFeud.Narration";
-			Text = "La >%ss%< a déclaré une querelle contre votre guilde !";
+			Text = "La %SocietySource% a déclaré une querelle contre votre guilde !";
 		},
 		LocDirectEntry
 		{
@@ -15095,22 +15095,22 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.SocietyInviteMemberAction.Denied";
-			Text = "La famille %family% a refusé votre invitation à rejoindre la %ss%.";
+			Text = "La famille %FamilyTarget% a refusé votre invitation à rejoindre la %SocietySource%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$message.SocietyInviteMemberAction.Success";
-			Text = "La famille %family% est maintenant membre de la %ss%.";
+			Text = "La famille %FamilyTarget% est maintenant membre de la %SocietySource%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$message.trade.accepted";
-			Text = "%tradePartner% a accepté votre demande d'échange.";
+			Text = "%character% a accepté votre demande d'échange.";
 		},
 		LocDirectEntry
 		{
 			Key = "$message.trade.denied";
-			Text = "%tradePartner% a refusé votre demande d'échange.";
+			Text = "%character% a refusé votre demande d'échange.";
 		},
 		LocDirectEntry
 		{
@@ -19145,7 +19145,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$splashHint13";
-			Text = "Votre personnage apprend de chaque action qu'il effectue et gagne des points d'expérience pour votre dynastie. Ceux-ci augmentent votre titre et vous permettent d'apprendre de nouvelles compétences.";
+			Text = "L'influence est une monnaie qui peut être gagnée par divers moyens. Vous gagnerez de l'influence chaque fois que vous développerez ou améliorerez une entreprise ou que vous embaucherez des employés. Vous gagnez également de l’influence lorsque vous occupez un siège au conseil municipal. Il y a aussi des actions spéciales qui vous accorderont de l'influence.";
 		},
 		LocDirectEntry
 		{
@@ -20420,7 +20420,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$trial.EventDescription.target.family";
-			Text = "La cible était de la dynastie %family%.";
+			Text = "La cible était de la dynastie %family%.";
 		},
 		LocDirectEntry
 		{
@@ -20680,7 +20680,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.BuildingLost";
-			Text = "Votre bâtiment %building% a été détruit.";
+			Text = "Votre bâtiment %building% a été détruit.";
 		},
 		LocDirectEntry
 		{
@@ -23395,17 +23395,17 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Secret.ElectionResultForNoParticipant";
-			Text = "La famille %family% est maintenant le chef de la >%name%<.";
+			Text = "La famille %family% est maintenant le chef de la %society%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Secret.ElectionResultLoser";
-			Text = "Vous avez perdu l'élection au poste de chef. La famille %family% a remporté la position de chef de la >%name%<.";
+			Text = "Vous avez perdu l'élection au poste de chef de la %society%. La famille %family% en est maintenant le chef.";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Secret.ElectionResultWinner";
-			Text = "Vous êtes maintenant le chef de la >%name%<. Les principes de la guilde ont changé pour s'adapter aux vôtres.";
+			Text = "Vous êtes maintenant le chef de la %society%. Les principes de la guilde ont changé pour s'adapter aux vôtres.";
 		},
 		LocDirectEntry
 		{
@@ -23425,7 +23425,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Secret.KickMember";
-			Text = "La famille %family% a été expulsée de la société >%name%<.";
+			Text = "La famille %family% a été expulsée de la société %society%.";
 		},
 		LocDirectEntry
 		{
@@ -23435,12 +23435,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Secret.LeaderPositionApplication";
-			Text = "Un nouveau chef de la >%name%< sera bientôt désigné. Vous pouvez postuler via le >Livre des Guildes<.";
+			Text = "Un nouveau chef de la %society% sera bientôt désigné. Vous pouvez postuler via le Livre des Guildes.";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Secret.Leave";
-			Text = "La famille %family% a quitté la >%name%<.";
+			Text = "La famille %family% a quitté la %society%.";
 		},
 		LocDirectEntry
 		{
@@ -24465,7 +24465,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.PowerChangeVote";
-			Text = "Changez votre vote sur cette proposition";
+			Text = "Changez votre vote à ce sujet";
 		},
 		LocDirectEntry
 		{
@@ -25280,7 +25280,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.ApplyGhostlyFog.SuccessTarget.Message";
-			Text = "La dernière chose que %CharacterTarget% remarque est %CharacterSource% qui débouche un fiole qui sent fort l’esprit - et puis la vue de %CharacterTarget% s’estompe...";
+			Text = "La dernière chose que %CharacterTarget% remarque est %CharacterSource% qui débouche un fiole qui sent fort l’esprit - et puis la vue de %CharacterTarget% s’estompe...";
 		},
 		LocDirectEntry
 		{
@@ -25355,7 +25355,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.ApplyParalysisPoison.SuccessTarget.Message";
-			Text = "Il y a eu comme une morsure d'insecte minuscule au niveau du cou... et peu après %CharacterTarget% a eu beaucoup plus de mal à bouger. Comme si %CharacterTarget% était en quelque sorte paralysé...";
+			Text = "Il y a eu comme une morsure d'insecte minuscule au niveau du cou... et peu après %CharacterTarget% a eu beaucoup plus de mal à bouger. Comme si %CharacterTarget% était en quelque sorte paralysé...";
 		},
 		LocDirectEntry
 		{
@@ -26970,7 +26970,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.MainpulateLiaison.SuccessTargetMessage";
-			Text = "%CharacterSource% a manipulé %CharacterTarget% pour obtenir des informations sur votre famille ! Cette information réduit l'influence que vous avez!";
+			Text = "%CharacterSource% a manipulé %CharacterTarget% pour obtenir des informations sur votre famille ! Cette information réduit l'influence que vous avez!";
 		},
 		LocDirectEntry
 		{
@@ -26980,22 +26980,27 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.StartRomance.TargetNotification";
-			Text = "%CharacterSource% a attiré %CharacterTarget% dans une relation amoureuse. Si vous êtes contre cette fréquentation, vous devez intervenir avant qu'il ne soit trop tard !";
+			Text = "%CharacterSource% a attiré %CharacterTarget% dans une relation amoureuse. Si vous êtes contre cette fréquentation, vous devez intervenir avant qu'il ne soit trop tard !";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.MarryConcubine.TargetNotificationHeadline";
-			Text = "Un des membres de votre famille s'est marié sans votre consentement !";
+			Text = "Un membres de votre famille s'est marié sans votre consentement !";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.MarryConcubine.TargetNotification";
-			Text = "Le malhonnête %CharacterSource% a attiré %CharacterTarget% dans un mariage rapide sans vous demander sa main ! Assurez-vous que votre succession est en ordre ! Cela pourrait être une tentative de prendre le controle de votre famille !";
+			Text = "Le malhonnête %CharacterSource% a attiré %CharacterTarget% dans un mariage rapide sans vous demander sa main ! Assurez-vous que votre succession est en ordre ! Cela pourrait être une tentative de prendre le controle de votre famille !";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.MarryConcubine.RequestHeadline";
+			Text = "Se marier sans permission ?";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.MarryConcubine.Request";
-			Text = "Vous êtes sur le point de demander la main de %target% sans demander l'autorisation du chef de la famille %family%. Cela ne leur plaira pas.\nPour demander d'abord la permission au chef de famille, utilisez l'action >Échange entre Dynastie<.";
+			Text = "Vous êtes sur le point de demander la main de %CharacterTarget% sans demander l'autorisation du chef de la famille %FamilyTarget%. Cela ne leur plaira pas.\nPour demander d'abord la permission au chef de famille, utilisez l'action Échange entre Dynastie.";
 		},
 		LocDirectEntry
 		{
@@ -27420,12 +27425,652 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.FamilyStartedAFeud.Headline";
-			Text = "Une querelle de famille commence";
+			Text = "Une querelle de famille commence !";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Office.RejectReasonNotEnoughNobility";
 			Text = "Vous avez besoin d'un titre plus élevé";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.FamiliesFeudEnds";
+			Text = "Une querelle de familles a pris fin !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.BuildingUnderAttack";
+			Text = "Un bâtiment est attaqué !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.GuildsFeudEnds";
+			Text = "Une querelle de guildes a pris fin !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.Commended";
+			Text = "Quelqu'un vous a recommandé !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.BuildingLost";
+			Text = "Vous avez perdu un bâtiment !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.Denounced";
+			Text = "Quelqu'un vous a dénoncé !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.DemolishWarning";
+			Text = "Un bâtiment sera démoli !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.Bribed";
+			Text = "Vous avez été soudoyé !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.EmployeeMissing";
+			Text = "Un employé a disparu !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.KinMissing";
+			Text = "Un membre de la famille a disparu !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.FailedCompliment";
+			Text = "Une tentative pitoyable de vous complimenter !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.LongshoreFailed";
+			Text = "Mauvaises nouvelles à propos d'un voyage !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.LongshoreSuccess";
+			Text = "Bonnes nouvelles à propos d'un voyage !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.PlayerCaught";
+			Text = "Vous avez été pris !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.Smeared";
+			Text = "Quelqu'un a répandu des mensonges !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.GreatFire";
+			Text = "La ville est en feu !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.BadHarvest";
+			Text = "Mauvaise récolte !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.GoodHarvest";
+			Text = "Bonne récolte !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.Plague";
+			Text = "La peste a éclaté !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.War";
+			Text = "Il va y avoir une guerre !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.InsultSatisfaction";
+			Text = "Défendez-vous !";
+		},
+		LocDirectEntry
+		{
+			Key = "$fb.Insult.Humilated";
+			Text = "%CharacterSource% a insulté %CharacterTarget% en pleine rue et les citoyens du %neighborhood% ont tout entendu. Maintenant, ils se moquent de votre famille...";
+		},
+		LocDirectEntry
+		{
+			Key = "$fb.Reputation.Change.Neighborhood";
+			Text = "L'état de la réputation de votre dynastie auprès des habitants du %neighborhood% de %city% est maintenant %status% !";
+		},
+		LocDirectEntry
+		{
+			Key = "$fb.Reputation.Change.Dynasty";
+			Text = "Le statut diplomatique de votre dynastie et de la dynastie %family% est maintenant %status% !";
+		},
+		LocDirectEntry
+		{
+			Key = "$reputation.status.good";
+			Text = "bien aimé";
+		},
+		LocDirectEntry
+		{
+			Key = "$reputation.status.friendly";
+			Text = "amical";
+		},
+		LocDirectEntry
+		{
+			Key = "$reputation.status.neutral";
+			Text = "neutre";
+		},
+		LocDirectEntry
+		{
+			Key = "$reputation.status.bad";
+			Text = "hostile";
+		},
+		LocDirectEntry
+		{
+			Key = "$fb.GenericPositive";
+			Text = "%CharacterSource% s'est motré très obligeant envers %CharacterTarget%.";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.LiaisonDead";
+			Text = "Votre amant est mort !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.LiaisonDead.female";
+			Text = "Votre amante est morte !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.RomanceDied";
+			Text = "Votre amoureux est mort !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.RomanceDied.female";
+			Text = "Votre amoureuse est morte !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.LiaisonEnd";
+			Text = "Votre amant vous quitte !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.LiaisonEnd.female";
+			Text = "Votre amante vous quitte !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.RomanceEnd";
+			Text = "Votre romance est terminée...";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.RomanceEnd.female";
+			Text = "Votre romance est terminée...";
+		},
+		LocDirectEntry
+		{
+			Key = "$fb.RomanceEnds";
+			Text = "%character% termine la romance avec vous.";
+		},
+		LocDirectEntry
+		{
+			Key = "$fb.RomanceEnds.female";
+			Text = "%character% termine la romance avec vous.";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.DynastyTrade";
+			Text = "Demande d'échange dynastique";
+		},
+		LocDirectEntry
+		{
+			Key = "$fb.DynastyTradeRequest";
+			Text = "La famille %family% veut négocier un échange entre vos dynasties.";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.AuditBooks";
+			Text = "Audit des livres de commerce !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.BuildingBurning";
+			Text = "Un bâtiment a pris feu !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.Execution";
+			Text = "Une exécution !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.SabotageBuilding.Success";
+			Text = "Un bâtiment a été saboté !";
+		},
+		LocDirectEntry
+		{
+			Key = "$fb.SabotageBuilding.Success";
+			Text = "Quelqu'un a saboté votre bâtiment %BuildingTarget% !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.SabotageBuilding.Failed";
+			Text = "Un sabotage de bâtiment a échoué !";
+		},
+		LocDirectEntry
+		{
+			Key = "$fb.SabotageBuilding.Failed";
+			Text = "Quelqu'un a essayé de saboter votre bâtiment %BuildingTarget%, mais a échoué.";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.BuildingAlmostDestroyed";
+			Text = "Bâtiment dans un état critique !";
+		},
+		LocDirectEntry
+		{
+			Key = "$fb.BuildingAlmostDestroyed";
+			Text = "Votre bâtiment %building% est dans un état critique. Vous devriez envisager des rénovations immédiatement !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.PoisonCharacter";
+			Text = "Vous avez été empoisonné !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.OfficeLost";
+			Text = "Vous n'avez pas été élu !";
+		},
+		LocDirectEntry
+		{
+			Key = "$fb.OfficeLost";
+			Text = "Malheureusement, %character% a perdu l'élection pour le poste %office% à %city%.";
+		},
+		LocDirectEntry
+		{
+			Key = "$fb.OfficeLost.female";
+			Text = "Malheureusement, %character% a perdu l'élection pour le poste %office% à %city%.";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.OpponentGotOffice";
+			Text = "Un adversaire a obtenu un siège !";
+		},
+		LocDirectEntry
+		{
+			Key = "$fb.OpponentGotOffice";
+			Text = "%character% siège maintenant au poste de %office% à %city%.";
+		},
+		LocDirectEntry
+		{
+			Key = "$fb.OpponentGotOffice.female";
+			Text = "%character% siège maintenant au poste de %office% à %city%.";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.FamilyMemberLevelUp";
+			Text = "Un membre de la famille a gagné un niveau";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.FamilyMemberReleased";
+			Text = "Un membre de la famille a été libéré de prison";
+		},
+		LocDirectEntry
+		{
+			Key = "$fb.FamilyMemberReleased";
+			Text = "%character% a été libéré de prison.";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.EmployeeReleased";
+			Text = "Un employé a été libéré de prison";
+		},
+		LocDirectEntry
+		{
+			Key = "$fb.EmployeeReleased";
+			Text = "%character%, employé à %business%, a été libéré de prison.";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.Reprimand.quick.toTrial";
+			Text = "Un procès est planifié !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.VotingStartsSoon";
+			Text = "Un vote va avoir lieu !";
+		},
+		LocDirectEntry
+		{
+			Key = "$fb.VotingStartsSoon";
+			Text = "%character% est requis pour un vote.";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.EnemyNewHeir";
+			Text = "Un adversaire désigne un héritier";
+		},
+		LocDirectEntry
+		{
+			Key = "$fb.EnemyNewHeir";
+			Text = "%character% est l'héritier de la dynastie %family%.";
+		},
+		LocDirectEntry
+		{
+			Key = "$fb.EnemyNewHeir.female";
+			Text = "%character% est l'héritière de la dynastie %family%.";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.EnemyUnholyMarriage";
+			Text = "Un mariage sans consentement !";
+		},
+		LocDirectEntry
+		{
+			Key = "$fb.EnemyUnholyMarriage";
+			Text = "C'est un scandale ! %character% et %target%  se sont mariés sans l'autorisation du chef de la famille %family%.";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.EnemyRelationshipDrop";
+			Text = "Diplomatie des autres dynasties";
+		},
+		LocDirectEntry
+		{
+			Key = "$fb.EnemyRelationshipDrop";
+			Text = "Le statut diplomatique entre les dynasties %family% et %target% est maintenant %status% !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.EnemySwitchedResidence";
+			Text = "Un adversaire change de résidence";
+		},
+		LocDirectEntry
+		{
+			Key = "$fb.EnemySwitchedResidence";
+			Text = "La nouvelle résidence de la famille %family% est %building%, située dans le %neighborhood% à %city%.";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.AvatarDead";
+			Text = "Votre personnage est mort !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.EnemyDynastyLost";
+			Text = "Une dynastie a été détruite !";
+		},
+		LocDirectEntry
+		{
+			Key = "$fb.EnemyDynastyLost";
+			Text = "La dynastie %family% a eu son dernier souffle ! Les derniers membres de la famille quittent définitivement la région.\nA vous de voir si vous voulez lever votre verre en triomphe ou si vous vous sentez désolé pour eux...";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.AskAllianceActionDynasties";
+			Text = "Deux dynasties sont maintenant des alliés !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.AskAllianceActionSocieties";
+			Text = "Deux guildes sont maintenant des alliés !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.AskAllianceActionSocietiesRequest";
+			Text = "Une alliance de guildes !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.AskAllianceActionSocietiesDenied";
+			Text = "Une guilde refuse une alliance !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.SocietyStartedAFeud";
+			Text = "Une querelle de guildes commence !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.AskAllianceActionDynastiesRequest";
+			Text = "Une dynastie veut s'allier avec vous !";
+		},
+		LocDirectEntry
+		{
+			Key = "$message.AskAllianceAction.Request";
+			Text = "La dynastie %FamilySource% veut s’allier à vous.";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.AskAllianceActionDynastiesDenied";
+			Text = "Une dynastie refuse une alliance !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.FamilyBreakAlliance";
+			Text = "Deux dynasties ne sont plus alliées !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.SocietyBreakAlliance";
+			Text = "Deux guildes ne sont plus alliées !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.SocietyInviteMemberActionDenied";
+			Text = "Votre invitation a été refusée !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.SocietyInviteMemberAction";
+			Text = "Un nouveau membre dans votre guilde !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.SocietyKickMember";
+			Text = "Votre guilde a exclus un membre !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.SocietyLeave";
+			Text = "Un membre a quitté votre guilde !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.SocietyLeaderPositionApplication";
+			Text = "Élection du chef de la guilde !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.SocietyElectionResultWinner";
+			Text = "Vous êtes le chef de votre guilde !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.SocietyElectionResultLoser";
+			Text = "Vous avez perdu l'élection !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.SocietyElectionResultForNoParticipant";
+			Text = "Un nouveau chef de guilde !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.DynastyTradeAccepted";
+			Text = "Votre proposition d'échange a été acceptée !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.DynastyTradeDenied";
+			Text = "Votre proposition d'échange a été refusée !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.ConquerBuildingSuccessTargetAllies";
+			Text = "Un allié a perdu un bâtiment !";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.Praised.Narrator";
+			Text = "Quelqu'un a dit du bien à propos de vous !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.OfficeClose";
+			Text = "Liste des candidats fermée !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.OfficeAvailable";
+			Text = "Il y a un siège vacant !";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Trade.Header.8";
+			Text = "Diplomatie";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.tooltip.building.notSpiedOn";
+			Text = "Vous devez ordonner à l'un de vos hommes de main d'espionner ce bâtiment pour voir ce qui se passe à l'intérieur.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.tooltip.building.spiedOn";
+			Text = "Ce bâtiment est actuellement sous surveillance, ce qui permet de voir ce qui se passe à l'intérieur.";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.CandidateAppliedForOffice.Title";
+			Text = "Nouveau candidat pour un siège";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.CandidateAppliedForOffice.Body";
+			Text = "%character% s'est inscrit pour le poste de %office%";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.OfficeElectionResult.Title";
+			Text = "Élection terminée !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.OfficeElectionResult.Body";
+			Text = "%character% a remporté les élections pour le poste de %office%. Les électeurs responsables ont voté : \n%election_result%";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.OfficeElectionResult.SingleVote";
+			Text = "%voter% a voté pour %candidate%.";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.OfficeElectionMissingVote.Title";
+			Text = "Vote manquant !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.OfficeElectionMissingVote.Body";
+			Text = "Il est demandé à %character% de voter pour l'un des candidats pour le poste de %office%.";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.thunder";
+			Text = "Un violent orage frappe notre ville et ses braves gens. Espérez et priez pour qu'aucun de vos bâtiments ne soit frappé par la foudre et ne commence à brûler...";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.FarTradeOpportunity";
+			Text = "Une bonne opportunité pour le commerce lointain !";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.messageCategory.Building";
+			Text = "Bâtiment";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.messageCategory.Combat";
+			Text = "Combat";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.messageCategory.Death";
+			Text = "Mort";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.messageCategory.Diplomacy";
+			Text = "Diplomatie";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.messageCategory.Dynasty";
+			Text = "Dynastie";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.messageCategory.Employee";
+			Text = "Employés";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.messageCategory.Event";
+			Text = "Événement";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.messageCategory.Guild";
+			Text = "Guilde";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.messageCategory.Justice";
+			Text = "Justice";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.messageCategory.Love";
+			Text = "Vie amoureuse";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.messageCategory.Peace";
+			Text = "Querelle terminée";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.messageCategory.Politics";
+			Text = "Politique";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.messageCategory.Production";
+			Text = "Production";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.messageCategory.Rumors";
+			Text = "Rumeurs";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.messageCategory.Trade";
+			Text = "Échanges";
 		},
 	);
 };
