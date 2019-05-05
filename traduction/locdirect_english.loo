@@ -134,7 +134,7 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$action.BegForgiveness";
+			Key = "$unlock.BegForgiveness";
 			Text = "Demander pardon";
 		},
 		LocDirectEntry
@@ -1000,7 +1000,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.Initiate.Trial.Success";
-			Text = "Vous avez initié un procès contre la dynastie %dynasty%. Le procès se tiendra dans 24 heures.";
+			Text = "Vous avez initié un procès contre la dynastie %dynasty%. Le procès se tiendra dans 1 an.";
 		},
 		LocDirectEntry
 		{
@@ -1079,23 +1079,13 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$action.Longshore.Fail";
-			Text = "%character%, qui vous avez envoyé sur un long voyage, n'est pas retourné.\nVotre famille est en deuil...";
-		},
-		LocDirectEntry
-		{
-			Key = "$action.Longshore.Fail.female";
-			Text = "%character%, qui vous avez envoyée sur un long voyage, n'est pas retournée.\nVotre famille est en deuil...";
-		},
-		LocDirectEntry
-		{
 			Key = "$action.Longshore.Fail.Narration";
 			Text = "Un membre de votre famille n'est pas revenu de son voyage !";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.Longshore.Success";
-			Text = "%character% est de retour de son long voyage et a ramené des marchandises exotiques !\nToute la ville parle des exploits de %character% et votre Influence a augmenté.";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -1111,16 +1101,6 @@ LocDirectData
 		{
 			Key = "$action.Longshore2";
 			Text = "Envoyer quelqu'un en voyage à l'étranger";
-		},
-		LocDirectEntry
-		{
-			Key = "$action.Longshore2.Fail";
-			Text = "%character% n'est toujours pas revenu de son voyage à l'étranger, vous pensez donc qu'il a dû mourir sur une terre lointaine...";
-		},
-		LocDirectEntry
-		{
-			Key = "$action.Longshore2.Fail.female";
-			Text = "%character% n'est toujours pas revenu de son voyage à l'étranger, vous pensez donc qu'elle a dû mourir sur une terre lointaine...";
 		},
 		LocDirectEntry
 		{
@@ -1305,12 +1285,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.PowerCityRecord";
-			Text = "Réunions publiques";
+			Text = "Influencer l'opinion publique";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.PowerCityRecordDesc";
-			Text = "Utilisez les privilèges de votre siège municipal pour déterminer comment le crieur public répand les nouvelles autour de la ville, ou plutôt : comment il contrôle l'information que les citoyens reçoivent. Cela vous permettra de maintenir longtemps les souvenirs des bonnes et mauvaises actions de toutes les dynasties dans la mémoire des gens, ou de les faire rapidement oublier.";
+			Text = "Avec le pouvoir de votre bureau, vous pouvez influencer l'opinion publique sur vos concurrents dans la ville. Proposer aux autres membres de votre chambre de louer publiquement ou de condamner une autre famille. Lescrieurs publics s’assureront que le public en entende parler.\nAvec cette action, vous pouvez proposer d'augmenter ou de diminuer la réputation entre une dynastie spécifique et les différents quartiers de la ville.";
 		},
 		LocDirectEntry
 		{
@@ -1454,11 +1434,6 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$action.Reprimand.quick.toTrial";
-			Text = "%character% est par la présente convoqué à son procès qui se tiendra dans un proche futur.";
-		},
-		LocDirectEntry
-		{
 			Key = "$action.ScanDiseases";
 			Text = "Détecter les maladies";
 		},
@@ -1540,7 +1515,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.SendCourtierToKingDesc";
-			Text = "Vous pouvez utiliser ceci pour envoyer un de vos enfants, qui n'est pas votre héritier, servir à la cour du monarque pendant quelques tours. À leur retour, ils seront formés aux arts politiques et le public les en félicitera. Chaque enfant ne peut visiter la cour qu'une seule fois.";
+			Text = "Vous pouvez utiliser ceci pour envoyer un de vos enfants, qui n'est pas votre héritier, servir à la cour du monarque pendant quelques années. À leur retour, ils seront formés aux arts politiques et le public les en félicitera. Chaque enfant ne peut visiter la cour qu'une seule fois.";
 		},
 		LocDirectEntry
 		{
@@ -6580,7 +6555,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$build.ThiefHideoutLevel3";
-			Text = "Guilde des voleurs";
+			Text = "Maison des voleurs";
 		},
 		LocDirectEntry
 		{
@@ -14454,6 +14429,11 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$message.FamilyMemberDied.female";
+			Text = "%character% est décédée à l'âge de %age% ...";
+		},
+		LocDirectEntry
+		{
 			Key = "$message.FamilyMemberDied.Header";
 			Text = "Un membre de ta famille est mort.";
 		},
@@ -14515,7 +14495,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.GameOver.NoHouse";
-			Text = "Malheureusement, vous n'avez pas trouvé de nouveau domicile pendant un tour.\n\nSi vous échouez à trouver une résidence permanente pendant un tour, votre dynastie perd tout ce qu'elle a acquis. Le jeu est maintenant fini pour vous... Vous aurez plus de chance la prochaine fois !";
+			Text = "Malheureusement, vous n'avez pas trouvé de nouveau domicile pendant un an.\n\nSi vous échouez à trouver une résidence permanente pendant un an, votre dynastie perd tout ce qu'elle a acquis. Le jeu est maintenant fini pour vous... Vous aurez plus de chance la prochaine fois !";
 		},
 		LocDirectEntry
 		{
@@ -14580,7 +14560,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.OtherLeader.Dead.Narration";
-			Text = "Le chef d'une autre dynastie est mort.";
+			Text = "Le chef d'une autre dynastie est mort";
 		},
 		LocDirectEntry
 		{
@@ -14625,7 +14605,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.prevention.NoHouse";
-			Text = "Vous avez perdu votre domicile !\n\nVite ! Si vous ne trouvez pas de résidence pour votre famille pendant ce tour, vous perdrez la partie !";
+			Text = "Vous avez perdu votre domicile !\n\nVite ! Si vous ne trouvez pas de résidence pour votre famille au cours de cette année, vous perdrez la partie !";
 		},
 		LocDirectEntry
 		{
@@ -15154,12 +15134,12 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$nobility.cat9";
+			Key = "$nobility.cat10";
 			Text = "Noble";
 		},
 		LocDirectEntry
 		{
-			Key = "$nobility.cat9desc";
+			Key = "$nobility.cat10desc";
 			Text = "La noblesse est sans doute la classe dirigeante de notre époque. Les anciennes familles aristocratiques et l'église possèdent toutes les terres, à l'exception de quelques classes dirigeantes des villes libres, et gouvernent aussi les gens ordinaires.";
 		},
 		LocDirectEntry
@@ -15605,7 +15585,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$PoliticalPower.AuditDesc";
-			Text = "Ici vous pouvez consulter le journal et l'inventaire de tous les bâtiments d'une dynastie particulière. Ils peuvent être consulté par les membres du conseil municipal pendant un tour. Puisse le Tout-Puissant empêcher quiconque d'effectuer un audit dans vos locaux...";
+			Text = "Ici vous pouvez consulter le journal et l'inventaire de tous les bâtiments d'une dynastie particulière. Ils peuvent être consulté par les membres du conseil municipal pendant un an. Puisse le Tout-Puissant empêcher quiconque d'effectuer un audit dans vos locaux...";
 		},
 		LocDirectEntry
 		{
@@ -17034,6 +17014,11 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$sce.dist.Chalon";
+			Text = "Chalon";
+		},
+		LocDirectEntry
+		{
 			Key = "$sce.city.Cheb";
 			Text = "Cheb";
 		},
@@ -17830,7 +17815,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$sce.name.Burgundy";
-			Text = "Duché de Bourgogne";
+			Text = "Dijon";
 		},
 		LocDirectEntry
 		{
@@ -18025,7 +18010,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$SendToSchoolDesc";
-			Text = "Utilisez vos privilèges pour envoyer votre enfant à l'école. Il y restera pendant un certain nombre de tours et, à la fin de ses études, bénéficiera d'expérience et d'un bonus permanent à un attribut principal aléatoire.";
+			Text = "Utilisez vos privilèges pour envoyer votre enfant à l'école. Il y restera pendant un certain nombre d'années et, à la fin de ses études, bénéficiera d'expérience et d'un bonus permanent à un attribut principal aléatoire.";
 		},
 		LocDirectEntry
 		{
@@ -18760,7 +18745,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$splashHint3";
-			Text = "Pour déplacer la caméra avec la souris, maintenez le bouton droit de la souris enfoncé, maintenez les deux boutons de la souris enfoncés simultanément ou maintenez le bouton droit de la souris enfoncé avec la touche Maj.";
+			Text = "Pour déplacer la caméra, maintenez le bouton droit de la souris enfoncé et déplacez la souris. Pour faire pivoter la caméra, maintenez la molette de la souris enfoncée et déplacez la souris. Maintenez la touche Maj enfoncée pour ralentir le mouvement de la caméra.";
 		},
 		LocDirectEntry
 		{
@@ -19155,7 +19140,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$sys.Main.ReturnToMainMenu";
-			Text = "Retour au menu principal";
+			Text = "Menu principal";
 		},
 		LocDirectEntry
 		{
@@ -19969,6 +19954,11 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$trial.EventDescription.accusers.female";
+			Text = "Vous avez été accusée par %accusedlist%.";
+		},
+		LocDirectEntry
+		{
 			Key = "$trial.EventDescription.currentJudges";
 			Text = "Les juges suivants président votre procès %judges%.";
 		},
@@ -19980,7 +19970,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$trial.EventDescription.intro";
-			Text = "En l'an de notre Seigneur %year%, dans le district de %neighborhood%, dans la ville de %city%, vous avez été accusé de l'activité criminelle suivante : %illegalactionname% (x %numCrimes%).";
+			Text = "En l'an de notre Seigneur %year%, dans la ville de %city%, vous avez été accusé de l'activité criminelle suivante : %illegalactionname% (x %numCrimes%).";
 		},
 		LocDirectEntry
 		{
@@ -20009,18 +19999,8 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$trial.EventDescription.target.neighborhood";
-			Text = "L'acte a été commis dans le %neighborhood% district.";
-		},
-		LocDirectEntry
-		{
 			Key = "$trial.EventDescription.trialDate";
 			Text = "Votre procès aura lieu dans l'année de Notre Seigneur %year%.";
-		},
-		LocDirectEntry
-		{
-			Key = "$trial.Sentence.Cost.1";
-			Text = " (%cost% $(#9))";
 		},
 		LocDirectEntry
 		{
@@ -20029,13 +20009,13 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$trial.Sentence.Cost.3";
-			Text = " (%cost% $(#9))";
+			Key = "$trial.Sentence.Cost.1";
+			Text = "  (réputation -%cost%)";
 		},
 		LocDirectEntry
 		{
-			Key = "$trial.Sentence.Cost.4";
-			Text = " (%cost% tour(s))";
+			Key = "$trial.Sentence.Cost.3";
+			Text = "  (%cost% années)";
 		},
 		LocDirectEntry
 		{
@@ -20055,16 +20035,11 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$trial.Sentence.Level.3";
-			Text = "au pilori";
-		},
-		LocDirectEntry
-		{
-			Key = "$trial.Sentence.Level.4";
 			Text = "peine de prison";
 		},
 		LocDirectEntry
 		{
-			Key = "$trial.Sentence.Level.5";
+			Key = "$trial.Sentence.Level.4";
 			Text = "peine de mort";
 		},
 		LocDirectEntry
@@ -20271,6 +20246,11 @@ LocDirectData
 		{
 			Key = "$ui.CharacterStatus.Married";
 			Text = "marié";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.CharacterStatus.Married.female";
+			Text = "mariée";
 		},
 		LocDirectEntry
 		{
@@ -21699,6 +21679,11 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$ui.Diary.Message.28.female";
+			Text = "%Character% a été libérée de prison";
+		},
+		LocDirectEntry
+		{
 			Key = "$ui.Diary.Message.29";
 			Text = "Les procédures contre %Character% ont été arrêtées.";
 		},
@@ -22200,7 +22185,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.message.OnceAYear";
-			Text = "Le pouvoir politique ne peut être utilisé qu'une fois par tour.";
+			Text = "Le pouvoir politique ne peut être utilisé qu'une fois par an.";
 		},
 		LocDirectEntry
 		{
@@ -22424,28 +22409,13 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$ui.Offices.OfficeDescLevel";
-			Text = "Niveau du siège : %level%";
-		},
-		LocDirectEntry
-		{
-			Key = "$ui.Offices.OfficeDescNextElection";
-			Text = "Prochaine élection : %date%";
-		},
-		LocDirectEntry
-		{
-			Key = "$ui.Offices.OfficeDescRequirement";
-			Text = "Exigence : %desc%";
-		},
-		LocDirectEntry
-		{
 			Key = "$ui.Offices.OfficeDescSalary";
 			Text = "Salaire pour le poste : %salary% + %prestige%$(Prestige)";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Offices.OfficeDescTenure";
-			Text = "Durée du mandat : %length% tours";
+			Text = "Durée du mandat : %length% ans";
 		},
 		LocDirectEntry
 		{
@@ -22610,7 +22580,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Popup.NewBornHeader";
-			Text = "Nouveau-né";
+			Text = "Votre famille s'agrandit !";
 		},
 		LocDirectEntry
 		{
@@ -26899,11 +26869,6 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$ui.Offices.ApplicationFee";
-			Text = "Frais de candidature : %prestige%";
-		},
-		LocDirectEntry
-		{
 			Key = "$ui.Office.RejectReasonNotEnoughPrestige";
 			Text = "Vous ne possédez pas assez d'Influence pour postuler à ce poste.";
 		},
@@ -27550,7 +27515,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$notification.OfficeElectionResult.SingleVote";
-			Text = "%voter% a voté pour %candidate%.";
+			Text = "%voter% a voté pour %candidate%.";
 		},
 		LocDirectEntry
 		{
@@ -28126,6 +28091,656 @@ LocDirectData
 		{
 			Key = "$sce.dist.Northsea";
 			Text = "Mer du Nord";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.PoliticalPower.PowerExpropriate.confirmMessage";
+			Text = "Êtes-vous sûr de vouloir proposer d'exproprier %building% ?";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.PowerExpropriate";
+			Text = "Exproprier quelqu'un";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.PowerExpropriateDesc";
+			Text = "Votre siege vous donne le pouvoir d'exproprier quelqu'un. Utilisez cette action pour lancer un vote d'expropriation dans votre chambre.";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.proposal.removed.title";
+			Text = "Votre proposition a echouée !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.proposal.removed.body";
+			Text = "Les responsables de la ville vous informent qu'une de vos propositions a été invalidée et que la réunion de votre chambre a donc été annulée.";
+		},
+		LocDirectEntry
+		{
+			Key = "$politicalPower.removedFromOffice.body";
+			Text = "Un de vos personnages a été démis de ses fonctions.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Politics.Topic";
+			Text = "Sujet";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Politics.Outcome";
+			Text = "Résultat";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Politics.ProposalVoting";
+			Text = "Vote sur proposition";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Politics.Proposer";
+			Text = "Proposition";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Politics.Voter";
+			Text = "Votant";
+		},
+		LocDirectEntry
+		{
+			Key = "$political.power.ongoing.proposal.error";
+			Text = "Quelqu'un de votre groupe de bureau a déjà fait une proposition. Vous pouvez la vérifier dans le calendrier et exprimer votre vote.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.PowerLawmaker";
+			Text = "Proposer de changer les lois de la ville";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.PowerLawmakerDesc";
+			Text = "La fonction que vous occupez vous donne le pouvoir de proposer des modifications aux lois sur lesquelles vous avez autorité. Utilisez cette action pour changer les actions légales ou illégales dans votre ville.";
+		},
+		LocDirectEntry
+		{
+			Key = "$effect.banishProposal";
+			Text = "Un membre de votre famille a été banni de la ville !";
+		},
+		LocDirectEntry
+		{
+			Key = "$effect.banish";
+			Text = "Vous avez été banni de la ville !";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.name.Heligoland";
+			Text = "Heligoland";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.desc.Heligoland";
+			Text = "Deät Lun, comme l'appellent les Frisons vivant à Heligoland, est une île entourée de falaises dangereuses dans la mer du Nord. De nos jours, l’île appartient au Danemark, mais elle a également eu d’autres seigneurs dans le passé et appartiendra certainement à d’autres seigneurs dans le futur. Heligoland est toutefois réputé pour être le port d'attache des pirates qui naviguent dans les eaux environnantes. De nombreuses batailles ont eu lieu sur et autour de l'île, par exemple lorsque la flotte de la Ligue hanséatique s'est réunie et a vaincu le Likedeeler Klaus Störtebeker.\n\n Heligoland est une petite carte de scénario conçue pour un petit nombre de dynasties.";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.city.Heligoland";
+			Text = "Heligoland";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.sov.Heligoland.male";
+			Text = "Lord Reeve";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.sov.Heligoland.female";
+			Text = "Lord Reeve";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.castle.Heligoland";
+			Text = "Forteresse du Lord Reeve";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.PoliticalPower.PowerHeretic.proposeToBanish";
+			Text = "Proposer de bannir";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.PoliticalPower.PowerHeretic.confirmTitle";
+			Text = "Envoyer la proposition ?";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.PoliticalPower.PowerHeretic.confirmMessage";
+			Text = "Êtes-vous sûr de vouloir proposer de bannir %character% ?";
+		},
+		LocDirectEntry
+		{
+			Key = "$IsBurning.true";
+			Text = "Brûle";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.PoliticalPowerResultTitle";
+			Text = "Résultats de la proposition disponibles";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.PoliticalPower.PowerExpropriate.proposeToExpropriate";
+			Text = "Proposer d'exproprier";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.PoliticalPower.PowerExpropriate.confirmTitle";
+			Text = "Envoyer la proposition ?";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.trial.cancelled.title";
+			Text = "Procès annulé !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.trial.cancelled.body";
+			Text = "Appréciez votre bonne fortune ! Comme le bureau de %officegroup% n'a pas de juge, votre procès pour %action% est annulé.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.formatDurationRoundsHoursMinutes.singular";
+			Text = "%round% tour, %hour%:%min%";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.formatDurationRoundsHoursMinutes.plural";
+			Text = "%round% tours, %hour%:%min%";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.formatDurationYearsHoursMinutes.singular";
+			Text = "%year% année, %hour%:%min%";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.formatDurationYearsHoursMinutes.plural";
+			Text = "%year% années, %hour%:%min%";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.PoliticalPower.PowerPrisons.PromptTitle";
+			Text = "Changer la peine";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.PoliticalPower.PowerPrisons.PromptMessage";
+			Text = "Prisonnier : %character%";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.PoliticalPower.PowerPrisons.NewSentence";
+			Text = "Nouvelle date de liberation : %date%";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.PoliticalPower.PowerPrisons.CurrentSentence";
+			Text = "libéré le : %date%";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.PoliticalPower.PowerPrisons.Sentence";
+			Text = "libéré : %date%";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.PoliticalPower.PowerPrisons.ChangeSentence";
+			Text = "%character%\n%oldsentence%\n-> %newsentence%";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.PoliticalPower.PowerPrisons.Immediately";
+			Text = "Immediatement";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.PoliticalPower.PowerPrisons.ReleaseImminent";
+			Text = "Liberation imminente";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.dist.Gray";
+			Text = "Grey";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.PoliticalPower.PowerCityRecord.PromptTitle";
+			Text = "Influencer l'opinion publique";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.PoliticalPower.PowerCityRecord.PromptMessage";
+			Text = "Famille touchée : %family%\nCity: %city%";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.PoliticalPower.PowerCityRecord.VoteEntry";
+			Text = "%family%\n%city%\nl'opinion publique a changé : %reputation%";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.dist.River";
+			Text = "Rivière";
+		},
+		LocDirectEntry
+		{
+			Key = "$build.Warehouse_Countrydesc";
+			Text = "Les matières premières et les produits peuvent être stockés dans cette grange.";
+		},
+		LocDirectEntry
+		{
+			Key = "$build.Warehouse_CountryLevel1";
+			Text = "Grange de stockage";
+		},
+		LocDirectEntry
+		{
+			Key = "$build.Warehouse_CountryName1";
+			Text = "Joueur de flute recherché !";
+		},
+		LocDirectEntry
+		{
+			Key = "$build.Warehouse_CountryName10";
+			Text = "Rupture de stock !";
+		},
+		LocDirectEntry
+		{
+			Key = "$build.Warehouse_CountryName2";
+			Text = "Très surveillé !";
+		},
+		LocDirectEntry
+		{
+			Key = "$build.Warehouse_CountryName3";
+			Text = "Pour coups dur";
+		},
+		LocDirectEntry
+		{
+			Key = "$build.Warehouse_CountryName4";
+			Text = "Cachette pas si secrète";
+		},
+		LocDirectEntry
+		{
+			Key = "$build.Warehouse_CountryName5";
+			Text = "Au cas où";
+		},
+		LocDirectEntry
+		{
+			Key = "$build.Warehouse_CountryName6";
+			Text = "Plus grand dedans";
+		},
+		LocDirectEntry
+		{
+			Key = "$build.Warehouse_CountryName7";
+			Text = "Coffre de la communauté";
+		},
+		LocDirectEntry
+		{
+			Key = "$build.Warehouse_CountryName8";
+			Text = "Tout rentre dedans !";
+		},
+		LocDirectEntry
+		{
+			Key = "$build.Warehouse_CountryName9";
+			Text = "Tout en stock";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.politician.appointed";
+			Text = "Titulaire nommé !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.politician.appointed.noApplicants";
+			Text = "En raison du manque de candidats, le monarque a nommé %character% pour le %office% bureau.";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.sovereign.appointed.title";
+			Text = "Souverain nommé !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.sovereign.appointed.body";
+			Text = "Le monarque a décidé que %character% gouvernera désormais la terre en son nom.";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.politician.appointed.noVoters";
+			Text = "En raison de l’absence de responsables, le monarque a été nommé %character% dans le %office% bureau.";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.trial.results.title";
+			Text = "Le procès est terminé !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.trial.results.body";
+			Text = "Oyez ! Oyez ! Le procès contre %accused% pourrime% pour %num_evidences% les comptes sont terminés!\n\nLes honorables juges ont conclu que la peine appropriée était %sentence%.\n\nLa punition anticipée était %sentence_public%.\n\n%trial_results%";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.trial.results.SingleVote";
+			Text = "%voter% a voté pour %sentence%.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Politics.victims";
+			Text = "Victimes";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Politics.punishment";
+			Text = "Punition";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Politics.expectedPunishment";
+			Text = "Punition attendue";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Politics.victimsTooltip";
+			Text = "Victime du crime\n%victims%";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Politics.evidence.bundleTooltip";
+			Text = "Preuves présenté par\n%accusers%";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Politics.trial.header.preTrial";
+			Text = "Procès";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Politics.trial.header.verdict";
+			Text = "Verdict";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.TradeAcceptedReceiverHappy.title";
+			Text = "Votre partenaire commercial est satisfait !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.TradeAcceptedReceiverHappy.body";
+			Text = "La dynastie %family% est ravis de votre proposition commerciale. votre réputation avec la dynastie %family% a augmenté !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.TradeAcceptedReceiverUnhappy.title";
+			Text = "votre partenaire commercial est offusqué !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.TradeAcceptedReceiverUnhappy.body";
+			Text = "la dynastie %family% n'était pas entièrement satisfait des conditions de votre transaction mais accepté quand même. Votre réputation avec la dynastie %family% baisse !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.TradeAcceptedProposerHappy.title";
+			Text = "votre partenaire commercial est satisfait !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.TradeAcceptedProposerHappy.body";
+			Text = "La dynastie %family% est très satisfaite de votre proposition commerciale. votre reputation avec la dynastie %family% augmente !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.TradeDeclinedProposerInsulted.title";
+			Text = "Votre partenaire commerciale est offusqué !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.TradeDeclinedProposerInsulted.body";
+			Text = "La dynastie %family% dynasty a été insulté que vous n'avez pas accepté leur proposition commerciale généreuse ! Votre réputation avec la dynastie %family% baisse !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.TradeDeclinedReceiverInsulted.title";
+			Text = "Votre partenaire commerciale est offusqué !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.TradeDeclinedReceiverInsulted.body";
+			Text = "La dynastie %family% a été insulté par les termes de votre proposition commerciale! Votre réputation avec la dynastie %family% baisse !";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.CharacterAdultNotPlayersNotAllies";
+			Text = "Sélectionnez un personnage adulte qui ne fait pas partie de votre dynastie ou d'une dynastie alliée.";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.trial.newEvidence.title";
+			Text = "De nouvelles preuves ont été soumises !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.trial.newEvidence.body";
+			Text = "De nouvelles preuves ont été soumises à l’un des procès de %character%.\n\nCrime : %crime%\nDate du procès : %year%";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.trial.newEvidence.body.female";
+			Text = "De nouvelles preuves ont été soumises à l’un des procès de %character%.\n\nCrime: %crime%\nDate du procès : %year%";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.trial.request.body";
+			Text = "%character% a été invité à assister au procès.\n\nCrime: %crime%\nDate du procès: %year%";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.trial.request.body.female";
+			Text = "%character% a été invité à assister au procès.\n\nCrime: %crime%\nDate du procès: %year%";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.FoundAndDestroyedEvidence";
+			Text = "Preuves detruites";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.dist.Salzach";
+			Text = "Salzach";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.name.Salzburg";
+			Text = "Salzburg";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.desc.Salzburg";
+			Text = "Salzbourg est située au nord des Alpes, au bord de la rivière Salzach. Les anciens Romains ont gagné le sel avec les salines ici. Au 14ème siècle, la ville et ses environs formèrent une principauté indépendant dans le Saint Empire Romain Germanique. Les citoyens de Salzbourg sont ambitieux et parfois têtus en ce qui concerne leur place dans le saint ordre mondial. Ils s’opposent donc souvent à leur souverain, l’archevêque. Finalement, ils se sont même convertis au protestantisme, qui était la dernière goutte pour l'archevêque... mais c'est une autre histoire.\n\nSalzburgest une petite carte de scénario.";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.dist.Muelln";
+			Text = "Muelln";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.dist.Nonntal";
+			Text = "Nonntal";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.castle.Salzburg";
+			Text = "Hohensalzburg Forteresse";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.sov.Salzburg.female";
+			Text = "Archbishop";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.sov.Salzburg.male";
+			Text = "Archbishop";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.dist.Bergheim";
+			Text = "Bergheim";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.dist.Hallein";
+			Text = "Hallein";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.cathedral.Salzburg";
+			Text = "Cathedrale de St. Rupert et St. Virgil";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.city.Passau";
+			Text = "Passau";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.city.Linz";
+			Text = "Linz";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.city.Lofer";
+			Text = "Lofer";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.city.Munich";
+			Text = "Munich";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.unknown";
+			Text = "Inconnu";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.none";
+			Text = "Aucun";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Offices.OfficeDescDetails";
+			Text = "Chambre : %officeGroup%\nRequière : %requirements%\nniveau de bureau: %officeLevel%\nMandat : %numRoundsPerTerm% rounds\nApplications ouvertes : %applicationDateOpen%jusqu'a %applicationDateClose%\nProchaine élection : %electionDate%\nRevenu pour le bureau : %incomeMoney% + %incomePrestige%$(Prestige) \nFrais d'inscription : %applicationFee%";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Offices.Requirements.office";
+			Text = "Level bureau %officeLevel%";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Offices.Requirements.officeAndNobility";
+			Text = "Level bureau %officeLevel% et %nobilityTitle%";
+		},
+		LocDirectEntry
+		{
+			Key = "$trade.InvalidTradeRequest";
+			Text = "La demande d'échange est devenue invalide !";
+		},
+		LocDirectEntry
+		{
+			Key = "$trade.InvalidTradeRequestDescription";
+			Text = "La demande d'échange que vous avez reçue est devenue invalide. Très probablement, un article contenu dans la transaction a déjà changé de propriétaire en raison d'autres circonstances.";
+		},
+		LocDirectEntry
+		{
+			Key = "$statusEffect.buffed";
+			Text = "Amélioré";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectAppliedbuffed";
+			Text = "+$(buffed) Amélioré !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectHealedbuffed";
+			Text = "-$(buffed) Amélioré !";
+		},
+		LocDirectEntry
+		{
+			Key = "$statusEffect.debuffed";
+			Text = "Affaibli";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectApplieddebuffed";
+			Text = "+$(debuffed) Affaibli !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectHealeddebuffed";
+			Text = "-$(debuffed) Affaibli !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.PoliticalPowerResultDescription";
+			Text = "L'administration de la ville a pris une décision.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.Longshore.CriticalFail";
+			Text = "%character%,que vous avez envoyé dans un long voyage, n'est pas revenu..\nVotre dynastie est en deuil...";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.Longshore.CriticalFail.female";
+			Text = "%character%,que vous avez envoyée dans un long voyage, n'est pas revenue..\nVotre dynastie est en deuil...";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.Longshore.Fail";
+			Text = "%character%, que vous avez envoyé sur un long voyage est revenu avec de mauvaises nouvelles. Il semble que, malgré ses efforts pour nouer des contacts commerciaux sur des pays étrangers, il ait fait ou dit quelque chose qui soit une insulte envers les locaux et il a donc été chassé de la ville\n\nmPeut être que vous devriez attendre un peu avant de retourner là-bas.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.Longshore.Fail.female";
+			Text = "%character%, que vous avez envoyée sur un long voyage est revenue avec de mauvaises nouvelles. Il semble que, malgrée ses efforts pour nouer des contacts commerciaux sur des pays étrangers, elle ait fait ou dit quelque chose qui soit une insulte envers les locaux et il a donc été chassée de la ville\n\nmPeut être que vous devriez attendre un peu avant de retourner là-bas.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.Longshore2.CriticalFail";
+			Text = "%character% n'est toujours pas revenu de son voyage à l'étranger. Donc, vous ne pouvez que supposer qu'il est mort dans un pays étranger lointain…";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.Longshore2.CriticalFail.female";
+			Text = "%character% n'est toujours pas revenue de son voyage à l'étranger. Donc, vous ne pouvez que supposer qu'elle est morte dans un pays étranger lointain…";
+		},
+		LocDirectEntry
+		{
+			Key = "$AuditBooks";
+			Text = "Livres d'audit";
+		},
+		LocDirectEntry
+		{
+			Key = "$AuditBooksDesc";
+			Text = "La puissance de votre bureau vous permet de vérifier les livres de vos concurrents. Ce faisant, il y a toujours de bonnes chances que vous puissiez extraire des informations vitales de votre concurrent. Son utilisation dans l'entreprise d'un concurrent a une chance de trouver des preuves et de prendre de l'influence ainsi que de l'argent de la famille audité..";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.CompetitorBusiness";
+			Text = "Sélectionnez l'entreprise d'un concurrent.";
 		},
 	);
 };
