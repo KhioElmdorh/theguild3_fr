@@ -134,6 +134,11 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$action.BegForgiveness";
+			Text = "Demander pardon";
+		},
+		LocDirectEntry
+		{
 			Key = "$unlock.BegForgiveness";
 			Text = "Demander pardon";
 		},
