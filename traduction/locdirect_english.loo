@@ -1005,7 +1005,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.Initiate.Trial.Success";
-			Text = "Vous avez initié un procès contre la dynastie %dynasty%. Le procès se tiendra dans 1 an.";
+			Text = "Vous avez initié un procès contre la dynastie %dynasty%. Le procès se tiendra dans 1 tour.";
 		},
 		LocDirectEntry
 		{
@@ -1065,7 +1065,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.LeaveSecretSociety.Player";
-			Text = "Vous avez quitté la >%society%<.";
+			Text = "Vous avez quitté la %society%.";
 		},
 		LocDirectEntry
 		{
@@ -1081,6 +1081,26 @@ LocDirectData
 		{
 			Key = "$action.Longshore";
 			Text = "Envoyer quelqu'un faire un long voyage";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.Longshore.Fail";
+			Text = "%character%, que vous avez envoyé sur un long voyage est revenu avec de mauvaises nouvelles. Il semble que, malgré ses efforts pour nouer des contacts commerciaux sur des pays étrangers, il ait fait ou dit quelque chose qui soit une insulte envers les locaux et il a donc été chassé de la ville\n\nmPeut être que vous devriez attendre un peu avant de retourner là-bas.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.Longshore.Fail.female";
+			Text = "%character%, que vous avez envoyée sur un long voyage est revenue avec de mauvaises nouvelles. Il semble que, malgrée ses efforts pour nouer des contacts commerciaux sur des pays étrangers, elle ait fait ou dit quelque chose qui soit une insulte envers les locaux et il a donc été chassée de la ville\n\nmPeut être que vous devriez attendre un peu avant de retourner là-bas.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.Longshore.CriticalFail";
+			Text = "%character%,que vous avez envoyé dans un long voyage, n'est pas revenu..\nVotre dynastie est en deuil...";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.Longshore.CriticalFail.female";
+			Text = "%character%,que vous avez envoyée dans un long voyage, n'est pas revenue..\nVotre dynastie est en deuil...";
 		},
 		LocDirectEntry
 		{
@@ -1106,6 +1126,16 @@ LocDirectData
 		{
 			Key = "$action.Longshore2";
 			Text = "Envoyer quelqu'un en voyage à l'étranger";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.Longshore2.CriticalFail";
+			Text = "%character% n'est toujours pas revenu de son voyage à l'étranger. Donc, vous ne pouvez que supposer qu'il est mort dans un pays étranger lointain…";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.Longshore2.CriticalFail.female";
+			Text = "%character% n'est toujours pas revenue de son voyage à l'étranger. Donc, vous ne pouvez que supposer qu'elle est morte dans un pays étranger lointain…";
 		},
 		LocDirectEntry
 		{
@@ -1434,11 +1464,6 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$action.Reprimand.quick.lansquenet";
-			Text = "Vous avez envoyé au tribunal les preuves suivantes : >evidence<. Vous avez reçu %coins% de la ville pour votre intervention.";
-		},
-		LocDirectEntry
-		{
 			Key = "$action.ScanDiseases";
 			Text = "Détecter les maladies";
 		},
@@ -1570,7 +1595,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.SocietyInviteMemberAction.Accept";
-			Text = "Vous êtes maintenant membre de la >%society%<. Respectez les valeurs et les standards de la guilde et vous pourrez aller loin !";
+			Text = "Vous êtes maintenant membre de la %society%. Respectez les Attitudes de la guilde et vous pourrez aller loin !";
 		},
 		LocDirectEntry
 		{
@@ -1600,7 +1625,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.SocietyInviteMemberDesc";
-			Text = "Ceci vous permet d'inviter quelqu'un dans votre société. Assuez-vous que cette personne partage les valeurs et les standards de votre société, ou du moins des vues similaires, autrement des tensions peuvent surgir...";
+			Text = "Ceci vous permet d'inviter quelqu'un dans votre société. Assurez-vous que cette personne partage les Attitudes de votre société, ou du moins des vues similaires, autrement des tensions peuvent surgir...";
 		},
 		LocDirectEntry
 		{
@@ -6720,12 +6745,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$build.trademarketLevel1";
-			Text = "Route commerciale";
+			Text = "Route commerciale longue distance";
 		},
 		LocDirectEntry
 		{
 			Key = "$build.trademarketName1";
-			Text = "";
+			Text = "Marché commercial longue distance";
 		},
 		LocDirectEntry
 		{
@@ -7025,7 +7050,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$callToAction.BuildingPlacementCity";
-			Text = "Placez votre bâtiment dans un endroit plat et dégagé, à côté d’une rue, dans l'enceinte de la ville.";
+			Text = "Placez votre bâtiment dans un endroit plat et dégagé, à côté d’une rue, dans un quartier de la ville.";
 		},
 		LocDirectEntry
 		{
@@ -9550,7 +9575,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$DrFaustusElixirDesc";
-			Text = "L'elixir du Docteur Faust peut prolonger votre vie. Rappelez-vous, cependant, que cela équivaut à un pacte avec le diable. Donc, vous feriez mieux de le consommer discrètement et de vous assurer que vous avez un toit sur la tête, que le Seigneur ne vous surprenne pas !";
+			Text = "L'Elixir du Dr. Faust a des effets presque magiques. Il augmentera votre fertilité pendant un certain temps, donnant même à la personne la plus âgée la vigueur d'avoir des enfants. Mais attention, l'utilisation de l'élixir est mal vue en raison de ses méthodes de production... 'non conventionnelles'. \nBuvez le pour augmenter votre fertilité.";
 		},
 		LocDirectEntry
 		{
@@ -9611,11 +9636,6 @@ LocDirectData
 		{
 			Key = "$EndGameWindow.GameOverTitle";
 			Text = "Vous avez perdu !";
-		},
-		LocDirectEntry
-		{
-			Key = "$EndGameWindow.WinAllBusinessDescription";
-			Text = "Vous possédez tous les bâtiments commerciaux sur cette carte de scénario !";
 		},
 		LocDirectEntry
 		{
@@ -11956,16 +11976,6 @@ LocDirectData
 		{
 			Key = "$gui.PoliticalPower.Refuse";
 			Text = "La majorité des membres du conseil ont rejeté la proposition !";
-		},
-		LocDirectEntry
-		{
-			Key = "$gui.PoliticalPower.TargetAudit";
-			Text = "Le conseil municipal a décidé d'auditer vos livres de compte !\nVos entreprises doivent interrompre leurs ventes !";
-		},
-		LocDirectEntry
-		{
-			Key = "$gui.PoliticalPower.TargetAudit.Narration";
-			Text = "Le conseil municipal a décidé d'auditer vos livres de compte !";
 		},
 		LocDirectEntry
 		{
@@ -14610,7 +14620,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.prevention.NoHouse";
-			Text = "Vous avez perdu votre domicile !\n\nVite ! Si vous ne trouvez pas de résidence pour votre famille au cours de cette année, vous perdrez la partie !";
+			Text = "Vous avez perdu votre domicile !\n\nVite ! Si vous ne trouvez pas de résidence pour votre famille au cours de ce tour, vous perdrez la partie !";
 		},
 		LocDirectEntry
 		{
@@ -15499,28 +15509,8 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$Poison.BlackWidowPoison";
-			Text = "Poison de la veuve noire";
-		},
-		LocDirectEntry
-		{
-			Key = "$Poison.BlackWidowPoisonDesc";
-			Text = "Le >Poison de la veuve noire< ne peut pas vous blesser... du moins c'est ce que vous pensez...";
-		},
-		LocDirectEntry
-		{
 			Key = "$Poison.Boozy";
 			Text = "Haleine alcolisée";
-		},
-		LocDirectEntry
-		{
-			Key = "$Poison.BoozyBreathBeer";
-			Text = "Bière à haleine d'ivrogne";
-		},
-		LocDirectEntry
-		{
-			Key = "$Poison.BoozyBreathBeerDesc";
-			Text = "Vous êtes protégé contre la mauvaise haleine, qui inévitablement apparaÎt ou disparaît après avoir apprécié une bonne >Bière à haleine d'ivrogne<.";
 		},
 		LocDirectEntry
 		{
@@ -15581,36 +15571,6 @@ LocDirectData
 		{
 			Key = "$PolishDesc";
 			Text = "La cire est couramment utilisée pour lisser et nettoyer les surfaces dures. Ses propriétés de nettoyage sont également nécessaires pour certains élixirs. Et avec l'incorporation de certains ingrédients, elle peut même causer des explosions...";
-		},
-		LocDirectEntry
-		{
-			Key = "$PoliticalPower.Audit";
-			Text = "Audit";
-		},
-		LocDirectEntry
-		{
-			Key = "$PoliticalPower.AuditDesc";
-			Text = "Ici vous pouvez consulter le journal et l'inventaire de tous les bâtiments d'une dynastie particulière. Ils peuvent être consulté par les membres du conseil municipal pendant un an. Puisse le Tout-Puissant empêcher quiconque d'effectuer un audit dans vos locaux...";
-		},
-		LocDirectEntry
-		{
-			Key = "$PoliticalPower.Constructions";
-			Text = "Constructions urbaines";
-		},
-		LocDirectEntry
-		{
-			Key = "$PoliticalPower.ConstructionsDesc";
-			Text = "Vous pouvez utiliser ce privilège officiel pour ordonner la construction de bâtiments dans la ville.";
-		},
-		LocDirectEntry
-		{
-			Key = "$PoliticalPower.DeclareHeretic";
-			Text = "Déclarer quelqu'un hérétique";
-		},
-		LocDirectEntry
-		{
-			Key = "$PoliticalPower.DeclareHereticDesc";
-			Text = "Quand quelqu'un est considéré comme un hérétique, tout son système de valeurs va se retourner contre lui, avec des conséquences immenses sur leurs relations avec tout le monde - les citadins, les sociétés, les bureaux politiques, les autres familles...";
 		},
 		LocDirectEntry
 		{
@@ -17039,7 +16999,7 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$sce.city.Dole";
+			Key = "$sce.dist.Dole";
 			Text = "Dole";
 		},
 		LocDirectEntry
@@ -18750,7 +18710,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$splashHint3";
-			Text = "Pour déplacer la caméra, maintenez le bouton droit de la souris enfoncé et déplacez la souris. Pour faire pivoter la caméra, maintenez la molette de la souris enfoncée et déplacez la souris. Maintenez la touche Maj enfoncée pour ralentir le mouvement de la caméra.";
+			Text = "Pour déplacer la caméra, maintenez le bouton droit de la souris enfoncé et déplacez la souris. Pour faire pivoter la caméra, maintenez la molette de la souris enfoncée et déplacez la souris. Maintenez la touche $(#28) enfoncée pour ralentir le mouvement de la caméra.";
 		},
 		LocDirectEntry
 		{
@@ -20029,12 +19989,12 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$trial.Sentence.Level.1";
+			Key = "$trial.Sentence.Level.2";
 			Text = "Réprimande publique";
 		},
 		LocDirectEntry
 		{
-			Key = "$trial.Sentence.Level.2";
+			Key = "$trial.Sentence.Level.1";
 			Text = "amende";
 		},
 		LocDirectEntry
@@ -22204,32 +22164,32 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$ui.message.SpeedModifier.0";
+			Key = "$ui.message.SpeedModifier.paused";
 			Text = "PAUSE";
 		},
 		LocDirectEntry
 		{
-			Key = "$ui.message.SpeedModifier.1";
+			Key = "$ui.message.SpeedModifier.0";
 			Text = "x 0.5";
 		},
 		LocDirectEntry
 		{
-			Key = "$ui.message.SpeedModifier.2";
+			Key = "$ui.message.SpeedModifier.1";
 			Text = "NORMAL";
 		},
 		LocDirectEntry
 		{
-			Key = "$ui.message.SpeedModifier.3";
+			Key = "$ui.message.SpeedModifier.2";
 			Text = "x 2";
 		},
 		LocDirectEntry
 		{
-			Key = "$ui.message.SpeedModifier.4";
+			Key = "$ui.message.SpeedModifier.3";
 			Text = "x 3";
 		},
 		LocDirectEntry
 		{
-			Key = "$ui.message.SpeedModifier.5";
+			Key = "$ui.message.SpeedModifier.4";
 			Text = "x 4";
 		},
 		LocDirectEntry
@@ -22485,7 +22445,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Politics.OfficeButton";
-			Text = "Arbre des sièges";
+			Text = "Organigramme politique";
 		},
 		LocDirectEntry
 		{
@@ -22555,7 +22515,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Politics.RulesButton";
-			Text = "Règles de la ville";
+			Text = "Lois de la ville";
 		},
 		LocDirectEntry
 		{
@@ -22684,17 +22644,17 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$ui.Production.biz.Line4";
+			Key = "$ui.Production.biz.Line2";
 			Text = "Améliorations";
 		},
 		LocDirectEntry
 		{
-			Key = "$ui.Production.biz.Line5";
+			Key = "$ui.Production.biz.Line3";
 			Text = "Satisfaction du client";
 		},
 		LocDirectEntry
 		{
-			Key = "$ui.Production.biz.Line5.Tooltip";
+			Key = "$ui.Production.biz.Line3.Tooltip";
 			Text = "La 'Satisfaction du client' résulte de la relation avec village ou le quartier, du prix de vente dans le magasin et de certaines améliorations du bâtiment. Plus cette valeur est élevée, plus les clients acheteront des marchandises dans le magasin.";
 		},
 		LocDirectEntry
@@ -22955,7 +22915,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Secret.ElectionResultWinner";
-			Text = "Vous êtes maintenant le chef de la %society%. Les principes de la guilde ont changé pour s'adapter aux vôtres.";
+			Text = "Vous êtes maintenant le chef de la %society%. Les Attitudes de la guilde ont changé pour s'adapter aux vôtres.";
 		},
 		LocDirectEntry
 		{
@@ -23335,7 +23295,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Subquest.Desc2";
-			Text = "Construisez ou acquérez une entreprise.";
+			Text = "Construire plusieurs entreprises.";
 		},
 		LocDirectEntry
 		{
@@ -23355,7 +23315,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Subquest.Desc23";
-			Text = "Débarassez-vous de plusieurs personnes vous-même.";
+			Text = "Poignarder plusieurs personnes dans le dos";
 		},
 		LocDirectEntry
 		{
@@ -23750,12 +23710,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.CharacterValue";
-			Text = "Valeur de la dynastie";
-		},
-		LocDirectEntry
-		{
-			Key = "$ui.tooltip.child.MonthlyXP";
-			Text = "Gain d'XP mensuel d'apprentissage : %Monthlyxp%";
+			Text = "Attitudes de la dynastie";
 		},
 		LocDirectEntry
 		{
@@ -24285,7 +24240,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.SocietyValue";
-			Text = "Valeur de la guilde";
+			Text = "Attitudes de la guilde";
 		},
 		LocDirectEntry
 		{
@@ -24655,7 +24610,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$WindowTitlePolitics";
-			Text = "Vue d'ensemble politique";
+			Text = "Organigramme politique";
 		},
 		LocDirectEntry
 		{
@@ -25890,7 +25845,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$feedback.EffectAppliedblessed";
-			Text = "=+$(blessed) Bénédiction !";
+			Text = "+$(blessed) Bénédiction !";
 		},
 		LocDirectEntry
 		{
@@ -25900,7 +25855,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$feedback.EffectAppliedpregnant";
-			Text = "=+$(pregnant) Grossesse !";
+			Text = "+$(pregnant) Grossesse !";
 		},
 		LocDirectEntry
 		{
@@ -26010,7 +25965,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$feedback.EffectAppliedprotected";
-			Text = "=+ Protégé !";
+			Text = "+ Protégé !";
 		},
 		LocDirectEntry
 		{
@@ -26195,7 +26150,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$feedback.EffectAppliedunconscious";
-			Text = "=+$(unconscious) Etourdi !";
+			Text = "+$(unconscious) Etourdi !";
 		},
 		LocDirectEntry
 		{
@@ -27090,7 +27045,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$fb.Reputation.Change.Neighborhood";
-			Text = "L'état de la réputation de votre dynastie auprès des habitants du %neighborhood% de %city% est maintenant %status% !";
+			Text = "L'état de la réputation de votre dynastie auprès des habitants du %neighborhood% de %city% est maintenant %status% !\n\nCela affectera la motivation de vos employés dans les entreprises situées dans le %neighborhood%.";
 		},
 		LocDirectEntry
 		{
@@ -27630,7 +27585,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$multiplayer.gameSetup";
-			Text = "Carte Scenario : %scenario%\nMode de jeu : %gameMode%\nHôte : %hostName%\nDifficulté : %difficulty%\nNb adversaires : %numOpponents%";
+			Text = "Carte scenario : %scenario%\nMode de jeu : %gameMode%\nHote : %hostName%\nDifficulté : %difficulty%\nNb adversaires : %numOpponents%\nAnnées par tour : %yearsPerRound%";
 		},
 		LocDirectEntry
 		{
@@ -28409,6 +28364,11 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$notification.politician.appointed.noApplicants.female";
+			Text = "En raison du manque de candidats, le monarque a nommé %character% pour le %office% bureau.";
+		},
+		LocDirectEntry
+		{
 			Key = "$notification.sovereign.appointed.title";
 			Text = "Souverain nommé !";
 		},
@@ -28419,8 +28379,18 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$notification.sovereign.appointed.body.female";
+			Text = "Le monarque a décidé que %character% gouvernera désormais la terre en son nom.";
+		},
+		LocDirectEntry
+		{
 			Key = "$notification.politician.appointed.noVoters";
-			Text = "En raison de l’absence de responsables, le monarque a été nommé %character% dans le %office% bureau.";
+			Text = "En raison de l’absence de responsables, le monarque a nommé %character% pour le bureau %office%.";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.politician.appointed.noVoters.female";
+			Text = "En raison de l’absence de responsables, le monarque a nommé %character% pour le bureau %office%.";
 		},
 		LocDirectEntry
 		{
@@ -28430,12 +28400,22 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$notification.trial.results.body";
-			Text = "Oyez ! Oyez ! Le procès contre %accused% pourrime% pour %num_evidences% les comptes sont terminés!\n\nLes honorables juges ont conclu que la peine appropriée était %sentence%.\n\nLa punition anticipée était %sentence_public%.\n\n%trial_results%";
+			Text = "Oyez ! Oyez ! Le procès contre %accused% pour %crime% sur %num_evidences% chefs d'accusation est terminé !\n\nLes honorables juges ont conclu que la peine appropriée était %sentence%.\n\nLa punition prévue était %sentence_public%.\n\n%trial_results%";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.trial.results.body.female";
+			Text = "Oyez ! Oyez ! Le procès contre %accused% pour %crime% sur %num_evidences% chefs d'accusation est terminé !\n\nLes honorables juges ont conclu que la peine appropriée était %sentence%.\n\nLa punition prévue était %sentence_public%.\n\n%trial_results%";
 		},
 		LocDirectEntry
 		{
 			Key = "$notification.trial.results.SingleVote";
 			Text = "%voter% a voté pour %sentence%.";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.trial.results.SingleVote.female";
+			Text = "%voter% a votée pour %sentence%.";
 		},
 		LocDirectEntry
 		{
@@ -28699,38 +28679,118 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$gui.HireEmployee.NoFreeSlot.Title";
+			Text = "Impossible d'embaucher un employé";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.HireEmployee.NoFreeSlot.Message";
+			Text = "Vous n'avez pas d'espace libre pour un autre employé de ce type.";
+		},
+		LocDirectEntry
+		{
+			Key = "$connection.MissingServerPings";
+			Text = "La connexion à l'hôte a expiré !";
+		},
+		LocDirectEntry
+		{
+			Key = "$connection.ResumedServerPings";
+			Text = "La connexion à l'hôte a repris !";
+		},
+		LocDirectEntry
+		{
+			Key = "$connection.PlayerDisconnected";
+			Text = "%character% a été déconnecté.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.return.to.mainmenu";
+			Text = "Quitter vers le Menu Principal";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.GameVersion";
+			Text = "Version";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.WrongGameVersion";
+			Text = "Votre version actuelle du jeu ne correspond pas à la version du jeu de la partie sélectionnée. Veuillez sélectionner une autre partie.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.FetchingOnlineGames";
+			Text = "Chargement de la liste de jeux en ligne...";
+		},
+		LocDirectEntry
+		{
+			Key = "$quests.started.title";
+			Text = "Vous avez reçu une nouvelle quête !";
+		},
+		LocDirectEntry
+		{
+			Key = "$quests.started.body";
+			Text = "%objective%";
+		},
+		LocDirectEntry
+		{
+			Key = "$Inebriated";
+			Text = "Incontrôlablement ivre";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.Drunk";
+			Text = "Incontrôlablement ivre";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.DrunkDesc";
+			Text = "Tu as trop bu. Vous ne contrôlez pas votre corps.";
+		},
+		LocDirectEntry
+		{
+			Key = "$Drink";
+			Text = "Boit";
+		},
+		LocDirectEntry
+		{
+			Key = "$DrinkDesc";
+			Text = "Vous buvez actuellement une boisson rafraîchissante.";
+		},
+		LocDirectEntry
+		{
+			Key = "$Eat";
+			Text = "Mange";
+		},
+		LocDirectEntry
+		{
+			Key = "$EatDesc";
+			Text = "Vous profitez actuellement d'un délicieux repas.";
+		},
+		LocDirectEntry
+		{
 			Key = "$notification.PoliticalPowerResultDescription";
-			Text = "L'administration de la ville a pris une décision.";
+			Text = "La chambre a pris une décision.";
 		},
 		LocDirectEntry
 		{
-			Key = "$action.Longshore.CriticalFail";
-			Text = "%character%,que vous avez envoyé dans un long voyage, n'est pas revenu..\nVotre dynastie est en deuil...";
+			Key = "$notification.LiaisonOnJourney";
+			Text = "Oh quelle mauvaise fortune ! Votre amant %CharacterSource% a été envoyé loin de vous. Vos sources vous disent qu'il est très probable que la dynastie %FamilySource% ait pris connaissance de votre liaison avec lui et qu'elle a pris cette mesure pour vous séparer.";
 		},
 		LocDirectEntry
 		{
-			Key = "$action.Longshore.CriticalFail.female";
-			Text = "%character%,que vous avez envoyée dans un long voyage, n'est pas revenue..\nVotre dynastie est en deuil...";
+			Key = "$notification.LiaisonOnJourney.female";
+			Text = "Oh quelle mauvaise fortune ! Votre amante %CharacterSource% a été envoyé loin de vous. Vos sources vous disent qu'il est très probable que la dynastie %FamilySource% ait pris connaissance de votre liaison avec elle et qu'elle a pris cette mesure pour vous séparer.";
 		},
 		LocDirectEntry
 		{
-			Key = "$action.Longshore.Fail";
-			Text = "%character%, que vous avez envoyé sur un long voyage est revenu avec de mauvaises nouvelles. Il semble que, malgré ses efforts pour nouer des contacts commerciaux sur des pays étrangers, il ait fait ou dit quelque chose qui soit une insulte envers les locaux et il a donc été chassé de la ville\n\nmPeut être que vous devriez attendre un peu avant de retourner là-bas.";
+			Key = "$notification.RomanceOnJourney";
+			Text = "On vous a dit que votre amoureux %CharacterSource% a été envoyée loin par sa famille. Vous ne pouvez pas être absolument sûr de savoir pourquoi, mais vos sources vous disent qu'il est très probable que la dynastie %FamilySource% ait découvert votre relation amoureuse et qu'elle ait voulue mettre un peu de distance entre vous deux.";
 		},
 		LocDirectEntry
 		{
-			Key = "$action.Longshore.Fail.female";
-			Text = "%character%, que vous avez envoyée sur un long voyage est revenue avec de mauvaises nouvelles. Il semble que, malgrée ses efforts pour nouer des contacts commerciaux sur des pays étrangers, elle ait fait ou dit quelque chose qui soit une insulte envers les locaux et il a donc été chassée de la ville\n\nmPeut être que vous devriez attendre un peu avant de retourner là-bas.";
-		},
-		LocDirectEntry
-		{
-			Key = "$action.Longshore2.CriticalFail";
-			Text = "%character% n'est toujours pas revenu de son voyage à l'étranger. Donc, vous ne pouvez que supposer qu'il est mort dans un pays étranger lointain…";
-		},
-		LocDirectEntry
-		{
-			Key = "$action.Longshore2.CriticalFail.female";
-			Text = "%character% n'est toujours pas revenue de son voyage à l'étranger. Donc, vous ne pouvez que supposer qu'elle est morte dans un pays étranger lointain…";
+			Key = "$notification.RomanceOnJourney.female";
+			Text = "On vous a dit que votre amoureuse %CharacterSource% a été envoyée loin par sa famille. Vous ne pouvez pas être absolument sûr de savoir pourquoi, mais vos sources vous disent qu'il est très probable que la dynastie %FamilySource% ait découvert votre relation amoureuse et qu'elle ait voulue mettre un peu de distance entre vous deux.";
 		},
 		LocDirectEntry
 		{
@@ -28740,12 +28800,2227 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$AuditBooksDesc";
-			Text = "La puissance de votre bureau vous permet de vérifier les livres de vos concurrents. Ce faisant, il y a toujours de bonnes chances que vous puissiez extraire des informations vitales de votre concurrent. Son utilisation dans l'entreprise d'un concurrent a une chance de trouver des preuves et de prendre de l'influence ainsi que de l'argent de la famille audité..";
+			Text = "L'autorit'e de votre position politique vous permet d'effectuer un audits de vos concurrents. Ce faisant, il y a toujours de bonnes chances que vous puissiez extraire des informations vitales sur votre concurrent. Son utilisation sur l'entreprise d'un concurrent a une chance de trouver des preuves et de prendre de l'influence ainsi que de l'argent à la famille audité.";
 		},
 		LocDirectEntry
 		{
 			Key = "$callToAction.CompetitorBusiness";
 			Text = "Sélectionnez l'entreprise d'un concurrent.";
+		},
+		LocDirectEntry
+		{
+			Key = "$quests.finished.title";
+			Text = "Vous avez terminé une quête !";
+		},
+		LocDirectEntry
+		{
+			Key = "$quests.finished.body";
+			Text = "Félicitations !";
+		},
+		LocDirectEntry
+		{
+			Key = "$objectives.executeAction.production.name";
+			Text = "Produire %item%";
+		},
+		LocDirectEntry
+		{
+			Key = "$objectives.executeAction.general.name";
+			Text = "Exécuter %action%";
+		},
+		LocDirectEntry
+		{
+			Key = "$objectives.destroyDynasty.name";
+			Text = "Détruire les autres dynasties";
+		},
+		LocDirectEntry
+		{
+			Key = "$objectives.destroyDynasty.description";
+			Text = "Les autres familles se tiennent sur votre chemin. Et qu'est-ce que le prêtre vous a toujours dit ? 'Que celui qui n'a jamais péché jette la première pierre' - vous êtes certainement pas sans péché, mais ce sera vous qui jettera la pierre. Ou du moins ce sera vous qui en donnera l'ordre.";
+		},
+		LocDirectEntry
+		{
+			Key = "$objectives.constructBuilding.general.name";
+			Text = "Construire plus de bâtiments de type [%building_type%]";
+		},
+		LocDirectEntry
+		{
+			Key = "$objectives.constructBuilding.upgrade.name";
+			Text = "Améliorer un bâtiment de type %building_type% au niveau %level%";
+		},
+		LocDirectEntry
+		{
+			Key = "$connection.ConnectionWarning";
+			Text = "Tentative de se reconnecter à l'hôte. Merci de patienter.";
+		},
+		LocDirectEntry
+		{
+			Key = "$objectives.gainNobilityTitle.name";
+			Text = "Obtenez le titre %level%";
+		},
+		LocDirectEntry
+		{
+			Key = "$objectives.diplomaticRelationships.alliance.name";
+			Text = "Maintenir des alliances avec d'autres dynasties";
+		},
+		LocDirectEntry
+		{
+			Key = "$objectives.diplomaticRelationships.feud.name";
+			Text = "Maintenir des querelles avec d'autres dynasties";
+		},
+		LocDirectEntry
+		{
+			Key = "$objectives.acquireOffice.acquire.name";
+			Text = "Acquérir le bureau %office%";
+		},
+		LocDirectEntry
+		{
+			Key = "$objectives.acquireOffice.hold.name";
+			Text = "Acquérir le bureau %office% et le garder plusieurs tours";
+		},
+		LocDirectEntry
+		{
+			Key = "$objectives.acquireOffice.acquire.any.name";
+			Text = "Acquérir n'importe quel bureau";
+		},
+		LocDirectEntry
+		{
+			Key = "$objectives.acquireOffice.hold.any.name";
+			Text = "Acquérir n'importe quel bureau et le garder plusieurs tours";
+		},
+		LocDirectEntry
+		{
+			Key = "$objectives.sellToMarket.name";
+			Text = "Gagnez %nb% pièces en commercant avec %market%";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.waiting.for.players";
+			Text = "En attente de connexion joueurs.";
+		},
+		LocDirectEntry
+		{
+			Key = "$statusEffect.whippedTransporters";
+			Text = "Transporteurs stimulés";
+		},
+		LocDirectEntry
+		{
+			Key = "$statusEffect.overwhippedTransporters";
+			Text = "Transporteurs souffrant";
+		},
+		LocDirectEntry
+		{
+			Key = "$statusEffect.overwhippedTransporter";
+			Text = "Tendu jusqu'au point de rupture";
+		},
+		LocDirectEntry
+		{
+			Key = "$GoodNeighborhoodRelationBuff";
+			Text = "Motivé par une bonne réputation";
+		},
+		LocDirectEntry
+		{
+			Key = "$BadNeighborhoodRelationBuff";
+			Text = "Démotivé par une mauvaise réputation";
+		},
+		LocDirectEntry
+		{
+			Key = "$pause.ConnectingClient";
+			Text = "Nouveau joueur se connecte";
+		},
+		LocDirectEntry
+		{
+			Key = "$pause.Disconnect";
+			Text = "Vous avez été déconnecté";
+		},
+		LocDirectEntry
+		{
+			Key = "$pause.Multiplayer.Lobby";
+			Text = "En attente que l'hôte démarre la partie";
+		},
+		LocDirectEntry
+		{
+			Key = "$pause.Saving";
+			Text = "Sauvegarde en cours";
+		},
+		LocDirectEntry
+		{
+			Key = "$pause.inEditor";
+			Text = "Le jeu n'est pas simulé dans l'éditeur";
+		},
+		LocDirectEntry
+		{
+			Key = "$pause.ByUser";
+			Text = "Pause manuelle";
+		},
+		LocDirectEntry
+		{
+			Key = "$scenarios.warmonger.poison.name";
+			Text = "Utilisez du poison sur vos adversaires";
+		},
+		LocDirectEntry
+		{
+			Key = "$scenarios.cityRuler.offices.name";
+			Text = "Placez votre famille dans la plus haute fonction";
+		},
+		LocDirectEntry
+		{
+			Key = "$scenarios.powerfulDynasty.offices.name";
+			Text = "Placez votre famille dans la plus haute fonction";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.CustomGame.CampaignSetup";
+			Text = "Configurer scenario";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.WrongPasswordAlert";
+			Text = "Le mot de passe entré est incorrect";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.PlayWithOthers";
+			Text = "Sortir et jouer";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.PlayWithOthersDesc";
+			Text = "Vous ennuyez-vous ? Vous ne savez pas quoi faire de toute votre énergie de jeunesse ? Sortez et trouvez des enfants avec qui jouer ! Cela augmentera votre réputation auprès des autres dynasties et quartiers.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.StackBoxes";
+			Text = "Empiler des caisses au marché";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.StackBoxesDesc";
+			Text = "Vous êtes jeune et fort, alors sortez et rendez-vous utile ! Aidez les commerçants au marché, vous gagnerez peut-être quelques pièces et le quartier l'appréciera certainement.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.CatchRats";
+			Text = "Chasser les rats";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.CatchRatsDesc";
+			Text = "Les rats sont pires que tout ! Ils détruisent la nourriture stockée et portent des maladies. Allez traquer quelques-unes de ces petites saloperies ! Attraper des rats augmentera votre réputation auprès des propriétaires d’entreprises où vous les avez attrapés.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.ApologizeToNeighbors";
+			Text = "Présenter ses excuses aux voisins";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.ApologizeToNeighborsDesc";
+			Text = "Vos petits coquins ne sont pas toujours sages, alors il y a certainement des choses pour lesquelles vous pouvez vous excuser auprès des voisins ! Cela augmentera votre réputation auprès des quartiers.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.RaidTheKitchens";
+			Text = "Piller les cuisines";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.RaidTheKitchensDesc";
+			Text = "À l'heure actuelle, vous vous feriez bien une bonne tarte sucrée ou peut être une saucisse savoureuse ? Votre faim doit être rassasiée. Allez piller une cuisine quelque part ! En cas de succès, cela vous donnera un bonus temporaire de santé et de vitesse et l'agitation que vous aurez causé entraînera une réduction temporaire de la satisfaction de la clientèle de l’entreprise pillée.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.ReadStories";
+			Text = "Lire des histoires à d'autres";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.ReadStoriesDesc";
+			Text = "Tout le monde n'a pas eu la chance de naître dans une famille prospère qui a pu les envoyer à l'école. Utilisez votre privilège et lisez des histoires de héros et de contrées lointaines pour divertir ceux qui ne peuvent pas lire eux-mêmes. Cela augmentera votre réputation auprès des auditeurs et vous gagnerez de l'influence pour votre famille.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.GoCampaigning";
+			Text = "Faire campagne";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.GoCampaigningDesc";
+			Text = "La foule... euh... les honnêtes gens ont la vie dure ces jours-ci car ils sont dominés et exploités par la noblesse, le clergé et les riches dynasties familiales. Bien, pas par la votre, mais par les autres... Allez donc parler à la foule... euh... aux gens du peuple et convaincez-les que votre dynastie est différente de toutes les autres. Cela augmentera votre réputation dans le village ou le quartier et vous gagnerez en influence.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.Palmistry";
+			Text = "Chiromancie";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.PalmistryDesc";
+			Text = "Vous ne savez pas comment lire l'avenir d'une personne dans sa paume ? Peu importe, eux non plus ! Tout ce qui compte c'est que vous les laissiez penser que vous pouvez pouvoir le faire. Faites le tour de la ville pour lire l’avenir des gens contre une petite pièce. Ils seront heureux, vous gagnerez de l'argent. C'est gagnant-gagnant.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.TakeFencingClass";
+			Text = "Assister à un cours d'escrime";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.TakeFencingClassDesc";
+			Text = "Allez assister à un cours d'escrime. Cela aidera à améliorer de façon permanente votre puissance d’attaque.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.SimpleRepairs";
+			Text = "Faire de l'entretien simple";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.SimpleRepairsDesc";
+			Text = "Vous n'avez pas besoin de payer une somme quelconque pour réparer vos bâtiments. Avec suffisamment de temps et de motivation, vous êtes très capable de faire vous-même du travail de maintenance ! Utilisez ceci sur les bâtiments pour restaurer certains points de structure.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.TakeMedicineClass";
+			Text = "Assister à un cours de secourisme";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.TakeMedicineClassDesc";
+			Text = "Dans ce monde hostile, les premiers secours peuvent toujours être utiles. Assistez à un cours dans votre école locale pour apprendre les bases. Cela vous donnera un bonus permanent à votre compétence Médicine.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.SendToMonastery";
+			Text = "Envoyer au monastère";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.SendToMonasteryDesc";
+			Text = "Les membres de votre famille s'engagent-ils dans des relations amoureuses que vous n'approuvez pas ? Envoyez-les servir quelques tours au monastère. Avec le temps, leur affection s'effacera et, à leur retour, ils seront plus sages et plus respectés.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyTree1";
+			Text = "L'arbre de la dynastie montre tous les membres d'une famille.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyTree2";
+			Text = "Avoir une grande famille est cruciale afin d'être moins vulnérable par rapport à vos concurrents. Surtout au début du jeu, vous devez vous assurer d'obtenir beaucoup d'héritiers potentiels.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyTree3";
+			Text = "Habituellement, le premier-né sera choisi comme l'héritier légitime mais vous pouvez nommer un nouvel héritier avec le nouveau bouton Choisir héritier si vous voyez un plus grand potentiel de leadership dans un autre enfant. Mais sachez le, votre héritier actuel ne l'appréciera pas.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyTree4";
+			Text = "Si votre famille s'étend sur plusieurs générations, vous pouvez naviguer dans votre Arbre dysnatique en le faisant glisser avec votre souris.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyTree5";
+			Text = "Arbre généalogique";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyTree6";
+			Text = "Augmentez votre famille";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyTree7";
+			Text = "Héritage";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyTree8";
+			Text = "Navigation";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.TitlesAndSkillTree1";
+			Text = "Titres";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.TitlesAndSkillTree2";
+			Text = "Afin de progresser dans la société de votre famille a besoin d'acquérir des titres plus élevés. Avec tous les titres que vous débloquerez de nouvelles compétences et privilèges. Réclamer un titre peut vous coûter argent, influence ou même les deux.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.TitlesAndSkillTree3";
+			Text = "Détails";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.TitlesAndSkillTree4";
+			Text = "Pour obtenir des détails sur chaque titre il suffit de déplacer le curseur de la souris sur le titre ou la compétence qui vous intéresse. Vous verrez ce dont vous avez besoin pour déverrouiller le titre ou la compétence et quels serontt vos avantages.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.TitlesAndSkillTree5";
+			Text = "Compétences";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.TitlesAndSkillTree6";
+			Text = "Le dévérouillage et l'achat de compétences est crucial dans The Guild 3. Les compétences débloquent de nouveaux éléments, des bâtiments et des compétences de personnage. Certaines compétences améliorent également les statistiques des membres de votre famille ou des employés.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.TitlesAndSkillTree7";
+			Text = "Chemins de compétence";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.TitlesAndSkillTree8";
+			Text = "Il y a plusieurs chemins de compétence dans lesquelles pouvez investir. Comme les compétences sont coûteuses, il est logique de se concentrer d'abord sur le chemin des compétences que vous avez sélectionné lors du démarrage du jeu.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.TitlesAndSkillTree9";
+			Text = "Achat de compétence";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.TitlesAndSkillTree10";
+			Text = "Afin d'acheter une compétence faite un clique gauche sur son icône. Vous ne pouvez acheter des compétences que vous avez déjà déverrouillé.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Statistics1";
+			Text = "Statistiques";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Statistics2";
+			Text = "La fenêtre de statistiques vous donne un aperçu de vos revenus et dépenses. Il montre également le rang de votre famille par rapport à vos concurrents.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Statistics3";
+			Text = "Entreprises et Résidences";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Statistics4";
+			Text = "Vous pouvez sélectionner une entreprise ou une résidence dans la fenêtre et vous verrez toutes les données importantes relatives au bâtiment sélectionné.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Statistics5";
+			Text = "Famille";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Statistics6";
+			Text = "L'onglet famille présente les charges et produits liés aux actions et les salaires des membres de votre famille et les employés.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Statistics7";
+			Text = "Points de victoire";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Statistics8";
+			Text = "L'onglet Points de victoire montre la position de votre famille par rapport à d'autres dynasties. Vous pouvez sélectionner le top 5 ou sélectionner individuellement les dynasties que vous souhaitez comparer.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Statistics9";
+			Text = "Chronologie";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Statistics10";
+			Text = "Si vous voulez voir les statistiques pour un certain laps de temps, vous pouvez sélectionner les années que vous voulez voir sur la fenêtre.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.CharacterInspection1";
+			Text = "Fenêtre du personnage";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.CharacterInspection2";
+			Text = "Dans la fenêtre de personnage vous pouvez trouver toutes les informations sur un personnage, ce qu'il a d'équipé, ce qui est dans son inventaire et aussi la progression du niveau du personnage.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.CharacterInspection3";
+			Text = "Équipement";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.CharacterInspection4";
+			Text = "Vous pouvez équiper votre personnage en tirant et déposant un élément valide dans l'un 5 slots d'équipements ou dans l'un des 3 slots d'artefacts.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.CharacterInspection5";
+			Text = "Les attributs";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.CharacterInspection6";
+			Text = "Tous les personnages ont des attributs et attributs secondaire. Les objets et les effets de statut peuvent influer sur les attributs et les attributs secondaires. Vous pouvez obtenir des informations détaillées en plaçant le curseur de la souris sur un attribut.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.CharacterInspection7";
+			Text = "Niveaux de personnages";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.CharacterInspection8";
+			Text = "Chaque fois que les personnages exécutent des actions ils gagneront des points d'experience. L'XP est nécessaire pour augmenter le niveau de votre personnage. Vous pouvez améliorer les attributs de personnage à chaque nouveau niveau.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyOverview1";
+			Text = "Livre des Dynasties";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyOverview2";
+			Text = "Le ?Book de Dynasties? vous permet d'obtenir des informations très importantes sur vous concurrents, porter plainte et obtenir des informations sur la popularité de chaque dynastie dans la ville.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyOverview3";
+			Text = "dynasties";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyOverview4";
+			Text = "Dans l'onglet Livre des Dynasties vous pouvez accéder à l'arbre généalogique d'une dynastie. Vous pouvez aussi voir tous les bâtiments que contrôle la dynastie.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyOverview5";
+			Text = "Attitude";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyOverview6";
+			Text = "Une autre information importante sur une dynastie sont les Attitudes: Honnête & Sombre, Généreuse & Egoïste et Diplomatique & Agressive. Chaque fois que vous ordonnez un de vos personnages d'effectuer une action,  gardez à l'esprit que cela peut changer la valeur de l'attitude de votre dynastie !\n\nPlus tard dans le jeu les Guildes inviteront les dynasties dans leur cercle si les attitutes de la dynastie et de la guilde correspondent.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyOverview7";
+			Text = "Romances";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyOverview8";
+			Text = "Dans l'onglet romances vous pouvez voir tous les Romances de vos personnages.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyOverview9";
+			Text = "Otages";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyOverview10";
+			Text = "Chaque personnage que vous kidnappé se trouve dans l'onglet Otages. Vous pouvez décider de libérer le personnage ou si vous voulez ou échanger le personnage via un Echange entre Dynastie pour obtenir une rançon.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyOverview11";
+			Text = "Popularité";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyOverview12";
+			Text = "L'onglet Popularité montre la relation d'une dynastie avec chaque village et chaque quartier d'une ville. Qu'un district vous aime ou non a un impact important sur la productivité, l'attractivité de votre magasin et ce à quoi ils s'attendent lorsqu'ils vous devait subir un procès.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyOverview13";
+			Text = "Preuves";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyOverview14";
+			Text = "Tout au long du jeu, les dynasties rassemblent des preuves. Vous pouvez voir des preuves que vous détenez dans le Livre des dynasties. Les preuves peuvent être utilisées pour traîner un personnage devant le tribunal ou elles peuvent également être vendues dans les Echanges entre Dynasties.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyOverview15";
+			Text = "Relation de la dynastie";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyOverview16";
+			Text = "Pour voir la relation entre les dynasties, survolez les armoiries respectives avec le curseur de votre souris.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Guilds1";
+			Text = "Guildes";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Guilds2";
+			Text = "Dès que votre famille sera suffisamment puissante et si les attitudes de votre dynastie correspondent avec les attitudes d'une des guildes, votre famille pourra recevoir une invitation de guilde.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Guilds3";
+			Text = "Avantages";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Guilds4";
+			Text = "Être dans une guilde débloquera de nouvelles actions pour votre dynastie et vous recevrez également des améliorations spécifiques à la guilde.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Guilds5";
+			Text = "Inconvénient";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Guilds6";
+			Text = "Il n'y a pas d'avantages sans coûts. Les différentes guildes d'un scénario se voient comme des rivales et rejoindre l'une d'entre elles aura un impact sur les relations entre les familles des guildes concurrentes.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Guilds7";
+			Text = "Quitter une guilde";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Guilds8";
+			Text = "Vous pouvez quitter une guilde de votre plein gré mais vous pouvez également vous faire expulser d'une guilde si l'attitude de votre famille commence à s'écarter de celle de la guilde.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.QuestLog1";
+			Text = "Livre de quête";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.QuestLog2";
+			Text = "Dans le Livre de Quêtes vous pouvez trouver, si vous avez sélectionné une campagne familiale, vos quêtes actives, mais également les opportunités de commerce à l'étranger actuellement actives.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.QuestLog3";
+			Text = "Quêtes";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.QuestLog4";
+			Text = "Dans la section Quêtes disponibles, vous trouverez vos quêtes et leur progression. Pour obtenir plus de détails, il suffit de cliquer sur une quête de la liste.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.QuestLog5";
+			Text = "Ordres commerciaux";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.QuestLog6";
+			Text = "Les ordres commerciaux sont généralement des opportunités pour vous d’acheter à bas prix ou de vendre à prix fort à d’autres villes. Faite un clique gauche sur l'ordre pour obtenir plus d'informations.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Politics1";
+			Text = "Politique";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Politics2";
+			Text = "Pour vaincre les concurrents de votre famille, vous devrez faire de la politique. L'Organigramme politique dans les Dossiers de la ville indique qui occupe quel siège. Chaque siège confère au propriétaire des pouvoirs et des actions politiques. De plus, la ville va vous payer pour vos efforts.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Politics3";
+			Text = "Obtenir un siège";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Politics4";
+			Text = "Avant de pouvoir proposer la candidature à un siège avec un membre de votre famille, vous devez bénéficier de ce privilège. Les privilèges pour occuper certains postes sont attribués par les titres.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Politics5";
+			Text = "Période de candidature";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Politics6";
+			Text = "Il y a une période de candidature pour chaque siège. Ce n'est que pendant cette période qu'un personnage peut postuler. Vous pouvez voir si la période de candidature est active à l'aide de l'icône de plume située à côté du siège du bureau.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Politics7";
+			Text = "Lois de la ville";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Politics8";
+			Text = "Si vous sélectionnez l'onglet Lois de la ville, vous pouvez voir toutes les différentes lois de la ville et ce qui est légales ou non.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.PoliticsDetails1";
+			Text = "Détails du siège";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.PoliticsDetails2";
+			Text = "Vous pouvez cliquer sur l'icône Plume ou Calendrier à côté d'un siège pour ouvrir la fenêtre des détails du siège. Vous y trouverez toutes les informations utiles concernant le siège.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.PoliticsDetails3";
+			Text = "Postuler";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.PoliticsDetails4";
+			Text = "Pour postuler, vous devez cliquer avec le bouton gauche de la souris sur le bouton Postuler et sélectionner le personnage avec lequel vous souhaitez postuler.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.AreaMap1";
+			Text = "Carte";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.AreaMap2";
+			Text = "La fenêtre carte vous donne un aperçu de toute la ville. Vous pouvez voir qui possède quoi et pouvez également envoyer vos personnages dans des bâtiments en cliquant avec le bouton droit de la souris sur un bâtiment sur la carte.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.AreaMap3";
+			Text = "Contrôles";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.AreaMap4";
+			Text = "Vous pouvez zoomer et dézoomer en utilisant les boutons en bas à droite.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.AreaMap5";
+			Text = "Pour vous déplacer sur la carte, vous pouvez tirer la carte avec le bouton gauche de la souris.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.AreaMap6";
+			Text = "Filtres de carte";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.AreaMap7";
+			Text = "Pour obtenir plus de détails sur le scénario, vous pouvez ouvrir le menu Filtres de carte. Il vous montrera le nombre de gardes, d'habitants et d'autres informations par village ou quartier.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.BuildBuilding1";
+			Text = "Construire un bâtiment";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.BuildBuilding2";
+			Text = "Dans la fenêtre Construire un bâtiment, vous pouvez choisir les résidences et entreprises à construire.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.BuildBuilding3";
+			Text = "Résidences";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.BuildBuilding4";
+			Text = "Votre famille a besoin d’un endroit où vivre. Votre résidence principale est également votre lieu d’opération familiale. Certains bâtiments résidentiels ne peuvent être construits qu'en ville, d'autres seulement à la campagne.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.BuildBuilding5";
+			Text = "Entreprises";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.BuildBuilding6";
+			Text = "Les entreprises sont essentielles pour que votre dynastie gagne de l’argent. Il y a une limite au nombre d'entreprises que vous êtes autorisé à construire et à exploiter. Réclamez des titres plus élevés pour exploiter plus d'entreprises.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.BuildBuilding7";
+			Text = "Améliorer le bâtiment";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.BuildBuilding8";
+			Text = "Les entreprises peuvent être améliorées, mais gardez à l’esprit que les entreprises de niveau 2 et 3 ne peuvent être construites que dans la ville.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.BuildBuilding9";
+			Text = "Comment construire un bâtiment ?";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.BuildBuilding10";
+			Text = "Cliquez avec le bouton gauche de la souris sur le bâtiment que vous souhaitez construire, entrez un nom, puis sélectionnez une place libre sur la carte.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.PoliticalPowerProposal1";
+			Text = "Privilèges de siège";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.PoliticalPowerProposal2";
+			Text = "Si vous avez un siège politique, vous pourrez utiliser des pouvoirs politiques, proposer des modifications à la loi et bien sûr voter sur les propositions des autres.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.PoliticalPowerProposal3";
+			Text = "Proposer";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.PoliticalPowerProposal4";
+			Text = "Pour proposer des modifications, vous devez sélectionner un pouvoir politique dans la barre d'action de votre personnage, effectuer les modifications souhaitées, puis cliquer sur le bouton Proposer. Un rendez-vous sera programmé dans lequel tous les membres du bureau voteront et décideront.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.PoliticalPowerProposal5";
+			Text = "Voter";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.PoliticalPowerProposal6";
+			Text = "Si vous votez sur une proposition, il peut y avoir plusieurs propositions ou une seule sur laquelle voter. Pour voter, il vous suffit de cliquer sur le bouton de vote situé sous les noms des membres de votre famille dans la fenêtre de vote.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.ProductionWindow1";
+			Text = "Production";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.ProductionWindow2";
+			Text = "Le Menu Production est l'un des menus les plus importants du jeu. Ici, vous pouvez embaucher et licencier des employés, attribuer des tâches, définir un budget pour des transporteurs automatisés, améliorer l'entreprise et également vendre des marchandises via le magasin.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.ProductionWindow3";
+			Text = "Embaucher des transporteurs";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.ProductionWindow4";
+			Text = "Pour engager un transporteur, cliquez simplement sur le bouton Embaucher Transporteur. Le nombre de transporteurs que vous pouvez avoir dans une entreprise est limité. Vous pouvez augmenter le montant via des améliorations d'entreprise.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.ProductionWindow5";
+			Text = "Utiliser les transporteurs";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.ProductionWindow6";
+			Text = "Les transporteurs sont automatisés par défaut, ce qui signifie qu'ils vont commencer à acheter et à vendre des articles en fonction des ordres de production attribué à vos travailleurs. Vous pouvez également attribuer manuellement des itinéraires à un transporteur en cliquant sur le bouton Itinéraires commerciaux.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.ProductionWindow7";
+			Text = "Embaucher des travailleurs";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.ProductionWindow8";
+			Text = "Pour embaucher un travailleur, cliquez simplement sur le bouton embaucher un travailleur. Le nombre de postes de travail que vous pouvez avoir dans une entreprise est limité. Le montant peut être augmenté via des améliorations d'entreprise.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.ProductionWindow9";
+			Text = "Assigner du travail";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.ProductionWindow10";
+			Text = "Vous pouvez soit automatiser un ouvrier en cliquant sur le bouton automatiser. Le travailleur décidera quels produits fabriquer.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.ProductionWindow11";
+			Text = "Pour affecter manuellement ce que vous voulez produire, il vous suffit de faire glisser un produit depuis le côté droit vers l'emplacement du travailleur.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.ProductionWindow12";
+			Text = "Membres de la famille dans une entreprise";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.ProductionWindow13";
+			Text = "Les membres de la famille peuvent également travailler en tant que transporteurs ou travailleurs, mais gardez à l’esprit que les membres de la famille occuperont également un emplacement de travail. Le plus gros avantage est que vous n'avez pas à payer un salaire annuel à un membre de votre famille.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.ProductionWindow14";
+			Text = "Règles de stockage";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.ProductionWindow15";
+			Text = "Vous pouvez définir les règles de stockage afin d’optimiser davantage votre entreprise. Vous pouvez décider quels produits sont vendus et dans quelle mesure.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.ProductionWindow16";
+			Text = "IA Automatique";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.ProductionWindow17";
+			Text = "Pour que l'automatisation de votre entreprise fonctionne correctement, vous devez attribuer un budget. Cliquez simplement sur le bouton Affecter un budget et définissez un montant. Le budget sera réinitialisé chaque année.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.ProductionWindow18";
+			Text = "Amélioration des bâtiments";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.ProductionWindow19";
+			Text = "Vous pouvez acheter des améliorations pour votre entreprise dans le menu Amélioration. Elles augmenteront le nombre d'employés que vous pouvez engager et le degré de protection du bâtiment.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.ProductionWindow20";
+			Text = "Magasin";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.ProductionWindow21";
+			Text = "Vous pouvez utiliser le magasin pour vendre des articles directement depuis votre entreprise. Vous pouvez soit les ajouter manuellement, soit définir le nombre d'articles à vendre dans le magasin via les règles de stockage.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.ProductionWindow22";
+			Text = "Utiliser le magasin";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.ProductionWindow23";
+			Text = "Activer ou désactiver les règles de stockage pour le magasin à l’aide du bouton situé sous le magasin.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.ProductionWindow24";
+			Text = "Jeter des objets";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.ProductionWindow25";
+			Text = "Parfois, vous avez besoin rapidement d’espace et vous devez jeter des éléments. Pour ce faire, faites glisser une pile d'éléments que vous souhaitez supprimer sur l'icône de la corbeille en haut de l'écran.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Residence1";
+			Text = "Votre domicile";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Residence2";
+			Text = "Vous pouvez avoir plusieurs bâtiments de résidence, mais un seul est la résidence principale de votre famille. Si vous perdez votre domicile, vous avez 1 tour pour trouver une nouvelle résidence, sinon vous perdrez.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Residence3";
+			Text = "Famille";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Residence4";
+			Text = "La fenêtre de résidence principale répertorie tous les membres de votre famille qui se trouvent actuellement dans le bâtiment. Vous pouvez leur affecter une action ou produire des objets dits sociaux.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Residence5";
+			Text = "Actions avec votre famille";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Residence6";
+			Text = "L'affectation d'actions de la famille via la fenêtre de résidence automatisera ce membre de la famille. Il exécutera cette action jusqu'à ce que vous décidiez d'attribuer quelque chose de différent.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Residence7";
+			Text = "Objets sociaux";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Residence8";
+			Text = "Les objets sociaux amélioreront les attributs de vos personnages lorsqu'ils seront appliqués.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Residence9";
+			Text = "Maintenance";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Residence10";
+			Text = "Les résidences se dégradent avec le temps. De temps en temps, vous devrez investir de l'argent pour effectuer des réparations. Vous pouvez le faire via le bouton de réparation ou la barre d’action.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.TradeRoutes1";
+			Text = "Routes de transport";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.TradeRoutes2";
+			Text = "Il est souvent judicieux de définir vos propres Routes de transport. En agissant de la sorte, vous avez le contrôle sur la destination du transporteur et sur ce qu'il achète ou vend.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.TradeRoutes3";
+			Text = "Création de route";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.TradeRoutes4";
+			Text = "Pour créer une route, cliquez simplement sur le bouton Nouvelle route. Une fenêtre s'ouvrira vous permettant de spécifier les détails.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.TradeRoutes5";
+			Text = "Assigner une route";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.TradeRoutes6";
+			Text = "Pour attribuer une route à un transporteur, il suffit de sélectionner une route dans la liste et de cliquer sur confirmer. Pour automatiser le transporteur, il suffit de sélectionner Route automatique et d'appuyer sur confirmer.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.traderoute.automatic";
+			Text = "Route automatique";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.TradeRoutes7";
+			Text = "Modifier routes";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.TradeRoutes8";
+			Text = "Vous pouvez modifier des routes existantes en cliquant sur le bouton Modifier juste à côté d'une route commerciale.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.TradeRoutes9";
+			Text = "Supprimer routes";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.TradeRoutes10";
+			Text = "Pour supprimer une route, cliquez simplement sur l'icône de corbeille située juste à côté de la route que vous souhaitez supprimer.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.TradeRoutesDetail1";
+			Text = "Préparer votre route";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.TradeRoutesDetail2";
+			Text = "Dans la fenêtre de détail de route commerciale, vous pouvez configurer la route comme vous le souhaitez. Vous pouvez sélectionner des destinations, définir la séquence et bien sûr les produits à ramasser et ceux à déposer.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.TradeRoutesDetail3";
+			Text = "Ajout et suppression de destinations";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.TradeRoutesDetail4";
+			Text = "Vous pouvez ajouter ou supprimer des destinations en cliquant sur le bouton + ou - juste à côté de l’emplacement de destination. Alternativement, vous pouvez sélectionner une destination via la liste déroulante ou via la carte.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.TradeRoutesDetail5";
+			Text = "Affectation d'articles";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.TradeRoutesDetail6";
+			Text = "Pour définir un article qui doit être chargé ou déchargé, il suffit de cliquer sur un emplacement de l'une des deux sections. Un menu affichant tous les articles apparaîtra. Sélectionnez l'article que vous voulez et confirmez.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.TradeRoutesDetail7";
+			Text = "Quantité";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.TradeRoutesDetail8";
+			Text = "Utilisez les boutons situés sous un emplacement d’article pour contrôler la quantité d’articles à charger ou à décharger.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.TradeRoutesDetail9";
+			Text = "Routes commerciales défectueuses";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.TradeRoutesDetail10";
+			Text = "Sachez que le transporteur essaiera d'exécuter exactement ce que vous avez configuré dans les détails de la route commerciale. Il est donc préférable de toujours vérifier d’une destination à l’autre si les éléments sont configurés pour être correctement chargés ou déchargés.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyTrade1";
+			Text = "Echange dynastique";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyTrade2";
+			Text = "Les Echanges dynastique vous permettent de négocier des accords avec d'autres dynasties. Vous pouvez faire des alliances, organiser des mariages, vendre des bâtiments et bien plus encore.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyTrade3";
+			Text = "Proposer une offre";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyTrade4";
+			Text = "Pour proposer une offre, vous devez sélectionner sur votre côté de la fenêtre toutes les choses que vous proposez et sélectionner celles que vous souhaitez avoir en retour. Si votre proposition vous convient, cliquez sur le bouton Proposer. L’autre famille recevra l’offre et répondra.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyTrade5";
+			Text = "Réagir à une offre";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyTrade6";
+			Text = "Si vous recevez une offre d'échange, une notification urgente apparaîtra. Cliquez sur la notification pour ouvrir la fenêtre Echanges dynastique. Vous verrez ce qui a été proposé. Vous pouvez maintenant accepter ou refuser.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyTrade7";
+			Text = "Réputation";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyTrade8";
+			Text = "Forcer vos homologues à faire de mauvaises affaires aura un impact négatif sur votre réputation. Si vous êtes généreux, votre réputation auprès de l'autre dynastie augmentera.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Calendar1";
+			Text = "Rendez-vous";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Calendar2";
+			Text = "Les votes et les procès sont affichés en tant que rendez-vous dans le calendrier. Vous pouvez obtenir plus de détails en cliquant sur le bouton en haut à droite.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.CalendarAppointment1";
+			Text = "Rendez-vous";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.CalendarAppointment2";
+			Text = "Il y a plusieurs raisons pour lesquelles un de vos personnages obtient un rendez-vous. Vous participez peut-être à un procès, à un vote de bureau ou à un vote sur une proposition. Selon la raison, vous verrez légèrement une fenêtre différente.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.CalendarAppointment3";
+			Text = "En tant que juge";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.CalendarAppointment4";
+			Text = "Si vous êtes juge, vous pourrez établir un verdict même avant le procès. Pour ce faire, il suffit de cliquer sur le bouton de verdict et de déplacer le curseur vers le verdict souhaité.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.CalendarAppointment5";
+			Text = "En tant qu'accusé";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.CalendarAppointment6";
+			Text = "Si vous êtes l'accusé, vous verrez qui va vous juger. Vous pouvez alors esasyer de vous débarrasser des juges ou améliorer votre relation avec eux pour minimiser le verdict.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.CalendarAppointment7";
+			Text = "Réunion de bureau";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.CalendarAppointment8";
+			Text = "Si vous êtes membre d'une chambre, vous voterez soit sur les candidats à un poste à la chambre, soit sur des propositions. Vous pouvez voir quelle est la proposition ou qui fait la demande.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.MessageLog1";
+			Text = "Journal des messages";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.MessageLog2";
+			Text = "Dans le Journal des messages, vous pouvez trouver toutes les notifications que vous recevez. Il affichera jusqu'à 100 messages.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.MessageLog3";
+			Text = "Filtre de message";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.MessageLog4";
+			Text = "Vous pouvez filtrer les messages via le bouton de filtrage. Sachez que vous avez un contrôle total alors vous pourriez passer à côté de messages importants si vous décidez de les filtrer tous.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Market1";
+			Text = "Marché";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Market2";
+			Text = "Le marché est l'endroit le plus important pour le commerce de toutes sortes de biens. Tout personnage peut acheter et vendre des biens depuis ou vers le marché.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Market3";
+			Text = "Echanger des articles";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Market4";
+			Text = "Les transporteurs automatisés ou les transporteurs sur une route commerciale exécuteront des transactions automatiquement. Si vous voulez acheter ou vendre des biens manuellement, vous devez envoyer un personnage au marché. Pour ce faire, il suffit de sélectionner un personnage et de cliquer avec le bouton droit sur le marché. Dès que le personnage arrive sur le marché, il apparaît dans la section Transport de la fenêtre du marché.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Market5";
+			Text = "Achat";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Market6";
+			Text = "Pour acheter des biens, faites simplement glisser un objet du marché dans un emplacement vide de l'inventaire de votre personnage. Dès que vous relâchez la fenêtre de transaction apparaîtra. Vous pouvez définir le nombre d'articles que vous souhaitez acheter. Les articles sont achetés sur confirmation. Bien sûr, vous avez besoin d’argent et de place pour réussir votre transaction.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Market7";
+			Text = "Vente";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Market8";
+			Text = "Vendre, c'est comme acheter dans l'autre sens. Faites glisser un objet que vous souhaitez vendre depuis l'inventaire de votre personnage sur le marché. À la sortie, la fenêtre de transaction apparaîtra. Vous pouvez définir le montant que vous souhaitez vendre. Les articles sont vendus sur confirmation.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Market9";
+			Text = "Catégories";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.Market10";
+			Text = "Les articles sur le marché sont triés dans plusieurs catégories. Pour filtrer les éléments par catégorie, sélectionnez simplement la catégorie à inspecter. Si vous voulez voir tous les biens qui sont actuellement importants pour vous dans une vue d'ensemble, vous pouvez également cliquer sur le bouton Afficher les biens importants.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.FrontStore1";
+			Text = "Magasin";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.FrontStore2";
+			Text = "Une autre façon d’acheter des biens est de passer par le magasin d’autres entreprises. Si cela ne vous dérange pas d'acheter auprès de vos concurrents, cela peut être un bon moyen d'économiser de l'argent, mais attention, cela peut aussi être plus cher que le marché.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.FrontStore3";
+			Text = "Achat";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.FrontStore4";
+			Text = "Pour acheter un objet dans un magasin, faites simplement glisser un objet du magasin dans un emplacement vide de l'inventaire de votre personnage. La fenêtre de transaction apparaît dans laquelle vous pouvez définir le nombre d'articles que vous souhaitez acheter.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.CameraControls1";
+			Text = "Contrôle de la caméra";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.CameraControls2";
+			Text = "Vous pouvez déplacer la caméra à l’aide des touches fléchées $(#23)$(#13)$(#20)$(#15) ou en déplaçant le pointeur de votre curseur sur le bord de l’écran. Pour zoomer, utilisez la molette de la souris ou les touches Page Up et Page Down. Pour faire pivoter la caméra, vous pouvez utiliser $(#19) et $(#16) ou maintenir la molette de la souris enfoncée et déplacer la souris.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.CameraControls3";
+			Text = "Déplacer";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.CameraControls4";
+			Text = "$(#23)$(#13)$(#20)$(#15), utilisez les touches fléchées ou déplacez le curseur au bord de l'écran.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.CameraControls5";
+			Text = "Zoom";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.CameraControls6";
+			Text = "molette de la souris ou les touches Page Up et Page down.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.CameraControls7";
+			Text = "Pivoter";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.CameraControls8";
+			Text = "Soit les touches $(#19) et $(#16) ou maintenez la molette de la souris enfoncée et déplacez la souris.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.CameraControls9";
+			Text = "Incliner";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.CameraControls10";
+			Text = "Inclinez votre caméra en appuyant sur la molette de la souris et déplacez votre souris. L'inclinaison n'est disponible qu'en mode caméra libre.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.CameraControls11";
+			Text = "Modes de caméra";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.CameraControls12";
+			Text = "Vous pouvez basculer entre la caméra de stratégie et la caméra libre. La caméra libre permet l'inclinaison de la caméra.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.CharacterControls1";
+			Text = "Personnages et bâtiments";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.CharacterControls2";
+			Text = "Vous pouvez sélectionner des personnages et des bâtiments avec le bouton gauche de la souris. Les personnages ou les bâtiments peuvent également être sélectionnés en cliquant sur leur portrait dans une interface utilisateur. Pour déplacer un personnage que vous controlez faites un clic droit quelque part dans une rue ou le bâtiment que vous voulez atteindre.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.CharacterControls3";
+			Text = "Sélection";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.CharacterControls4";
+			Text = "Clique gauche pour sélectionner un personnage ou un bâtiment. Fonctionne de la même façon dans l'interface. Les personnages sélectionnés ou les bâtiments sont représentés en bas à gauche.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.CharacterControls5";
+			Text = "Déplacer";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.CharacterControls6";
+			Text = "Faites un clic droit sur une rue ou d'un bâtiment pour déplacer votre personnage sélectionné. Si vous déplacez un personnage dans un bâtiment, le personnage essaiera d'entrer dans ce bâtiment.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.CharacterControls7";
+			Text = "Centrer";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.CharacterControls8";
+			Text = "Pour déplacer la caméra à un personnage ou un bâtiments faite un double clic gauche sur le portrait ou appuyez sur la touche $(#24).";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Actions1";
+			Text = "Actions";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Actions2";
+			Text = "Les actions de personnages sont l'un des éléments les plus importants dans le jeu. Vous débloquerez plusieurs nouvelles actions dans le jeu pour les différents types de personnage.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Actions3";
+			Text = "Barre d'action";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Actions4";
+			Text = "Dès qu'un personnage ou d'un bâtiment est sélectionné, la barre d'action apparaît en bas à gauche. La barre est séparée en actions et catégories.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Actions5";
+			Text = "Sélection";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Actions6";
+			Text = "Pour sélectionner une action faite un clic gauche sur une action dans la barre d'action. Certaines actions ouvriront une interface, certains seront appliqués instantanément et d'autres doivent être appliquer sur une cible. Les cibles peuvent tous deux être sélectionnés dans le monde du jeu et dans les interfaces utilisateur.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Actions7";
+			Text = "Sélection de cible";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Actions8";
+			Text = "Les cibles valides pour une action sont mises en évidence en vert. les invalides sont surlignés en rouge. Pour savoir pourquoi une cible est invalide placez le pointeur de la souris sur la cible invalide.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Actions9";
+			Text = "Effets";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Actions10";
+			Text = "La plupart des actions ne sont pas un résultat fixe. La chance de succès dépend généralement des attributs de votre personnage et les attributs de la cible. Vous pouvez voir vos chances de succès dans la fenêtre de comparaison sur une cible en vol stationnaire valide.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Actions11";
+			Text = "Coûts et délais";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Actions12";
+			Text = "Les actions peuvent coûter de l'argent ou de l'influence. L'exécution d'une action prend généralement un certain temps. Certaines actions ont également une phase cooldown après qu'ils ont été exécutés.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Actions13";
+			Text = "Obtenir des détails";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Actions14";
+			Text = "Pour obtenir plus de détails sur une action, placez le pointeur de la souris sur cette action.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Actions15";
+			Text = "Actions de déverrouillage";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Actions16";
+			Text = "Certaines actions sont déverrouillées que si le personnage a l'élément correspondant dans l'inventaire, certaines ont besoin d'être déverrouillé par des titres, certaines via des compétences et certaines dépendent du type de personnage.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Romancing1";
+			Text = "Romances";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Romancing2";
+			Text = "Construire une famille est crucial dans The Guild 3. Il y a plusieurs façons d'obtenir un conjoint et des enfants. Faire des enfants nécessite un partenaire marié. Vous pouvez essayer de marier quelqu'un d'une autre dynastie par le commerce de la dynastie, mais au début du jeu, vous aurez probablement besoin de trouver un conjoint convenable dans votre ville ou village.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Romancing3";
+			Text = "Commencer sur une histoire d'amour";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Romancing4";
+			Text = "Avant de pouvoir se marier avec quelqu'un qui vous a tapé dans l'oeil sur, vous devez commencer une histoire d'amour. Cliquez sur le Commencer sur une histoire d'amour.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Romancing5";
+			Text = "Prétendants";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Romancing6";
+			Text = "Vous pouvez choisir quelqu'un dans la liste des personnages proposés ou choisir quelqu'un vous dans le monde en cliquant sur le bouton de sélection du monde.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Romancing7";
+			Text = "Assurez-vous que votre partenaire potentiel est à votre portée sociale, non marié et aussi encore assez jeune pour être en mesure de produire une descendance.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Romancing8";
+			Text = "Après avoir choisi votre conjoint potentiel, votre personnage va essayer de commencer une histoire d'amour.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Romancing9";
+			Text = "Courtiser";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Romancing10";
+			Text = "Si une histoire d'amour a commencé avec succès, vous pouvez maintenant commencer à faire la cour ce personnage. Vous pouvez faire des compliments, parler sale ou même essayer de donner un baiser. Si une action est réussie votre relation va s'améliorer.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Romancing11";
+			Text = "Demander en mariage";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Romancing12";
+			Text = "Si votre relation est devenue très forte, vous pouvez essayer de faire votre demande en mariage. Si votre amantr accepte, vous vous marierez.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Romancing13";
+			Text = "Echec constant ?";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Romancing14";
+			Text = "Si vos tentatives d'amour échouent souvent, vous pouvez essayer des personnages plus dans votre porté ou utiliser des objets sociaux. Le charisme est très important pour avoir du succès.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Offspring1";
+			Text = "Enfants";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Offspring2";
+			Text = "Essayez d'obtenir des enfants le plus tôt possible afin de vous assurer que votre dynastie survit.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Offspring3";
+			Text = "Produire une descendance";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Offspring4";
+			Text = "Si vous êtes marié, déplacer à la fois votre chef et de son conjoint dans votre domicile et exécuter l'action Faire une enfant. En cas de succès de la femme sera enceinte et vous aurez bientôt  un enfant. Parfois, il faut essayer plusieurs fois. Consultez les attributs de la fertilité des deux vos personnages si vous voulez en savoir plus.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Offspring5";
+			Text = "Adoption";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Offspring6";
+			Text = "Vous pouvez également adopter des enfants à l'église. Cela vous coûtera de l'argent et les attributs ne sont souvent pas aussi bon que les attributs des enfants de membres de votre famille.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Reputation1";
+			Text = "Réputation";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Reputation2";
+			Text = "Pour réussir avoir une bonne réputation et de bonnes relations est cruciale. Dans The Guild 3 toutes les autres dynastie et chaque quartier ont une relation avec votre dynastie.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Reputation3";
+			Text = "Popularité";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Reputation4";
+			Text = "La popularité reflète la façon dont votre dynastie est perçue par les habitants de chaque quartier et la ville. Nuire aux gens fait baisser votre popularité. Une faible popularité peut avoir plusieurs effets. Les entreprises dans un quartier à faible popularité attireront moins les clients et la productivité de vos travailleurs sera moins élevés. Si vous passez procès, les gens vont attendre une peine plus sévère simplement parce qu'ils ne vous aiment pas. Il y a plusieurs mesures qui permettent d'améliorer votre popularité.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Reputation5";
+			Text = "Relation";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Reputation6";
+			Text = "Votre dynastie a aussi des relations avec d'autres dynasties. En fonction de vos actions, pour ou contre une dynastie, il y aura une incidence sur ces relations.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Reputation7";
+			Text = "Mauvaise relation";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Reputation8";
+			Text = "Si votre relation tombe très bas l'autre dynastie peut même déclarer une querelle et commencer à attaquer vos employés et membres de la famille. Ils pourront également voter contre vous et vos propositions.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Reputation9";
+			Text = "Bonne relation";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Reputation10";
+			Text = "Si vous avez une bonne relation, ils pourront peuvent même proposer d'entrer dans une alliance, ils seront plus enclins à accepter des accords commerciaux et ils vorteront généralement également en votre faveur.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Resources1";
+			Text = "Ressources";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Resources2";
+			Text = "Il existe deux principales ressources de The Guild 3. L'argent et l'influence. Les deux sont essentiels pour progresser dans le jeu.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Resources3";
+			Text = "Argent";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Resources4";
+			Text = "Vous aurez besoin d'argent pour faire fonctionner vos entreprises, equiper vos personnages, exécuter des actions et beaucoup plus. Essayez toujours de rester dans le positif. Si votre argent tombe en dessous de zéro, vous avez un tour pour revenir à nouveau positif. Sinon, vous perdrez.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Resources5";
+			Text = "Influence";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Resources6";
+			Text = "Les actions particulièrement politiques auront besoin d'influence. L'influence peut être obtenu en augmentant la puissance de votre dynastie, en particulier en entrant dans les bureaux.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Time1";
+			Text = "Temps";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Time2";
+			Text = "The Guild 3 est joué par tours. Toutes les 24 heures est un tour. Avant de commencer un niveau, vous pouvez décider combien d'années doit passer par tour.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Time3";
+			Text = "Contrôle du temps";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Time4";
+			Text = "En mode solo, vous pouvez contrôler la vitesse a laquelle un tour à passer. Pour ce faire, vous pouvez utiliser les touches d'augmention ou de réduction de la vitesse ou les touches du clavier $(KEY_PLUS) et $(KEY_MINUS).";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GuidedTutorial.TutorialHowTo1";
+			Text = "Didacticiel";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GuidedTutorial.TutorialHowTo2";
+			Text = "Bienvenue à The Guild 3 ! Ce tutoriel devrait vous donner un aperçu des concepts de base du jeu.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GuidedTutorial.TutorialHowTo3";
+			Text = "Quêtes";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GuidedTutorial.TutorialHowTo4";
+			Text = "Une séquence de quêtes vous guidera à travers le tutoriel. Chaque quête débloquera de nouvelles informations pour vous.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GuidedTutorial.TutorialHowTo5";
+			Text = "Centre de tutoriel";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GuidedTutorial.TutorialHowTo6";
+			Text = "Ne vous inquiétez pas si vous fermez par erreur des informations importantes. Vous pouvez toujours ouvrir le centre de tutoriel pour voir les dernières informations déverrouillées.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GuidedTutorial.TutorialHowTo7";
+			Text = "Aide";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GuidedTutorial.TutorialHowTo8";
+			Text = "Si vous êtes intéressé dans les concepts de base du jeu tôt ou plus tard, vous pouvez toujours ouvrir la fenêtre de base de connaissances et de parcourir les différentes entrées.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GuidedTutorial.TutorialHowTo9";
+			Text = "Communauté";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GuidedTutorial.TutorialHowTo10";
+			Text = "Les jeux Guild ont une incroyable communauté, ne hésitez pas à visiter les forums et demander de l'aide ou de partager votre expérience.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Combat1";
+			Text = "Combat";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Combat2";
+			Text = "Il peut y avoir un temps où les mots ne suffisent plus et il est temps de se battre.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Combat3";
+			Text = "Attaquer quelqu'un";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Combat4";
+			Text = "Pour attaquer un personnage, sélectionnez l'action d'attaque et sélectionnez une cible valide.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Combat5";
+			Text = "Rejoindre";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Combat6";
+			Text = "Vous pouvez également rejoindre un combat. Pour ce faire il suffit de sélectionner l'action d'attaque et sélectionnez le personnage que vous voulez attaquer. Vous rejoindrez automatiquement l'équipe de l'autre personnage.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Combat7";
+			Text = "Gagner ou perdre";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Combat8";
+			Text = "Quand un personnage perd trop de points de santé il tombera inconscient. Si tous les personnages d'une équipe tombe inconsciente, cette équipe perd.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Combat9";
+			Text = "Après le combat";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Combat10";
+			Text = "Des actions comme tuer, briser les os ou de voler ne peuvent être exécutées que sur des personnages inconscients.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.HUD1";
+			Text = "ATH";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.HUD2";
+			Text = "Via votre ATH, vous aurez accès à la plupart des fonctionnalités de The Guild 3.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.HUD3";
+			Text = "Panneau Dynastie";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.HUD4";
+			Text = "Dans le panneau de la dynastie, vous pouvez voir votre quantité d'argent et de l'influence, ouvrir votre arbre de compétences, votre livre de budget et votre arbre généalogique. Vous avez également un accès rapide à votre chef, conjoint et héritier.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.HUD5";
+			Text = "panneau Méta";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.HUD6";
+			Text = "Le panneau méta vous permet d'accéder à la Livre de Dynasties,  Livre de Guildes, Livre de Quetes et Archives de la ville.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.HUD7";
+			Text = "Panneau Temps";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.HUD8";
+			Text = "Le panneau de contrôle du temps vous permet de contrôler la vitesse du jeu et vous donne des informations sur l'année et le temps.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.HUD9";
+			Text = "Panneau d'Accès rapide";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.HUD10";
+			Text = "Dans le panneau d'accès rapide, vous pouvez accéder au menu des options, la liste de bâtiment, la liste des membres de la famille, le bouton des personnages en attente, la liste des bâtiments espionné, la vue d'ensemble des transporteurs et le calendrier.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.HUD11";
+			Text = "Panneau Personnage";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.HUD12";
+			Text = "Le panneau de personnage vous permet d'accéder aux actions du personnage ou des bâtiments, la fenêtre d'inspection de personnage, la fenêtre du bâtiment et le journal des messages.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.HUD13";
+			Text = "Panneau Carte";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.HUD14";
+			Text = "Le panneau de carte vous permet d'accéder à la fenêtre du bâtiment de construction, la carte et vous permet de changer de mode de la caméra.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GuidedTutorial.ConstructBuilding1";
+			Text = "Construire un nouveau bâtiment";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GuidedTutorial.ConstructBuilding2";
+			Text = "Pour construire une entreprise faite un clic gauche sur le bouton construire un bâtiment.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GuidedTutorial.ConstructBuilding3";
+			Text = "Sélectionnez un bâtiment à construire.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GuidedTutorial.ConstructBuilding4";
+			Text = "Choisissez un nom";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GuidedTutorial.ConstructBuilding5";
+			Text = "Placez le bâtiment à côté de la rue et à proximité du marché.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GuidedTutorial.Produce1";
+			Text = "Production";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GuidedTutorial.Produce2";
+			Text = "Double-cliquez sur votre entreprise ou sélectionnez le bâtiment et cliquez sur Ouvrir le menu du bâtiment.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GuidedTutorial.Produce3";
+			Text = "Embaucher un transporteur";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GuidedTutorial.Produce4";
+			Text = "Cliquez sur Embaucher un employer dans la section transport du menu de production.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GuidedTutorial.Produce5";
+			Text = "Embaucher des travailleurs";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GuidedTutorial.Produce6";
+			Text = "Cliquez sur Embaucher un employer dans la section des travailleurs du menu de production.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GuidedTutorial.Produce7";
+			Text = "Glissez et déposez un produit dans la liste des produits sur vos employés travaillent sous.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GuidedTutorial.BuyTitle1";
+			Text = "Revendiquer un titre";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GuidedTutorial.BuyTitle2";
+			Text = "Ouvrez L'arbre des compétences.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GuidedTutorial.BuyTitle3";
+			Text = "Faite un clic gauch sur le bouton Revendiquer un titre.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.TutorialQuest.BuildBuilding1";
+			Text = "La première étape est toujours de construire une entreprise. Pour savoir comment il suffit d'ouvrir le Centre de tutoriel via le bouton tutoriel sur le dessus de l'ATH.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.TutorialQuest.ProduceItems1";
+			Text = "Pour compléter cette quête dont vous avez besoin pour produire certains produits. Pour ce faire, vous aurez besoin d'embaucher des travailleurs et des transporteurs. Un nouveau tutoriel a été ajouté à votre hub tutoriel. Vérifiez-le.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.TutorialQuest.ProduceSocialItems1";
+			Text = "Cette quête est une préparation pour les quêtes à venir. Dans votre résidence, vous pouvez créer des objets sociaux. Déplacez votre Avatar à votre résidence et produire une belle Flanelle.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.TutorialQuest.UseSocialItems1";
+			Text = "Cette quête vous montre comment vous pouvez améliorer vos attributs afin d'avoir plus de facilité en séduction. Équiper la Flanelle et vous voilà parti.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.TutorialQuest.StartRomance1";
+			Text = "Avant de pouvoir fonder une famille que vous devez avoir quelque chose pour le faire. Pour terminer cette quête, vous devrez commencer a courtiser quelqu'un. Si vous êtes chanceux, vous trouverez votre futur meilleur moitié.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.TutorialQuest.CourtRomance1";
+			Text = "Vous avez commencé une histoire d'amour ! Génial ! Maintenant, il est temps à la cour. Il y a quelques actions différentes que vous devriez faire pour améliorer la relation avec votre amant.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.TutorialQuest.Marriage1";
+			Text = "Il semble que vous trouvé le partenaire pour l'éternité. Maintenant, il est temps de conclure. Proposer un mariage.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.TutorialQuest.ProduceOffspring1";
+			Text = "Maintenant, il est temps d'obtenir un héritier. Rendez vous à vortre domicile avec votre conjoint. Cliquez ensuite sur l'action Faire un enfant pour... eh bien... pour faire un enfant. Bonne chance.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.TutorialQuest.BoastAboutExploits1";
+			Text = "Le temps de laisser une marque. Améliorez votre réputation et obtenez une certaine influence en se vantant de vos exploits.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.TutorialQuest.ClaimTitle1";
+			Text = "Il est temps de réclamer un titre supérieur. Le nouveau titre débloquera de nouvelles actions et vous serez en mesure d'exploiter une seconde entreprise.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.TutorialQuest.DriveWorkers1";
+			Text = "Vous pouvez augmenter la productivité de vos travailleurs. L'action Provoquer les travailleurs est là pour cela.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.TutorialQuest.ProduceMoreItems1";
+			Text = "Continuez la production.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.TutorialQuest.BuildBuilding1";
+			Text = "Il est temps de se développer. Construisez une autre entreprise.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.TutorialQuest.ClaimHigherTitle1";
+			Text = "Votre prochain grand objectif est d'atteindre le titre : Citoyen. Continuer à produire, conduire vos travailleurs, gagner de l'influence et de la popularité, mais surtout, essayez d'obtenir autant d'argent que possible afin que vous puissiez obtenir les titres requis pour devenir citoyen.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.TutorialQuest.ApplyForOffice1";
+			Text = "Vous avez maintenant le privilège de postuler en politique. Avoir un siège vous permettra de faire de la politique et de changer la loi de la manière que vous voulez.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.TutorialQuest.ExecuteOfficeAction1";
+			Text = "Maintenant que vous avez un siège, il est temps d'utiliser votre pouvoir. Utilisez les actions déverrouillés à votre avantage. Vous trouverez les actions dans la catégorie politique dans la barre d'action du personnage qui occupe le poste.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.TutorialQuest.HireHenchmen1";
+			Text = "Comme vous devenez plus puissant les membres de votre famille ont besoin de protection. Embauchez un homme de main.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.TutorialQuest.ExecuteGuardAction1";
+			Text = "Maintenant, protéger votre avatar. Sélectionnez l'action Escorter quelqu'un de votre homme de main sur votre avatar.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.TutorialQuest.Attack1";
+			Text = "La paix est terminée ! Sélectionnez votre chef et attaquer un membre d'une dynastie concurrente. Si vous voulez augmenter vos changements de succès, visitez le marché avant avec votre chef, vous pouvez acheter des armures et des armes. Vous pouvez équiper des armes et des armures dans la fenêtre d'inspection.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Characters1";
+			Text = "Personnages";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Characters2";
+			Text = "Les personnages sont l'aspect le plus important de The Guild 3.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Characters3";
+			Text = "Hiérarchie famille";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Characters4";
+			Text = "A la tête votre famille se trouve votre chef de famille. Il ou elle est le personnage le plus précieux de votre famille. Si votre chef meurt votre héritier deviendra chef de la famille.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Characters5";
+			Text = "Époux";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Characters6";
+			Text = "Le conjoint est la meilleure moitié du leader. Vous avez besoin d'un conjoint afin de produire une descendance.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Characters7";
+			Text = "Héritier";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Characters8";
+			Text = "Votre héritier sera le prochain chef de votre famille. Donc, vous devez préparer ce personnage dès le début, de sorte que vous obteniez un leader fort dans l'avenir.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Characters9";
+			Text = "Enfants";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.GameplayConceptTutorial.Characters10";
+			Text = "Les enfants de votre dynastie deviennent jouables à l'âge de 5. Les enfants ont un ensemble spécial d'actions disponibles.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.TutorialQuest.DeclareFeud1";
+			Text = "Rendons ça officiel. Déclarer une querelle sur une dynastie que vous détestez. Sélectionnez la dynastie et exécuter le Jeter le gant.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.TutorialQuest.MakeAnAlliance1";
+			Text = "Vous ne pouvez pas avoir que des ennemis, vous avez également besoin d'amis. Trouver quelqu'un avec qui Etablir une alliance avec vous.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.TutorialQuest.IncreaseMoney1";
+			Text = "C'est facile ! Devenir riche ! Tous les moyens sont autorisés.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.TutorialQuest.IncreasePrestige1";
+			Text = "L'argent ne fait pas tout. Essayez d'obtenir suffisamment d'influence politique afin de faire des ravages dans le monde politique.";
+		},
+		LocDirectEntry
+		{
+			Key = "$IronOre";
+			Text = "Minerai de fer";
+		},
+		LocDirectEntry
+		{
+			Key = "$IronOreDesc";
+			Text = "Minerai de fer brut qui peut être raffiner en lingots de fer.";
+		},
+		LocDirectEntry
+		{
+			Key = "$SilverOre";
+			Text = "Minerai d'argent";
+		},
+		LocDirectEntry
+		{
+			Key = "$SilverOreDesc";
+			Text = "minerai d'argent brut qui peut être raffiner en lingots d'argent.";
+		},
+		LocDirectEntry
+		{
+			Key = "$GoldOre";
+			Text = "Minerai d'or";
+		},
+		LocDirectEntry
+		{
+			Key = "$GoldOreDesc";
+			Text = "Minerai d'or brut qui peut êtreraffiner en lingots d'or.";
+		},
+		LocDirectEntry
+		{
+			Key = "$PinewoodPlank";
+			Text = "Planche de Pin";
+		},
+		LocDirectEntry
+		{
+			Key = "$PinewoodPlankDesc";
+			Text = "Planche en bois sculpté d'un morceau de bois de pin.";
+		},
+		LocDirectEntry
+		{
+			Key = "$Pig";
+			Text = "Cochon";
+		},
+		LocDirectEntry
+		{
+			Key = "$PigDesc";
+			Text = "Un cochon domestique de maison, mange presque tout et est une source précieuse de viande.";
+		},
+		LocDirectEntry
+		{
+			Key = "$CrudeWeaponHilt";
+			Text = "Poignée d'armes brut";
+		},
+		LocDirectEntry
+		{
+			Key = "$CrudeWeaponHiltDesc";
+			Text = "Une poignée d'armes en bois brut enveloppé dans du lin. Il peut aussi être transformé en poignée d'arme en cuir ou utilisé directement pour les armes de faible qualité comme des poignards.";
+		},
+		LocDirectEntry
+		{
+			Key = "$Pork";
+			Text = "Porc";
+		},
+		LocDirectEntry
+		{
+			Key = "$PorkDesc";
+			Text = "Le porc est une viande lourde et grasse utilisée pour de nombreux plats et très souvent utilisé pour des saucisses.";
+		},
+		LocDirectEntry
+		{
+			Key = "$LinenSack";
+			Text = "Sac de toile";
+		},
+		LocDirectEntry
+		{
+			Key = "$LinenSackDesc";
+			Text = "Un sac robuste en lin. Peut être utilisé pour stocker la farine.";
+		},
+		LocDirectEntry
+		{
+			Key = "$OakwoodPlank";
+			Text = "Planche de chêne";
+		},
+		LocDirectEntry
+		{
+			Key = "$OakwoodPlankDesc";
+			Text = "Planche en bois sculpté d'un morceau de bois de chêne.";
+		},
+		LocDirectEntry
+		{
+			Key = "$PestAway";
+			Text = "Anti Puces";
+		},
+		LocDirectEntry
+		{
+			Key = "$PestAwayDesc";
+			Text = "Un mélange alcoolique avec un parfum spécial de racine des marais que les puces ne peuvent tout simplement pas supporter. Vaporisez sur vos bâtiments pour les protéger et protéger leurs employés et les résidents de fléaux aux puces.";
+		},
+		LocDirectEntry
+		{
+			Key = "$OakwoodBarrel";
+			Text = "Baril en chêne";
+		},
+		LocDirectEntry
+		{
+			Key = "$OakwoodBarrelDesc";
+			Text = "Un baril en bois de chêne. Idéal pour le stockage de liquides pendant une longue période de temps.";
+		},
+		LocDirectEntry
+		{
+			Key = "$Slate";
+			Text = "Ardoise";
+		},
+		LocDirectEntry
+		{
+			Key = "$SlateDesc";
+			Text = "Briques d'ardoise produite dans la mine. Elles peuvent être transformées en les tuiles d'ardoise ou comme parties d'autres produits.";
+		},
+		LocDirectEntry
+		{
+			Key = "$Gemstone";
+			Text = "Joyau";
+		},
+		LocDirectEntry
+		{
+			Key = "$GemstoneDesc";
+			Text = "Un beau joyau sculpté pour refléter les lumières de la manière la plus hypnotisant. Cela peut être utilisé pour les bijoux, il y a aussi des gens qui prétendent qu'ils ont les moyens d'enchanter un joyau avec certains pouvoirs, mais ça doit être une certaine forme de superstition...";
+		},
+		LocDirectEntry
+		{
+			Key = "$LeatheredWeaponHilt";
+			Text = "Poignée d'armes en cuir";
+		},
+		LocDirectEntry
+		{
+			Key = "$LeatheredWeaponHiltDesc";
+			Text = "Cette poignée d'arme a été renforcée avec du cuir pour offrir une meilleure prise en main. Elle est utilisé pour les armes de haute qualité et les outils.";
+		},
+		LocDirectEntry
+		{
+			Key = "$MixedGrains";
+			Text = "Son";
+		},
+		LocDirectEntry
+		{
+			Key = "$MixedGrainsDesc";
+			Text = "le son est un sous-produit du procédé de broyage de grain. Peut être utilisé pour nourrir les animaux ou pour faire de la nourriture pas cher pour les pauvres.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.mp.screenName";
+			Text = "Comment voulez-vous être nommé en ligne ?";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.StartRomance";
+			Text = "Sélectionnez un adulte qui n'est pas un employé et non chef d'une dynastie.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Options.GraphicsAdapter";
+			Text = "Carte graphique";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Options.GraphicsOutput";
+			Text = "Dispositif d'affichage";
 		},
 	);
 };
