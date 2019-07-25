@@ -50,7 +50,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.AmbushDesc";
-			Text = "Avec ceci, vous pourrez vous cacher au bord de la route en attendant un riche badaud. Vous exploiterez alors l'élément de surprise, pour lancer une attaque rapide. Si vous réussissez, ce qui est fort probable, vous pourrez alors prendre autant que vous pouvez en porter à votre victime et tout ramener à votre camp.";
+			Text = "Avec ceci, vous pourrez vous cacher au bord de la route en attendant un riche badaud. Vous exploiterez alors l'élément de surprise, pour lancer une attaque rapide. Si vous réussissez, ce qui est fort probable, vous pourrez alors prendre autant que vous pouvez en porter à votre victime et tout ramener à votre camp.";
 		},
 		LocDirectEntry
 		{
@@ -185,7 +185,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.BreakBoneSuccess";
-			Text = "%victim% à reçu %damage%.";
+			Text = "%victim% à reçu %damage%.";
 		},
 		LocDirectEntry
 		{
@@ -330,7 +330,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.ChangeMainBuilding.ChangeOfCity";
-			Text = "Si vous déplacez votre résidence vers %city%, vous perdrez tous les sièges potentiellements acquis dans le conseil municipal de %city2%. Êtes vous sûr de vouloir déplacer la residence de votre dynastie ?";
+			Text = "Si vous déplacez votre résidence vers %city%, vous perdrez tous les sièges potentiellements acquis dans le conseil municipal de %city2%. Êtes vous sûr de vouloir déplacer la residence de votre dynastie ?";
 		},
 		LocDirectEntry
 		{
@@ -365,7 +365,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.CombatFleeDesc";
-			Text = "Utilisez ceci pour fuir dans le déshonneur, mais au moins vous êtes en vie...";
+			Text = "Utilisez ceci pour fuir dans le déshonneur, mais au moins vous êtes en vie...";
 		},
 		LocDirectEntry
 		{
@@ -615,7 +615,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.DrinkHerbTeaDesc";
-			Text = "Lorsqu'elles sont fraîchement préparés, les infusions peuvent vous guérir de maladies bénines.";
+			Text = "Lorsqu'elles sont fraîchement préparés, les infusions peuvent vous guérir de maladies bénines.";
 		},
 		LocDirectEntry
 		{
@@ -625,7 +625,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.DrinkSucces";
-			Text = "Vous avez bu %item%.";
+			Text = "Vous avez bu %item%.";
 		},
 		LocDirectEntry
 		{
@@ -675,7 +675,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.DynastiesTradeDesc";
-			Text = "Vous n'avez pas de temps à perdre en petit bavardages et graissage de pattes visant à gagner la faveur d'autres dynasties ? Vous préférez une poignée de main honnête et un contrat détaillé ? Alors n'attendez plus et passez un accord direct avec l'une des autres grandes familles - sans hésitation et fausse camaraderie ! Vous proposez quelque chose et demandez autre chose en retour - argent, bâtiment, la main de leur fille - tout est possible...";
+			Text = "Vous n'avez pas de temps à perdre en petit bavardages et graissage de pattes visant à gagner la faveur d'autres dynasties ? Vous préférez une poignée de main honnête et un contrat détaillé ? Alors n'attendez plus et passez un accord direct avec l'une des autres grandes familles - sans hésitation et fausse camaraderie ! Vous proposez quelque chose et demandez autre chose en retour - argent, bâtiment, la main de leur fille - tout est possible...";
 		},
 		LocDirectEntry
 		{
@@ -685,12 +685,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.EatDesc";
-			Text = "Vous avez faim ? Alors manger de la nourriture de votre inventaire. Cette énergie nouvelle améliorera vous également légèrement votre vitesse de guérison.";
+			Text = "Vous avez faim ? Alors manger de la nourriture de votre inventaire. Cette énergie nouvelle améliorera vous également légèrement votre vitesse de guérison.";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.EatSucces";
-			Text = "Vous avez mangé %item%.  Cela améliore légèrement votre guérison de %Ailment%.";
+			Text = "Vous avez mangé %item%. Cela améliore légèrement votre guérison de %Ailment%.";
 		},
 		LocDirectEntry
 		{
@@ -735,7 +735,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.EnterMedicusDesc";
-			Text = "Le medicus peut, si vous lui avancez une somme approprié, vous soulager des maladies et des infirmités.";
+			Text = "Le medicus peut, si vous lui avancez une somme approprié, vous soulager des maladies et des infirmités.";
 		},
 		LocDirectEntry
 		{
@@ -745,7 +745,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.EscortCaravanDesc";
-			Text = "Le personnage escorrtera une caravane et la défendra contre les attaques.";
+			Text = "Le personnage escorrtera une caravane et la défendra contre les attaques.";
 		},
 		LocDirectEntry
 		{
@@ -800,12 +800,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.FabricateEvidenceDesc";
-			Text = "Vous n'avez peut-être pas remarqué, mais peut-être que vos concurrents ne sont pas aussi propres que ceux qu'ils prétendent être. Alors quelqu'un sait peut être quelque chose. Alors envoyez donc un agent de confiance et laissez-les discrètement poser des questions...";
+			Text = "Vous n'avez peut-être pas remarqué, mais peut-être que vos concurrents ne sont pas aussi propres que ceux qu'ils prétendent être. Alors quelqu'un sait peut être quelque chose. Alors envoyez donc un agent de confiance et laissez-les discrètement poser des questions...";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.FarTradeAction";
-			Text = "Échanges à longue distance";
+			Text = "Échanges à longue distance";
 		},
 		LocDirectEntry
 		{
@@ -815,7 +815,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.FindEvidence";
-			Text = "Rechercher des preuves";
+			Text = "Rechercher des preuves";
 		},
 		LocDirectEntry
 		{
@@ -830,7 +830,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.FindEvidenceDesc";
-			Text = "Ici, vous pouvez rechercher les preuves des crimes commis par vos concurrents dans un quartier. Ils ne sont pas exactement poser là dans la rue ! Vous devrez adopter une approche délicate lors de l'interrogation des habitants et espérer que vous trouverez quelqu'un qui a vu quelque chose et qui accepte de vous en parler...";
+			Text = "Ici, vous pouvez rechercher les preuves des crimes commis par vos concurrents dans un quartier. Ils ne sont pas exactement poser là dans la rue ! Vous devrez adopter une approche délicate lors de l'interrogation des habitants et espérer que vous trouverez quelqu'un qui a vu quelque chose et qui accepte de vous en parler...";
 		},
 		LocDirectEntry
 		{
@@ -945,7 +945,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.HireEmployeeArrives";
-			Text = "Un nouvel employé est disponible à votre entreprise %business%.";
+			Text = "Un nouvel employé est disponible à votre entreprise %business%.";
 		},
 		LocDirectEntry
 		{
@@ -955,7 +955,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.HireEmployeePressed";
-			Text = "Votre entreprise %business% recherche de nouveaux employés.";
+			Text = "Votre entreprise %business% recherche de nouveaux employés.";
 		},
 		LocDirectEntry
 		{
@@ -965,7 +965,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.HireHenchmenActionDesc";
-			Text = "C'est là que vous pouvez embaucher des hommes de main pour votre dynastie, utilisez-les comme gardes ou déployez-les pour d'autres tâches si vous ne voulez pas vous salir les mains...";
+			Text = "C'est là que vous pouvez embaucher des hommes de main pour votre dynastie, utilisez-les comme gardes ou déployez-les pour d'autres tâches si vous ne voulez pas vous salir les mains...";
 		},
 		LocDirectEntry
 		{
@@ -1040,7 +1040,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.KidnapCharacterActionDesc";
-			Text = "Comme vous avez gagné la bataille, votre ennemi est sans défense, et vous pouvez encore extorquer une jolie somme à la famille - il suffit de vous décider et de le faire... ou n'êtes-vous pas assez méchant pour le faire ?";
+			Text = "Comme vous avez gagné la bataille, votre ennemi est sans défense, et vous pouvez encore extorquer une jolie somme à la famille - il suffit de vous décider et de le faire... ou n'êtes-vous pas assez méchant pour le faire ?";
 		},
 		LocDirectEntry
 		{
@@ -1080,7 +1080,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.Longshore";
-			Text = "Envoyer quelqu'un faire un long voyage";
+			Text = "Envoyer quelqu'un faire un long voyage";
 		},
 		LocDirectEntry
 		{
@@ -1160,12 +1160,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.Longshore2Desc";
-			Text = "À l'instar du long voyage, vous pouvez également envoyer un membre adulte de votre dynastie faire voyage à l'étranger pour rechercher des informations et des produits exotiques depuis des lieux éloignés. Cependant, un voyage à l'étranger est long et assez dangereux, mais en retour, vous pouvez certainement en faire bon usage lorsque votre représentant rentre à la maison...";
+			Text = "À l'instar du long voyage, vous pouvez également envoyer un membre adulte de votre dynastie faire voyage à l'étranger pour rechercher des informations et des produits exotiques depuis des lieux éloignés. Cependant, un voyage à l'étranger est long et assez dangereux, mais en retour, vous pouvez certainement en faire bon usage lorsque votre représentant rentre à la maison...";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.LongshoreDesc";
-			Text = "Vous pouvez envoyer un des membres adulte de votre famille faire un long voyage pour ramener des informations et des produits exotiques depuis de terres lointaines. Ce long voyage dure pendant un certain temps, et qui sait si le voyageur rentrera à la maison...";
+			Text = "Vous pouvez envoyer un des membres adulte de votre famille faire un long voyage pour ramener des informations et des produits exotiques depuis de terres lointaines. Ce long voyage dure pendant un certain temps, et qui sait si le voyageur rentrera à la maison...";
 		},
 		LocDirectEntry
 		{
@@ -1225,7 +1225,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.MarryConcubineActionDesc";
-			Text = "Vous pouvez utiliser cela pour faire une demande en mariage à l'une de histoire d'amour, et donc s'engager dans un lien permanent dans la sainteté du mariage. Avez-vous examiné celà attentivement ?";
+			Text = "Vous pouvez utiliser cela pour faire une demande en mariage à l'une de histoire d'amour, et donc s'engager dans un lien permanent dans la sainteté du mariage. Avez-vous examiné celà attentivement ?";
 		},
 		LocDirectEntry
 		{
@@ -1240,7 +1240,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.NoEvidenceFound";
-			Text = "aucune preuve";
+			Text = "aucune preuve";
 		},
 		LocDirectEntry
 		{
@@ -1315,7 +1315,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.PowerCityGuardsDesc";
-			Text = "Utilisez les privilèges de votre siège municipal pour planifier les routes de patrouille des gardes de la ville, permettant à certaines zones d'être fortement surveillées, tout en laissant d'autres plus ou moins sans défense.";
+			Text = "Utilisez les privilèges de votre siège municipal pour planifier les routes de patrouille des gardes de la ville, permettant à certaines zones d'être fortement surveillées, tout en laissant d'autres plus ou moins sans défense.";
 		},
 		LocDirectEntry
 		{
@@ -1335,7 +1335,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.PowerConstructionDesc";
-			Text = "Utilisez ce pouvoir de votre siège pour commander des projets de construction de villes.";
+			Text = "Utilisez ce pouvoir de votre siège pour commander des projets de construction de villes.";
 		},
 		LocDirectEntry
 		{
@@ -1410,12 +1410,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.ReapHerbs";
-			Text = "Récolter des ingrédients";
+			Text = "Récolter des ingrédients";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.ReapHerbsDesc";
-			Text = "Vous pouvez l'utiliser pour récolter des ingrédients tels que des herbes et des petits animaux d'un bosquet, utilisés pour une grande variété de concoctions.";
+			Text = "Vous pouvez l'utiliser pour récolter des ingrédients tels que des herbes et des petits animaux d'un bosquet, utilisés pour une grande variété de concoctions.";
 		},
 		LocDirectEntry
 		{
@@ -1440,7 +1440,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.RemoveBuildingFromSaleDesc";
-			Text = "Ici, vous pouvez retire votre bâtiment de la liste des bâtiments à vendre.";
+			Text = "Ici, vous pouvez retire votre bâtiment de la liste des bâtiments à vendre.";
 		},
 		LocDirectEntry
 		{
@@ -1515,7 +1515,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.ScanDiseases.Success.5";
-			Text = "Objets requis pour les traitements:  %listItems%.";
+			Text = "Objets requis pour les traitements: %listItems%.";
 		},
 		LocDirectEntry
 		{
@@ -1525,7 +1525,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.ScanDiseasesDesc";
-			Text = "Vous pouvez utiliser ceci pour observer les personnes du quartier ou du village et découvrir rapidement quelles maladies y sont répandues. De plus, vous saurez ce dont vous aurez besoin pour les différents traitements.";
+			Text = "Vous pouvez utiliser ceci pour observer les personnes du quartier ou du village et découvrir rapidement quelles maladies y sont répandues. De plus, vous saurez ce dont vous aurez besoin pour les différents traitements.";
 		},
 		LocDirectEntry
 		{
@@ -1675,7 +1675,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.SpyOnBuildingFinished";
-			Text = "Votre espion n'espionne plus ce bâtiment :  %building%.";
+			Text = "Votre espion n'espionne plus ce bâtiment : %building%.";
 		},
 		LocDirectEntry
 		{
@@ -1830,7 +1830,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.SurveyRichesDesc";
-			Text = "Vous avez l'oeil bien entrainé, certains disent un nez, pour la richesse. Placez-vous en ville et observez, ou reniflez, pour trouver des signes extérieurs de richesses, afin de déterminer qui ou quel endroit vaut la peine d'être volé.";
+			Text = "Vous avez l'oeil bien entrainé, certains disent un nez, pour la richesse. Placez-vous en ville et observez, ou reniflez, pour trouver des signes extérieurs de richesses, afin de déterminer qui ou quel endroit vaut la peine d'être volé.";
 		},
 		LocDirectEntry
 		{
@@ -1860,7 +1860,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.UseAntidoteDesc";
-			Text = "Vous êtes certain d'avoir été empoisonné par quelqu'un d'envieux ? Alors prenez cet antidote, vite !";
+			Text = "Vous êtes certain d'avoir été empoisonné par quelqu'un d'envieux ? Alors prenez cet antidote, vite !";
 		},
 		LocDirectEntry
 		{
@@ -1960,7 +1960,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.WriteTrashLetterDesc";
-			Text = "Vous ne pouvez tout simplement pas supporter quelqu'un ? Alors il suffit d'écrire un pamphlet diffamatoire sur cette personne et de le diffuser dans toute la ville...";
+			Text = "Vous ne pouvez tout simplement pas supporter quelqu'un ? Alors il suffit d'écrire un pamphlet diffamatoire sur cette personne et de le diffuser dans toute la ville...";
 		},
 		LocDirectEntry
 		{
@@ -2350,7 +2350,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$AskFeud";
-			Text = "Déclarer une querelle avec quelqu'un";
+			Text = "Déclarer une querelle avec quelqu'un";
 		},
 		LocDirectEntry
 		{
@@ -2415,7 +2415,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$BankingDesc";
-			Text = "Les connaissances et les compétences d'un banquier vous permettront de prêter une partie de votre fortune à d'autres en échange d'un billet à ordre pour une durée convenue. Le débiteur va bien sûr vous verser des intérêts pour ce service, de sorte que dans l'ensemble, c'est un arrangement commercial très rentable. Malheureusement, vous ne pouvez pas rester sans rien faire si vos débiteurs ne respectent pas leurs remboursements...";
+			Text = "Les connaissances et les compétences d'un banquier vous permettront de prêter une partie de votre fortune à d'autres en échange d'un billet à ordre pour une durée convenue. Le débiteur va bien sûr vous verser des intérêts pour ce service, de sorte que dans l'ensemble, c'est un arrangement commercial très rentable. Malheureusement, vous ne pouvez pas rester sans rien faire si vos débiteurs ne respectent pas leurs remboursements...";
 		},
 		LocDirectEntry
 		{
@@ -3810,7 +3810,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$build.CityGatedesc";
-			Text = "Vous pouvez entrer dans les villes fortifiées en passant par les portes de la ville, si les gardes vous laisse traverser.";
+			Text = "Vous pouvez entrer dans les villes fortifiées en passant par les portes de la ville, si les gardes vous laisse traverser.";
 		},
 		LocDirectEntry
 		{
@@ -3905,7 +3905,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$build.CityHouseName2";
-			Text = "Beau et chaleureux";
+			Text = "Beau et chaleureux";
 		},
 		LocDirectEntry
 		{
@@ -4100,7 +4100,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$build.CountryHousedesc";
-			Text = "C'est l'habitation d'une famille de la classe sociale la plus basse, les roturiers. La cabane est petite et peu coûteuse à construire et se trouve exclusivement à la campagne, les conseils municipaux n'autorisant pas des maisons aussi inflammables dans les murs de la ville.";
+			Text = "C'est l'habitation d'une famille de la classe sociale la plus basse, les roturiers. La cabane est petite et peu coûteuse à construire et se trouve exclusivement à la campagne, les conseils municipaux n'autorisant pas des maisons aussi inflammables dans les murs de la ville.";
 		},
 		LocDirectEntry
 		{
@@ -4565,7 +4565,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$build.Fountaindesc";
-			Text = "Les fontaines ne sont pas seulement belles à regarder, mais les gens peuvent aussi y puiser de l'eau, ce qui n'est pas du goût des aînés de la ville...";
+			Text = "Les fontaines ne sont pas seulement belles à regarder, mais les gens peuvent aussi y puiser de l'eau, ce qui n'est pas du goût des aînés de la ville...";
 		},
 		LocDirectEntry
 		{
@@ -5040,7 +5040,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$build.MansionName12";
-			Text = "Bon pour un évêque";
+			Text = "Bon pour un évêque";
 		},
 		LocDirectEntry
 		{
@@ -5120,7 +5120,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$build.MansionName9";
-			Text = "Place illimité";
+			Text = "Place illimité";
 		},
 		LocDirectEntry
 		{
@@ -5250,7 +5250,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$build.MedicusName26";
-			Text = "Lavements énigmatiques";
+			Text = "Lavements énigmatiques";
 		},
 		LocDirectEntry
 		{
@@ -5620,7 +5620,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$build.PoorHouseName8";
-			Text = "De la peinture gachée";
+			Text = "De la peinture gachée";
 		},
 		LocDirectEntry
 		{
@@ -5645,7 +5645,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$build.Quarrydesc";
-			Text = "Vous pouvez entendre le martelage et la taille des travailleurs de la carrière de très loin quand ils travaillent pour approvisionner la ville en granit et en ardoise. L'extraction de l'argile est nettement moins bruyante et fatiguante. Cette tâche est donc très recherchée par les ouvriers et il y a beaucoup de grogne lorsque le contremaître distribue les tâches quotidiennes le matin...";
+			Text = "Vous pouvez entendre le martelage et la taille des travailleurs de la carrière de très loin quand ils travaillent pour approvisionner la ville en granit et en ardoise. L'extraction de l'argile est nettement moins bruyante et fatiguante. Cette tâche est donc très recherchée par les ouvriers et il y a beaucoup de grogne lorsque le contremaître distribue les tâches quotidiennes le matin...";
 		},
 		LocDirectEntry
 		{
@@ -5915,7 +5915,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$build.ScholarName13";
-			Text = "La écrits écrits";
+			Text = "La écrits écrits";
 		},
 		LocDirectEntry
 		{
@@ -6045,7 +6045,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$build.Schooldesc";
-			Text = "Les citoyens les plus riches peuvent envoyer leur progéniture à l'école pour leur donner une bonne éducation qui leur donnera de nombreux avantages sur  la populace non instruite.";
+			Text = "Les citoyens les plus riches peuvent envoyer leur progéniture à l'école pour leur donner une bonne éducation qui leur donnera de nombreux avantages sur la populace non instruite.";
 		},
 		LocDirectEntry
 		{
@@ -6895,7 +6895,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$build.WindmillName2";
-			Text = "Meuler en nombres";
+			Text = "Meuler en nombres";
 		},
 		LocDirectEntry
 		{
@@ -6995,7 +6995,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$BusinessTitleTooltipStorage";
-			Text = "Entrepôt privé";
+			Text = "Entrepôt privé";
 		},
 		LocDirectEntry
 		{
@@ -7445,7 +7445,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$cf.FAvatar.Allied.2";
-			Text = "Devons-nous accepter de marchander ?";
+			Text = "Devons-nous accepter de marchander ?";
 		},
 		LocDirectEntry
 		{
@@ -7485,7 +7485,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$cf.FAvatar.Normal.2";
-			Text = "Vous voulez marchander ?";
+			Text = "Vous voulez marchander ?";
 		},
 		LocDirectEntry
 		{
@@ -7525,7 +7525,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$cf.FEmpl.Enemy.0";
-			Text = "VOUS n'êtes pas mon maître !";
+			Text = "VOUS n'êtes pas mon maître !";
 		},
 		LocDirectEntry
 		{
@@ -7895,7 +7895,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$cf.NPC.ToNoble.Friendly.2";
-			Text = "Que puis-je faire pour vous,  Monsieur ?";
+			Text = "Que puis-je faire pour vous, Monsieur ?";
 		},
 		LocDirectEntry
 		{
@@ -8000,7 +8000,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$cf.OAdult.EE.1";
-			Text = "Confiez-moi votre stratégie pour assurer le règne de notre dynastie sur ce territoire et au-delà.";
+			Text = "Confiez-moi votre stratégie pour assurer le règne de notre dynastie sur ce territoire et au-delà.";
 		},
 		LocDirectEntry
 		{
@@ -8220,7 +8220,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$cf.OEmpl.Hand.EE.0";
-			Text = "Venez voir ce qu'il en est.";
+			Text = "Venez voir ce qu'il en est.";
 		},
 		LocDirectEntry
 		{
@@ -8590,7 +8590,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$cf.OTrans.Confirm.3";
-			Text = "En route !";
+			Text = "En route !";
 		},
 		LocDirectEntry
 		{
@@ -8605,7 +8605,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$cf.OTrans.Confirm.6";
-			Text = "Ce va être un voyage du tonnere...";
+			Text = "Ce va être un voyage du tonnere...";
 		},
 		LocDirectEntry
 		{
@@ -8620,7 +8620,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$cf.OTrans.Confirm.EE.1";
-			Text = "Oh mec, est-ce que je dois vraiment y retourner si tôt ?";
+			Text = "Oh mec, est-ce que je dois vraiment y retourner si tôt ?";
 		},
 		LocDirectEntry
 		{
@@ -8630,7 +8630,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$cf.OTrans.EE.1";
-			Text = "Est ce que je dois vraiment retourner la bas ? C'est plein de criminels.";
+			Text = "Est ce que je dois vraiment retourner la bas ? C'est plein de criminels.";
 		},
 		LocDirectEntry
 		{
@@ -8710,12 +8710,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Church.action.pay";
-			Text = "Bien sûr. J'espère que vous ferez un don de %coins% à l'Église pour un acte si délicat ?";
+			Text = "Bien sûr. J'espère que vous ferez un don de %coins% à l'Église pour un acte si délicat ?";
 		},
 		LocDirectEntry
 		{
 			Key = "$Church.action.pay.Narration";
-			Text = "Bien sûr. J'espère que vous ferez un don à l'Église pour un acte si délicat ?";
+			Text = "Bien sûr. J'espère que vous ferez un don à l'Église pour un acte si délicat ?";
 		},
 		LocDirectEntry
 		{
@@ -8735,17 +8735,17 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Church.buyPardon.Narration";
-			Text = "Le Seigneur vous pardonnera si vous êtes prêt à donner à la sainte mère église quelques pièces...";
+			Text = "Le Seigneur vous pardonnera si vous êtes prêt à donner à la sainte mère église quelques pièces...";
 		},
 		LocDirectEntry
 		{
 			Key = "$Church.offering";
-			Text = "Le Seigneur vous pardonne, si vous êtes prêt à faire don de %percent% $ de votre argent...";
+			Text = "Le Seigneur vous pardonne, si vous êtes prêt à faire don de %percent% $ de votre argent...";
 		},
 		LocDirectEntry
 		{
 			Key = "$Church.offering.Narration";
-			Text = "Le Seigneur vous pardonne, si vous êtes prêt à faire un don à l'Église...";
+			Text = "Le Seigneur vous pardonne, si vous êtes prêt à faire un don à l'Église...";
 		},
 		LocDirectEntry
 		{
@@ -8850,7 +8850,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$CommandDesc";
-			Text = "Vous avez traversé l'école de l'adversité, lutté contre des citoyens honnêtes et des malhonnêtes pour finalement conduire votre dynastie à la prospérité et à la renommée. Par conséquence, votre confiance et votre volonté ont mûri et vous rayonnez maintenant d'une force intérieure qui vous apporte le respect de beaucoup de citoyens, et intimide les autres...";
+			Text = "Vous avez traversé l'école de l'adversité, lutté contre des citoyens honnêtes et des malhonnêtes pour finalement conduire votre dynastie à la prospérité et à la renommée. Par conséquence, votre confiance et votre volonté ont mûri et vous rayonnez maintenant d'une force intérieure qui vous apporte le respect de beaucoup de citoyens, et intimide les autres...";
 		},
 		LocDirectEntry
 		{
@@ -8985,7 +8985,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Cutscenes.ComplimentSpouse.Family";
-			Text = "Pourriez-vous m'aider à fonder une famille ? Mes parents commencent vraiment à me m'énerver avec tout ça...";
+			Text = "Pourriez-vous m'aider à fonder une famille ? Mes parents commencent vraiment à me m'énerver avec tout ça...";
 		},
 		LocDirectEntry
 		{
@@ -9010,7 +9010,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Cutscenes.ComplimentSpouse.Gift03";
-			Text = "Je suis heureux de vous offir ce cadeau. J'espère que vous aimerez.";
+			Text = "Je suis heureux de vous offir ce cadeau. J'espère que vous aimerez.";
 		},
 		LocDirectEntry
 		{
@@ -9035,17 +9035,17 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Cutscenes.ComplimentSpouse.Hungry";
-			Text = "J'ai faim et je suis célibataire. Vous avez l'air d'être une bonne cuisinière.";
+			Text = "J'ai faim et je suis célibataire. Vous avez l'air d'être une bonne cuisinière.";
 		},
 		LocDirectEntry
 		{
 			Key = "$Cutscenes.ComplimentSpouse.KindOfMan";
-			Text = "Vous êtes le genre d'homme que toute femme voudrait épouser.";
+			Text = "Vous êtes le genre d'homme que toute femme voudrait épouser.";
 		},
 		LocDirectEntry
 		{
 			Key = "$Cutscenes.ComplimentSpouse.KindOfWoman";
-			Text = "Vous êtes le genre de femme avec laquelle tout homme voudrait des enfants.";
+			Text = "Vous êtes le genre de femme avec laquelle tout homme voudrait des enfants.";
 		},
 		LocDirectEntry
 		{
@@ -9075,7 +9075,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Cutscenes.ComplimentSpouse.TalkToALady";
-			Text = "Eh bien, vous savez assurément comment parler à une femme...";
+			Text = "Eh bien, vous savez assurément comment parler à une femme...";
 		},
 		LocDirectEntry
 		{
@@ -9090,12 +9090,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Cutscenes.DiceGame.Blasted";
-			Text = "Mince !  Ces rainures sur la table ont ruiné mon lancer...";
+			Text = "Mince ! Ces rainures sur la table ont ruiné mon lancer...";
 		},
 		LocDirectEntry
 		{
 			Key = "$Cutscenes.DiceGame.Dices";
-			Text = "Bonjour, voulez-vous vous joindre à moi pour une partie ?";
+			Text = "Bonjour, voulez-vous vous joindre à moi pour une partie ?";
 		},
 		LocDirectEntry
 		{
@@ -9135,12 +9135,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Cutscenes.Election.Consideration";
-			Text = "Le délai de réflexion a expiré, nous devons maintenant prendre une décision pour l'attribution du siège suivant";
+			Text = "Le délai de réflexion a expiré, nous devons maintenant prendre une décision pour l'attribution du siège suivant";
 		},
 		LocDirectEntry
 		{
 			Key = "$Cutscenes.Election.Introduction";
-			Text = "Les candidats suivants solicitent notre considération";
+			Text = "Les candidats suivants solicitent notre considération";
 		},
 		LocDirectEntry
 		{
@@ -9150,7 +9150,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Cutscenes.Execution.bad1";
-			Text = "Bouh!  Allez-y !";
+			Text = "Bouh! Allez-y !";
 		},
 		LocDirectEntry
 		{
@@ -9230,7 +9230,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Cutscenes.Reputation.Brothel";
-			Text = "J'ai vu votre mère sortir d'un bordel hier - je pense qu'elle a encore été renvoyée !";
+			Text = "J'ai vu votre mère sortir d'un bordel hier - je pense qu'elle a encore été renvoyée !";
 		},
 		LocDirectEntry
 		{
@@ -9240,7 +9240,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Cutscenes.Reputation.EveryDay";
-			Text = "Tous les jours je dis à mes apprentis et à mes compagnons de prendre vos travaux comme exemple.";
+			Text = "Tous les jours je dis à mes apprentis et à mes compagnons de prendre vos travaux comme exemple.";
 		},
 		LocDirectEntry
 		{
@@ -9265,7 +9265,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Cutscenes.Reputation.Renovating";
-			Text = "J'ai entendu dire qu'ils rénovaient l'église. Peut-être que vous devriez prendre contact avec les tailleurs de pierre. Je suis sûr qu'ils recherchent toujours des modèles pour les gargouilles !";
+			Text = "J'ai entendu dire qu'ils rénovaient l'église. Peut-être que vous devriez prendre contact avec les tailleurs de pierre. Je suis sûr qu'ils recherchent toujours des modèles pour les gargouilles !";
 		},
 		LocDirectEntry
 		{
@@ -9280,7 +9280,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Cutscenes.Reputation.YouHouse";
-			Text = "Je suis passé à côté de votre maison et j'ai cru que ça sentait les latrines, mais il s'avère que c'était votre dîner.";
+			Text = "Je suis passé à côté de votre maison et j'ai cru que ça sentait les latrines, mais il s'avère que c'était votre dîner.";
 		},
 		LocDirectEntry
 		{
@@ -9390,7 +9390,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Cutscenes.Trial.Happy";
-			Text = "La haute cour est heureuse d'acquitter l'accusé de toute faute dans cette affaire !";
+			Text = "La haute cour est heureuse d'acquitter l'accusé de toute faute dans cette affaire !";
 		},
 		LocDirectEntry
 		{
@@ -9425,7 +9425,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Cutscenes.Trial.Rogue";
-			Text = "N'importe quel voyou a un meilleur sens de la justice que vous !";
+			Text = "N'importe quel voyou a un meilleur sens de la justice que vous !";
 		},
 		LocDirectEntry
 		{
@@ -9435,7 +9435,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Cutscenes.Trial.TheCourt";
-			Text = "Le tribunal va maintenant entendre l'accusé.";
+			Text = "Le tribunal va maintenant entendre l'accusé.";
 		},
 		LocDirectEntry
 		{
@@ -9450,7 +9450,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Cutscenes.Trial.Upstanding";
-			Text = "Vous me connaissez comme le citoyen honnête que je suis ! Croyez-vous vraiment ces accusations grotesques ?";
+			Text = "Vous me connaissez comme le citoyen honnête que je suis ! Croyez-vous vraiment ces accusations grotesques ?";
 		},
 		LocDirectEntry
 		{
@@ -9470,12 +9470,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Cutscenes.Wedding.Wedding.FrontofGod";
-			Text = "Devant Dieu et les gens dans cette église, nous sommes réunis aujourd'hui pour unir par un saint mariage, cet homme et cette femme - puissent-ils avoir des enfants en bonne santé et une longue vie ensemble !";
+			Text = "Devant Dieu et les gens dans cette église, nous sommes réunis aujourd'hui pour unir par un saint mariage, cet homme et cette femme - puissent-ils avoir des enfants en bonne santé et une longue vie ensemble !";
 		},
 		LocDirectEntry
 		{
 			Key = "$Cutscenes.Wedding.Wedding.Honored";
-			Text = "Nous sommes tous honorés de tenir ici aujourd'hui, en présence de Dieu et sous sa bénédiction, pour assister à l'union de ces deux grandes maisons dans un saint mariage. Puissent-ils rester forts et continuer à être des exemples pour nous tous, et qu'ils aient beaucoup d'enfants !";
+			Text = "Nous sommes tous honorés de tenir ici aujourd'hui, en présence de Dieu et sous sa bénédiction, pour assister à l'union de ces deux grandes maisons dans un saint mariage. Puissent-ils rester forts et continuer à être des exemples pour nous tous, et qu'ils aient beaucoup d'enfants !";
 		},
 		LocDirectEntry
 		{
@@ -9595,7 +9595,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$DrunkenComradeDesc";
-			Text = "Vous ne pouvez que difficilement le croire, mais l'alcool a un effet totalement différent sur vous que sur tous les autres ! Dès que vous avez bu au-delà de votre soif, vous devenez très paisible, plus charismatique et acquérez des compétences inimaginables en rhétorique...";
+			Text = "Vous ne pouvez que difficilement le croire, mais l'alcool a un effet totalement différent sur vous que sur tous les autres ! Dès que vous avez bu au-delà de votre soif, vous devenez très paisible, plus charismatique et acquérez des compétences inimaginables en rhétorique...";
 		},
 		LocDirectEntry
 		{
@@ -9610,7 +9610,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Effect.SpiedOnBuilding";
-			Text = "Un espion surveille actuellement ce bâtiment pour vous.";
+			Text = "Un espion surveille actuellement ce bâtiment pour vous.";
 		},
 		LocDirectEntry
 		{
@@ -9750,7 +9750,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Evidence.Description";
-			Text = "%source% a effectué %action% contre %target% le %date%.";
+			Text = "%source% a effectué %action% contre %target% le %date%.";
 		},
 		LocDirectEntry
 		{
@@ -9870,7 +9870,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$FightingSabotageDesc";
-			Text = "Vous êtes un vétéran de nombreuses batailles, endurci et éprouvé en combat. Vous savez exactement comment surprendre votre ennemi et précisément où le frapper...";
+			Text = "Vous êtes un vétéran de nombreuses batailles, endurci et éprouvé en combat. Vous savez exactement comment surprendre votre ennemi et précisément où le frapper...";
 		},
 		LocDirectEntry
 		{
@@ -9890,7 +9890,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$FlirtousDesc";
-			Text = "Vous l'avez simplement en vous ! Vous avez un instinct sur la manière d'utiliser les bons mots et gestes lorsque vous parlez à un membre du sexe opposé...";
+			Text = "Vous l'avez simplement en vous ! Vous avez un instinct sur la manière d'utiliser les bons mots et gestes lorsque vous parlez à un membre du sexe opposé...";
 		},
 		LocDirectEntry
 		{
@@ -9995,7 +9995,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$GoMarket";
-			Text = "Envoyer au marché";
+			Text = "Envoyer au marché";
 		},
 		LocDirectEntry
 		{
@@ -10185,7 +10185,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.Budget.Item8";
-			Text = "Pertes pour crimes";
+			Text = "Pertes pour crimes";
 		},
 		LocDirectEntry
 		{
@@ -10325,7 +10325,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.business.fireEmployee";
-			Text = "Êtes-vous sûr de vouloir licencier %employeeName% ?";
+			Text = "Êtes-vous sûr de vouloir licencier %employeeName% ?";
 		},
 		LocDirectEntry
 		{
@@ -10355,12 +10355,22 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.Career.1";
-			Text = "Agriculteur";
+			Text = "Boucher";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Career.1Desc";
+			Text = "L'un des métiers les plus traditionnels est celui de boucher. Bien qu'ils soient tout à fait respectables, les bouchers ne sont pas très populaires, car l'odeur du sang, des tripes et de la mort semble toujours s'accrocher à eux.";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.Career.2";
-			Text = "Boulanger";
+			Text = "Meunier";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Career.2Desc";
+			Text = "En tant que meunier, vous serez autorisé à posséder et à exploiter un moulin à vent. Avec l’aide puissante du vent, vous pourrez transformer votre grain en farine dont vous aurez besoin plus tard si vous envisagez de devenir boulanger.";
 		},
 		LocDirectEntry
 		{
@@ -10369,8 +10379,18 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$gui.Career.3Desc";
+			Text = "Armes, armures, outils, un forgeron propose une large gamme de produits et trouvera toujours des clients plus qu'heureux de payer un bon prix pour des objets de haute qualité.";
+		},
+		LocDirectEntry
+		{
 			Key = "$gui.Career.4";
 			Text = "Tailleur de pierre";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Career.4Desc";
+			Text = "Les tailleurs de pierre sont la colonne vertébrale du développement de la ville. Sans leur travail, il n'y aurait pas de statues, pas de briques de construction pour les manoirs et pas de pierres précieuses pour les bijoux.";
 		},
 		LocDirectEntry
 		{
@@ -10379,8 +10399,18 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$gui.Career.5Desc";
+			Text = "Les charpentiers produisent une grande quantité de produits de la vie quotidienne, tels que des chariots servant au transport de marchandises et des barils contenant la précieuse bière.";
+		},
+		LocDirectEntry
+		{
 			Key = "$gui.Career.6";
 			Text = "Apothicaire";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Career.6Desc";
+			Text = "Les apothicaires connaissent bien les herbes et sont également expérimentés en médecine et en alchimie, ce qui leur permet de fabriquer des remèdes et d'autres types de potions.";
 		},
 		LocDirectEntry
 		{
@@ -10389,13 +10419,28 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$gui.Career.7Desc";
+			Text = "Si vous continuez dans cette voie, vous vous retrouverez de plus en plus plongé dans un monde de crime, où vous pourrez apprendre d'autres >compétences<...";
+		},
+		LocDirectEntry
+		{
 			Key = "$gui.Career.8";
 			Text = "Lansquenet";
 		},
 		LocDirectEntry
 		{
+			Key = "$gui.Career.8Desc";
+			Text = "Si vous choisissez cette compétence, vous entreprendrez un voyage dans le sentier dangereux et quelque peu infâme d'un lansquenet - vous apprendrez à vous battre, à protéger les autres et à attraper des criminels ...";
+		},
+		LocDirectEntry
+		{
 			Key = "$gui.Career.9";
 			Text = "Scribe";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Career.9Desc";
+			Text = "C'est depuis la découverte de l'imprimerie par Gutenberg, que des livres et d'autres écrits ont été produits et vendus par des laïcs, et plus seulement par des moines. La demande pour les écrist ou imprimés a augmenté régulièrement depuis la montée des classes supérieures, de sorte qu'un nombre croissant d'érudits ouvrent leurs propre scriptorium.";
 		},
 		LocDirectEntry
 		{
@@ -10710,12 +10755,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.concubineInheritance";
-			Text = "%character% est maintenant le nouveau chef de sa dynastie et doit mettre fin à sa liaison avec vous.";
+			Text = "%character% est maintenant le nouveau chef de sa dynastie et doit mettre fin à sa liaison avec vous.";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.concubineInheritance.female";
-			Text = "%character% est maintenant la nouvelle cheffe de sa dynastie et doit mettre fin à sa liaison avec vous.";
+			Text = "%character% est maintenant la nouvelle cheffe de sa dynastie et doit mettre fin à sa liaison avec vous.";
 		},
 		LocDirectEntry
 		{
@@ -10780,7 +10825,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.ConfirmQuit";
-			Text = "Voulez-vous vraiment quitter ?";
+			Text = "Voulez-vous vraiment quitter ?";
 		},
 		LocDirectEntry
 		{
@@ -10835,7 +10880,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.DynastySelection";
-			Text = "Choisir la dynastie";
+			Text = "Choisir la dynastie";
 		},
 		LocDirectEntry
 		{
@@ -11015,7 +11060,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.evidence.TradeCulprit";
-			Text = "Donner au coupable";
+			Text = "Donner au coupable";
 		},
 		LocDirectEntry
 		{
@@ -11120,7 +11165,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.GameTime.slowGameSpeed";
-			Text = "Ralentir le jeu (-)";
+			Text = "Ralentir le jeu (-)";
 		},
 		LocDirectEntry
 		{
@@ -11190,7 +11235,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.IncomingMessage.Trade";
-			Text = "Quelqu'un souhaite faire un échange avec vous !";
+			Text = "Quelqu'un souhaite faire un échange avec vous !";
 		},
 		LocDirectEntry
 		{
@@ -11275,7 +11320,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.Load.Condition";
-			Text = "Situation familiale";
+			Text = "Situation familiale";
 		},
 		LocDirectEntry
 		{
@@ -11905,7 +11950,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.Options.UseRandom";
-			Text = "Activer les événements aléatoires";
+			Text = "Activer les événements aléatoires";
 		},
 		LocDirectEntry
 		{
@@ -11980,17 +12025,17 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.PoliticalPower.TargetCityGuards";
-			Text = "Le conseil municipal a changé les chemins de patrouille des gardes de la ville.";
+			Text = "Le conseil municipal a changé les chemins de patrouille des gardes de la ville.";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.PoliticalPower.TargetCityRecordBad";
-			Text = "Le crieur public ne gardera plus le silence sur vos actes honteux lorsqu'il traversera les districts. Cela rappellera aux gens certains crimes odieux...";
+			Text = "Le crieur public ne gardera plus le silence sur vos actes honteux lorsqu'il traversera les districts. Cela rappellera aux gens certains crimes odieux...";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.PoliticalPower.TargetCityRecordBad.Narration";
-			Text = "Le crieur public annoncera maintenant les nouvelles honteuses à propos de vous !";
+			Text = "Le crieur public annoncera maintenant les nouvelles honteuses à propos de vous !";
 		},
 		LocDirectEntry
 		{
@@ -12080,12 +12125,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.politics.office.ArsenalMaster.female";
-			Text = "Maître de l'arsenal";
+			Text = "Maître de l'arsenal";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.politics.office.ArsenalMasterDesc";
-			Text = "L'intendant de l'arsenal s'assure qu'il y a suffisamment d'armes et de nourriture stockés dans l'arsenal pour parer à toute éventualité.";
+			Text = "L'intendant de l'arsenal s'assure qu'il y a suffisamment d'armes et de nourriture stockés dans l'arsenal pour parer à toute éventualité.";
 		},
 		LocDirectEntry
 		{
@@ -12190,7 +12235,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.politics.office.DungeonMasterDesc";
-			Text = "Le maître du donjon dirige le cachot de la ville. Sa tâche principale est de s'assurer que les condamnés purgent leurs peines.";
+			Text = "Le maître du donjon dirige le cachot de la ville. Sa tâche principale est de s'assurer que les condamnés purgent leurs peines.";
 		},
 		LocDirectEntry
 		{
@@ -12205,7 +12250,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.politics.office.GateGuardianDesc";
-			Text = "La garde de la porte surveille les portes de la ville. Il sait qui est entré, où, comment et quand il est entré dans la ville... Ou du moins, il devrait savoir...";
+			Text = "La garde de la porte surveille les portes de la ville. Il sait qui est entré, où, comment et quand il est entré dans la ville... Ou du moins, il devrait savoir...";
 		},
 		LocDirectEntry
 		{
@@ -12320,7 +12365,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.politics.officegroup.CaptainDesc";
-			Text = "La chambre des gendarmes de la ville est au niveau intermédiaire dans la hiérarchie. Les conseillers dans cette chambre délivrent des ordres aux gardes de la ville, et jugent les ravisseurs et criminels similaires.";
+			Text = "La chambre des gendarmes de la ville est au niveau intermédiaire dans la hiérarchie. Les conseillers dans cette chambre délivrent des ordres aux gardes de la ville, et jugent les ravisseurs et criminels similaires.";
 		},
 		LocDirectEntry
 		{
@@ -12340,7 +12385,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.politics.officegroup.CouncilGuardianDesc";
-			Text = "La chambre des hommes de main municipaux est au niveau le plus bas. Les officiers de cette chambre sont subordonnés à la chambre des constables de la ville.";
+			Text = "La chambre des hommes de main municipaux est au niveau le plus bas. Les officiers de cette chambre sont subordonnés à la chambre des constables de la ville.";
 		},
 		LocDirectEntry
 		{
@@ -12360,7 +12405,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.politics.officegroup.JudgeDesc";
-			Text = "Les agents de cette chambre de niveau intermédiaire sont principalement concernés par des questions commerciales. Par la jurisprudence, ils rendent des jugements aux poseurs de bombes et autres saboteurs.";
+			Text = "Les agents de cette chambre de niveau intermédiaire sont principalement concernés par des questions commerciales. Par la jurisprudence, ils rendent des jugements aux poseurs de bombes et autres saboteurs.";
 		},
 		LocDirectEntry
 		{
@@ -12585,7 +12630,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.shadowAI.neighborhood.message";
-			Text = "Vous dreviez %actionName% à %targetName%";
+			Text = "Vous dreviez %actionName% à %targetName%";
 		},
 		LocDirectEntry
 		{
@@ -13115,7 +13160,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$help.Products.Essentials";
-			Text = "Produits essentiels";
+			Text = "Produits essentiels";
 		},
 		LocDirectEntry
 		{
@@ -13270,7 +13315,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$int.Commend.1";
-			Text = "la famille %name% peut sûrement soulever un broc décent - contrairement à vous !";
+			Text = "la famille %name% peut sûrement soulever un broc décent - contrairement à vous !";
 		},
 		LocDirectEntry
 		{
@@ -13280,7 +13325,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$int.Commend.2";
-			Text = "Les soirées ne sont jamais ennuyeuses en compagnie de ces bonnes personnes - levons nos verres à la famille %name% !";
+			Text = "Les soirées ne sont jamais ennuyeuses en compagnie de ces bonnes personnes - levons nos verres à la famille %name% !";
 		},
 		LocDirectEntry
 		{
@@ -13300,12 +13345,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$int.Commend.4";
-			Text = "Portons un toast à la famille %name% - puisse le dieu Bacchus veiller sur eux !";
+			Text = "Portons un toast à la famille %name% - puisse le dieu Bacchus veiller sur eux !";
 		},
 		LocDirectEntry
 		{
 			Key = "$int.Commend.4.narration";
-			Text = "Portons un toast à cette famille - puisse le dieu Bacchus veiller sur eux !";
+			Text = "Portons un toast à cette famille - puisse le dieu Bacchus veiller sur eux !";
 		},
 		LocDirectEntry
 		{
@@ -13320,7 +13365,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$int.Commend.6";
-			Text = "Permettez-moi de lever mon verre à la santé de la famille %name% - puissent-ils toujours tenir leurs boissons !";
+			Text = "Permettez-moi de lever mon verre à la santé de la famille %name% - puissent-ils toujours tenir leurs boissons !";
 		},
 		LocDirectEntry
 		{
@@ -13365,7 +13410,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$int.Denounce.0.narration";
-			Text = "Si tout le monde était aussi incompétent que cette famille, notre ville serait perdue...";
+			Text = "Si tout le monde était aussi incompétent que cette famille, notre ville serait perdue...";
 		},
 		LocDirectEntry
 		{
@@ -13690,7 +13735,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$int.Positive.Failure.Friendly.2";
-			Text = "Vous avez vraiment mis les pieds dans le plat...";
+			Text = "Vous avez vraiment mis les pieds dans le plat...";
 		},
 		LocDirectEntry
 		{
@@ -13970,7 +14015,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$int.Smear.1";
-			Text = "Je bannirais certainement la famille de %name% de ma maison, si seulement nous n'étions pas si merveilleusement amusés de toutes leurs maladresses...";
+			Text = "Je bannirais certainement la famille de %name% de ma maison, si seulement nous n'étions pas si merveilleusement amusés de toutes leurs maladresses...";
 		},
 		LocDirectEntry
 		{
@@ -14030,12 +14075,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$int.Smear.7";
-			Text = "J'ai entendu dire que la famille %name% ne boit pas de bière... Ils sont probablement trop rupin pour un simple jus d'orge, hein ?";
+			Text = "J'ai entendu dire que la famille %name% ne boit pas de bière... Ils sont probablement trop rupin pour un simple jus d'orge, hein ?";
 		},
 		LocDirectEntry
 		{
 			Key = "$int.Smear.7.narration";
-			Text = "J'ai entendu dire que cette famille ne boit pas de bière... Ils sont probablement trop rupin pour un simple jus d'orge, hein ?";
+			Text = "J'ai entendu dire que cette famille ne boit pas de bière... Ils sont probablement trop rupin pour un simple jus d'orge, hein ?";
 		},
 		LocDirectEntry
 		{
@@ -14045,7 +14090,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$InternationalDesc";
-			Text = "Vous ne voulez pas seulement connaître votre propre ville et les quelques villages qui l'entourent, vous voulez voir le monde - parce qu'après tout, 'le savoir c'est le pouvoir' et c'est ce qui vous sépare de la masse ! Cependant, vous êtes malheureusement indispensable... Vous pouvez cependant envoyer un parent ou un employé en voyage pour étancher votre soif de connaissances.";
+			Text = "Vous ne voulez pas seulement connaître votre propre ville et les quelques villages qui l'entourent, vous voulez voir le monde - parce qu'après tout, 'le savoir c'est le pouvoir' et c'est ce qui vous sépare de la masse ! Cependant, vous êtes malheureusement indispensable... Vous pouvez cependant envoyer un parent ou un employé en voyage pour étancher votre soif de connaissances.";
 		},
 		LocDirectEntry
 		{
@@ -14150,7 +14195,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$LeaveOfficeDesc";
-			Text = "Cela vous permet de quitter votre siège et d'exercer un emploi rémunéré dans une autre profession.";
+			Text = "Cela vous permet de quitter votre siège et d'exercer un emploi rémunéré dans une autre profession.";
 		},
 		LocDirectEntry
 		{
@@ -14220,7 +14265,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$mapStart.narration.gamemode.career";
-			Text = "Dans votre jeunesse, vous avez été formé à une profession, alors vous commencez avec quelques compétences et des aptitudes inestimables. Utilisez-les pour effectuer vos premiers pas sur un chemin vertueux ou criminel - c'est à vous de voir !";
+			Text = "Dans votre jeunesse, vous avez été formé à une profession, alors vous commencez avec quelques compétences et des aptitudes inestimables. Utilisez-les pour effectuer vos premiers pas sur un chemin vertueux ou criminel - c'est à vous de voir !";
 		},
 		LocDirectEntry
 		{
@@ -14240,7 +14285,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$mapStart.narration.welcome";
-			Text = "Bienvenue dans The Guild 3, une simulation économique et RPG prenant place à la fin du Moyen Âge. Vous prenez le rôle d'une personne dans ce scénario historique, mais vous n'êtes pas seulement une partie de l'histoire, vous pouvez écrire votre propre histoire !";
+			Text = "Bienvenue dans The Guild 3, une simulation économique et RPG prenant place à la fin du Moyen Âge. Vous prenez le rôle d'une personne dans ce scénario historique, mais vous n'êtes pas seulement une partie de l'histoire, vous pouvez écrire votre propre histoire !";
 		},
 		LocDirectEntry
 		{
@@ -14250,7 +14295,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$MasterOfTheSlideRuleDesc";
-			Text = "Vous savez y faire avec la règle à calcul et vous pouvez en faire beaucoup même dans votre tête. Cela vous permettra de planifier vos étapes de travail  à l'avance plus efficacement, si vous en êtes responsable, bien sûr.";
+			Text = "Vous savez y faire avec la règle à calcul et vous pouvez en faire beaucoup même dans votre tête. Cela vous permettra de planifier vos étapes de travail à l'avance plus efficacement, si vous en êtes responsable, bien sûr.";
 		},
 		LocDirectEntry
 		{
@@ -14290,12 +14335,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.AreYouSureCancelAction";
-			Text = "Voulez vous que %actorName% abandonne >%actionName%< pour commencer une autre tâche ?";
+			Text = "Voulez vous que %actorName% abandonne >%actionName%< pour commencer une autre tâche ?";
 		},
 		LocDirectEntry
 		{
 			Key = "$message.AreYouSureToDoAction.NoSkill";
-			Text = "Attention, vous n'avez pas la compétence appropriée %buildingSkillLvl% pour exploiter pleinement le bâtiment %buildingName%. Jusqu'à ce que vous ayez débloqué la compétence appropriée, vous devrez payer tous les frais du bâtiment. Êtes-vous sûr de vouloir faire l'action  %actionName% ?";
+			Text = "Attention, vous n'avez pas la compétence appropriée %buildingSkillLvl% pour exploiter pleinement le bâtiment %buildingName%. Jusqu'à ce que vous ayez débloqué la compétence appropriée, vous devrez payer tous les frais du bâtiment. Êtes-vous sûr de vouloir faire l'action %actionName% ?";
 		},
 		LocDirectEntry
 		{
@@ -14305,7 +14350,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.AskAllianceAction.Success";
-			Text = "Les dynasties %FamilySource% et %FamilyTarget% sont maintenant alliés.";
+			Text = "Les dynasties %FamilySource% et %FamilyTarget% sont maintenant alliés.";
 		},
 		LocDirectEntry
 		{
@@ -14325,7 +14370,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.BreakFeudAction.Success";
-			Text = "Les dynasties %FamilySource% et %FamilyTarget% ont mis fin à leur querelle.";
+			Text = "Les dynasties %FamilySource% et %FamilyTarget% ont mis fin à leur querelle.";
 		},
 		LocDirectEntry
 		{
@@ -14430,7 +14475,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.FamilyBreakAlliance";
-			Text = "Les dynasties %FamilySource% et %FamilyTarget% ne sont plus alliés.";
+			Text = "Les dynasties %FamilySource% et %FamilyTarget% ne sont plus alliés.";
 		},
 		LocDirectEntry
 		{
@@ -14500,7 +14545,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.FamilyStartedAFeud.Narration";
-			Text = "Un rival a déclaré une querelle contre vous !";
+			Text = "Un rival a déclaré une querelle contre vous !";
 		},
 		LocDirectEntry
 		{
@@ -14580,7 +14625,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.OtherLeader.Execution";
-			Text = "%character%, chef de la dynastie %family%, va être exécuté.";
+			Text = "%character%, chef de la dynastie %family%, va être exécuté.";
 		},
 		LocDirectEntry
 		{
@@ -14645,7 +14690,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.Relations.Neutral";
-			Text = "%name% est neutre envers notre pays !";
+			Text = "%name% est neutre envers notre pays !";
 		},
 		LocDirectEntry
 		{
@@ -14680,7 +14725,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.SocietyInviteMemberAction.Success";
-			Text = "La famille %FamilyTarget% est maintenant membre de la %SocietySource%.";
+			Text = "La famille %FamilyTarget% est maintenant membre de la %SocietySource%.";
 		},
 		LocDirectEntry
 		{
@@ -14920,7 +14965,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$nobility.10desc";
-			Text = "Les seigneurs sont un rang au-dessus des écuyers et peuvent, historiquement parlant, diriger un petit fief.";
+			Text = "Les seigneurs sont un rang au-dessus des écuyers et peuvent, historiquement parlant, diriger un petit fief.";
 		},
 		LocDirectEntry
 		{
@@ -14980,7 +15025,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$nobility.14desc";
-			Text = "Les quelques ducs que compte le royaume ont une puissance disproportionnée. Ils ne sont dépassés en rang que par les archiduques en.";
+			Text = "Les quelques ducs que compte le royaume ont une puissance disproportionnée. Ils ne sont dépassés en rang que par les archiduques en.";
 		},
 		LocDirectEntry
 		{
@@ -15030,7 +15075,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$nobility.3desc";
-			Text = "Le paysan possède généralement son propre terrain et paie des taxes aux seigneurs. Ils ne sont pas soumis aux travaux forcés.";
+			Text = "Le paysan possède généralement son propre terrain et paie des taxes aux seigneurs. Ils ne sont pas soumis aux travaux forcés.";
 		},
 		LocDirectEntry
 		{
@@ -15045,7 +15090,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$nobility.4desc";
-			Text = "Les résidents >habitent< >dans< la ville et cultivent les terres appartenant à la ville pour les classes dirigeantes.";
+			Text = "Les résidents >habitent< >dans< la ville et cultivent les terres appartenant à la ville pour les classes dirigeantes.";
 		},
 		LocDirectEntry
 		{
@@ -15060,7 +15105,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$nobility.5desc";
-			Text = "La ville sent la liberté ! Une fois que vous avez obtenu ce titre, vous pouvez postuler à un siège municipal et vous pourrez également acquérir des compétences puissantes.";
+			Text = "La ville sent la liberté ! Une fois que vous avez obtenu ce titre, vous pouvez postuler à un siège municipal et vous pourrez également acquérir des compétences puissantes.";
 		},
 		LocDirectEntry
 		{
@@ -15090,7 +15135,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$nobility.7desc";
-			Text = "Les citoyens les plus prospères et les plus puissants de la ville sont les patriciens. Ils occupent généralement les sièges les plus élevés dans la mairie.";
+			Text = "Les citoyens les plus prospères et les plus puissants de la ville sont les patriciens. Ils occupent généralement les sièges les plus élevés dans la mairie.";
 		},
 		LocDirectEntry
 		{
@@ -15400,7 +15445,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ParalysisPoisonDesc";
-			Text = "Ce poison perfide entre dans la circulation sanguine de la victime à travers une aiguille de bois tirée par une sarbacane. Le poison paralyse la victime et affaiblit également sa dextérité et sa force.";
+			Text = "Ce poison perfide entre dans la circulation sanguine de la victime à travers une aiguille de bois tirée par une sarbacane. Le poison paralyse la victime et affaiblit également sa dextérité et sa force.";
 		},
 		LocDirectEntry
 		{
@@ -15520,7 +15565,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Poison.DrunkDesc";
-			Text = "Oh... la pièces... Cha tourve... Chi Uite....";
+			Text = "Oh... la pièces... Cha tourve... Chi Uite....";
 		},
 		LocDirectEntry
 		{
@@ -15930,7 +15975,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$PublicEntertainmentDesc";
-			Text = "Le jonglage vous permet de faire des exploits acrobatiques dans les lieux publics pour étonner les passants ou les faire rire.";
+			Text = "Le jonglage vous permet de faire des exploits acrobatiques dans les lieux publics pour étonner les passants ou les faire rire.";
 		},
 		LocDirectEntry
 		{
@@ -15965,7 +16010,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$qs.buildingtype.3";
-			Text = "Routes commerciales longue distance";
+			Text = "Routes commerciales longue distance";
 		},
 		LocDirectEntry
 		{
@@ -16120,12 +16165,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$randomEvents.negative.13";
-			Text = "Alors que vous parcourez le %neighborhood% de %city%, vous remarquez que les habitants vous regardent méchamment et beaucoup vous tourne le dos.\nCe qui ne va pas avec ces gens tout d'un coup reste un mystère...";
+			Text = "Alors que vous parcourez le %neighborhood% de %city%, vous remarquez que les habitants vous regardent méchamment et beaucoup vous tourne le dos.\nCe qui ne va pas avec ces gens tout d'un coup reste un mystère...";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.negative.14";
-			Text = "Alors que vous parcourez le %neighborhood% de %city% vous poussez quelques mendiants gênant sur le côté. Ils trébuchent et renversent des échafaudages en tombant, blessant plusieurs habitants au passage. Le temps que la poussière retombe, vous avez évidemment déjà disparu dans une petite ruelle.\nAu loin, vous entendez des gens maudissant votre nom...";
+			Text = "Alors que vous parcourez le %neighborhood% de %city% vous poussez quelques mendiants gênant sur le côté. Ils trébuchent et renversent des échafaudages en tombant, blessant plusieurs habitants au passage. Le temps que la poussière retombe, vous avez évidemment déjà disparu dans une petite ruelle.\nAu loin, vous entendez des gens maudissant votre nom...";
 		},
 		LocDirectEntry
 		{
@@ -16195,7 +16240,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$randomEvents.negative.4";
-			Text = "Autour d'une chope de bière dans une taverne, vous vous engagez dans une conversation animée avec un autre invité. Tout en appuyant l'une de vos déclarations avec un large mouvement de votre bras, vous renversez accidentellement de la bière sur les vêtements de %fullname%.\nEn dépit de vos excuses sincères, vous êtes toujours sujet à un regard méprisant. Nul doute que l'ensemble de la famille %dynasty% va prendre assez mal cet >accident<...";
+			Text = "Autour d'une chope de bière dans une taverne, vous vous engagez dans une conversation animée avec un autre invité. Tout en appuyant l'une de vos déclarations avec un large mouvement de votre bras, vous renversez accidentellement de la bière sur les vêtements de %fullname%.\nEn dépit de vos excuses sincères, vous êtes toujours sujet à un regard méprisant. Nul doute que l'ensemble de la famille %dynasty% va prendre assez mal cet >accident<...";
 		},
 		LocDirectEntry
 		{
@@ -16205,7 +16250,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$randomEvents.negative.6";
-			Text = "Vous avez perdu %coins% dans une affaire de contrebande  qui a misérablement échoué.";
+			Text = "Vous avez perdu %coins% dans une affaire de contrebande qui a misérablement échoué.";
 		},
 		LocDirectEntry
 		{
@@ -16285,7 +16330,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$randomEvents.neutral.16";
-			Text = "Une fois encore, votre bourse est gonflé avec tellement de pièces que votre ceinture s'affaisse dangereusement et votre pantalon menace de tomber. Des notes d'obligations écrites sur des parchemins ou du papier seraient beaucoup plus pratique, mais cela ne prendra probablement jamais...";
+			Text = "Une fois encore, votre bourse est gonflé avec tellement de pièces que votre ceinture s'affaisse dangereusement et votre pantalon menace de tomber. Des notes d'obligations écrites sur des parchemins ou du papier seraient beaucoup plus pratique, mais cela ne prendra probablement jamais...";
 		},
 		LocDirectEntry
 		{
@@ -16315,7 +16360,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$randomEvents.neutral.21";
-			Text = "En parcourant le marché, vous trouvez un document jauni. Avec un petit effort, vous pouvez déchiffrer les mots >c'est le chant des Nibelungen<. Vous haussez les épaules et le reposez.\nPeu de temps après, un homme manifestement éduqué ramasse le document et crie joyeusement : >Quelle trouvaille incroyable ! Cela me va me rapporter une fortune !<";
+			Text = "En parcourant le marché, vous trouvez un document jauni. Avec un petit effort, vous pouvez déchiffrer les mots >c'est le chant des Nibelungen<. Vous haussez les épaules et le reposez.\nPeu de temps après, un homme manifestement éduqué ramasse le document et crie joyeusement : >Quelle trouvaille incroyable ! Cela me va me rapporter une fortune !<";
 		},
 		LocDirectEntry
 		{
@@ -16335,7 +16380,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$randomEvents.neutral.5";
-			Text = "En principe vous avez des affaires importantes à régler aujourd'hui, mais vous ne pouvez tout simplement pas vous concentrer... avez-vous vraiment verrouillé la porte de votre maison correctement avant de partir?  Il y a tellement d'escroc qui rodent...";
+			Text = "En principe vous avez des affaires importantes à régler aujourd'hui, mais vous ne pouvez tout simplement pas vous concentrer... avez-vous vraiment verrouillé la porte de votre maison correctement avant de partir? Il y a tellement d'escroc qui rodent...";
 		},
 		LocDirectEntry
 		{
@@ -16415,7 +16460,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$randomEvents.positive.15";
-			Text = "Vous donnez à une pauvre fille du %neighborhood% de %city% un quignon de pain sec. Le lendemain, tout le quartier reconnait votre bonté. Peut-être devriez vous distribuer du pain aux pauvres plus souvent...";
+			Text = "Vous donnez à une pauvre fille du %neighborhood% de %city% un quignon de pain sec. Le lendemain, tout le quartier reconnait votre bonté. Peut-être devriez vous distribuer du pain aux pauvres plus souvent...";
 		},
 		LocDirectEntry
 		{
@@ -16430,7 +16475,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$randomEvents.positive.18";
-			Text = "Vous trouvez 1 %itemname% sur la route, certes avec des signes d'usure, mais en très bon état quand même.";
+			Text = "Vous trouvez 1 %itemname% sur la route, certes avec des signes d'usure, mais en très bon état quand même.";
 		},
 		LocDirectEntry
 		{
@@ -16445,7 +16490,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$randomEvents.positive.20";
-			Text = "Eh bien c'était quelque chose... Pour célébrer l'anniversaire d'un parent lointain, vous apportez plusieurs bouteilles de vin à une réunion à l'Hôtel de Ville. Bien qu'aucune décision significative n'ait été prise, cela s'est avéré être un bon jour.\nLes membres du conseil de %city% sont en tout cas reconnaissants pour la petite distraction...";
+			Text = "Eh bien c'était quelque chose... Pour célébrer l'anniversaire d'un parent lointain, vous apportez plusieurs bouteilles de vin à une réunion à l'Hôtel de Ville. Bien qu'aucune décision significative n'ait été prise, cela s'est avéré être un bon jour.\nLes membres du conseil de %city% sont en tout cas reconnaissants pour la petite distraction...";
 		},
 		LocDirectEntry
 		{
@@ -16535,7 +16580,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$randomEvents.TradeMarket.Demand.Alcohol";
-			Text = "Écoutez ! Le conseil municipal de %city% est ravi d'annoncer que les citoyens de la ville sont invités à une grande fête pour honorer les aînés de la ville. Alors des %productcategory% seront achetés à bon prix pour le festival jusqu'en %date%.";
+			Text = "Écoutez ! Le conseil municipal de %city% est ravi d'annoncer que les citoyens de la ville sont invités à une grande fête pour honorer les aînés de la ville. Alors des %productcategory% seront achetés à bon prix pour le festival jusqu'en %date%.";
 		},
 		LocDirectEntry
 		{
@@ -16550,7 +16595,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$randomEvents.TradeMarket.Demand.Clothing";
-			Text = "Hey ! C'est la semaine de la mode à %city%. La guilde des tailleurs organise une compétition pour voir qui sera le créateur de mode le plus pointu ! Envoyez vos plus beaux %productcategory% pas plus tard qu'en %date%.";
+			Text = "Hey ! C'est la semaine de la mode à %city%. La guilde des tailleurs organise une compétition pour voir qui sera le créateur de mode le plus pointu ! Envoyez vos plus beaux %productcategory% pas plus tard qu'en %date%.";
 		},
 		LocDirectEntry
 		{
@@ -16565,7 +16610,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$randomEvents.TradeMarket.Demand.Furniture";
-			Text = "Les citoyens de %city% ont désespérément besoin de %productcategory%. La demande cessera bientôt:  %date%.";
+			Text = "Les citoyens de %city% ont désespérément besoin de %productcategory%. La demande cessera bientôt: %date%.";
 		},
 		LocDirectEntry
 		{
@@ -16595,12 +16640,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$randomEvents.TradeMarket.Offer.Armor";
-			Text = "Les forgerons de %city% ont été très productifs l'année dernière et ont fabriqués un surplus de %productcategory% à vendre. C'est pourquoi les articles sont offerts à des prix avantageux jusqu'en %date%.";
+			Text = "Les forgerons de %city% ont été très productifs l'année dernière et ont fabriqués un surplus de %productcategory% à vendre. C'est pourquoi les articles sont offerts à des prix avantageux jusqu'en %date%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.TradeMarket.Offer.BlackMarketItem";
-			Text = "La rumeur dit que la Guilde des voleurs de %city% a vidé l'entrepôt d'un riche patricien. Ils veulent vendre les %productcategory% volés jusqu'en %date% à bon prix, avant que les gardes de la ville ne les rattrapent...";
+			Text = "La rumeur dit que la Guilde des voleurs de %city% a vidé l'entrepôt d'un riche patricien. Ils veulent vendre les %productcategory% volés jusqu'en %date% à bon prix, avant que les gardes de la ville ne les rattrapent...";
 		},
 		LocDirectEntry
 		{
@@ -16620,7 +16665,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$randomEvents.TradeMarket.Offer.Furniture";
-			Text = "Un fabricant de meubles suédois a ouvert une nouvelle entreprise à %city%. Pour célébrer la grande ouverture, ils vendent des %productcategory% jusqu'en %date% à des prix très compétitifs.";
+			Text = "Un fabricant de meubles suédois a ouvert une nouvelle entreprise à %city%. Pour célébrer la grande ouverture, ils vendent des %productcategory% jusqu'en %date% à des prix très compétitifs.";
 		},
 		LocDirectEntry
 		{
@@ -16640,7 +16685,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$randomEvents.TradeMarket.Offer.Weapon";
-			Text = "La ville de %city% vend des %productcategory% de son arsenal à des prix avantageux jusqu'en %date%.";
+			Text = "La ville de %city% vend des %productcategory% de son arsenal à des prix avantageux jusqu'en %date%.";
 		},
 		LocDirectEntry
 		{
@@ -16750,7 +16795,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$RhetoricPrivateDesc";
-			Text = "Maîtrisez l'art de la séduction et vous pourrez utiliser vos mots, expressions et gestes pour faire marcher les autres au doigt et à l’œil.";
+			Text = "Maîtrisez l'art de la séduction et vous pourrez utiliser vos mots, expressions et gestes pour faire marcher les autres au doigt et à l’œil.";
 		},
 		LocDirectEntry
 		{
@@ -17195,12 +17240,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$sce.desc.Augsburg";
-			Text = "La ville a été fondée en 15 av. J.-C. par Drusus et Tiberius pour leur beau-père l'empereur romain Augustus en tant que camp militaire. En 1156 AD, Augsbourg reçut le privilège de population et devint une ville impériale libre en 1276. Depuis lors, la ville a connu un essor régulier, qui n'a pas été ralentie par les récents bouleversements et querelles. Les familles patriciennes d'Augsbourg ont forgé de vastes relations commerciales et les rumeurs disent que de nombreux nobles sont redevables aux établissements bancaires d'Augsbourg.";
+			Text = "La ville a été fondée en 15 av. J.-C. par Drusus et Tiberius pour leur beau-père l'empereur romain Augustus en tant que camp militaire. En 1156 AD, Augsbourg reçut le privilège de population et devint une ville impériale libre en 1276. Depuis lors, la ville a connu un essor régulier, qui n'a pas été ralentie par les récents bouleversements et querelles. Les familles patriciennes d'Augsbourg ont forgé de vastes relations commerciales et les rumeurs disent que de nombreux nobles sont redevables aux établissements bancaires d'Augsbourg.";
 		},
 		LocDirectEntry
 		{
 			Key = "$sce.desc.Bohemia";
-			Text = "Le mot >Bohême< vient de la tribu celtique des Boiers, qui se sont installés ici en des temps anciens. Aujourd'hui, le royaume de Bohême fait partie du Saint Empire romain germanique, et le roi de Bohême est l'un des sept électeurs de l'empire.\n Ce scénario comprend les villes de Prague, Pilsen et Eger. Les échanges à longues distance avec Dresde, Francfort, Nuremberg et Varsovie sont accessibles par voie terrestre et les ports de České Budějovice, Kolín et Brno sont accessibles par la rivière.";
+			Text = "Le mot >Bohême< vient de la tribu celtique des Boiers, qui se sont installés ici en des temps anciens. Aujourd'hui, le royaume de Bohême fait partie du Saint Empire romain germanique, et le roi de Bohême est l'un des sept électeurs de l'empire.\n Ce scénario comprend les villes de Prague, Pilsen et Eger. Les échanges à longues distance avec Dresde, Francfort, Nuremberg et Varsovie sont accessibles par voie terrestre et les ports de České Budějovice, Kolín et Brno sont accessibles par la rivière.";
 		},
 		LocDirectEntry
 		{
@@ -17210,7 +17255,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$sce.desc.Hansa";
-			Text = "Les villes libres de Lübeck et Hambourg ont fondé la Ligue hanséatique et ont été le siège de son pouvoir depuis. Ils sont situés dans la partie nord du Saint-Empire romain. Ces emplacements stratégiquement pratiques - Lübeck a un accès direct à la mer Baltique et les navires de Hambourg peuvent atteindre la mer du Nord par l'Elbe - ont apporté aux deux ville grandes richesses pouvoirs et elles reignes maintenant sur de vastes étendues de terre. Le canal Stecknitz a été ouvert en 1398, reliant les villes l'une à l'autre. Cela a permis de transporter une beaucoup plus de quantités de marchandises et beaucoup plus rapidement.\nLes villes utilisent les routes pour mener un commerce animé avec Flensburg, Brême, Lüneburg, Schwerin et Rostock, tandis que leurs navires marchands navigent vers Londres, Bruges, Visby et Gdansk. Dernièrement ces voies terrestres et maritimes ont subi des raids par de la part des >Frères des victuailles<, une communauté d'avides pirates.\n La Ligue hanséatique est dirigée par le >Alderman< qui siège au >Tribunal de la Hanse< à Lübeck. L'Alderman doit surveiller attentivement les nombreux ennemis envieux de la Ligue. Et les relations entre les grandes dynasties dans l'alliance même ne sont pas toujours particulièrement fraternelles non plus...";
+			Text = "Les villes libres de Lübeck et Hambourg ont fondé la Ligue hanséatique et ont été le siège de son pouvoir depuis. Ils sont situés dans la partie nord du Saint-Empire romain. Ces emplacements stratégiquement pratiques - Lübeck a un accès direct à la mer Baltique et les navires de Hambourg peuvent atteindre la mer du Nord par l'Elbe - ont apporté aux deux ville grandes richesses pouvoirs et elles reignes maintenant sur de vastes étendues de terre. Le canal Stecknitz a été ouvert en 1398, reliant les villes l'une à l'autre. Cela a permis de transporter une beaucoup plus de quantités de marchandises et beaucoup plus rapidement.\nLes villes utilisent les routes pour mener un commerce animé avec Flensburg, Brême, Lüneburg, Schwerin et Rostock, tandis que leurs navires marchands navigent vers Londres, Bruges, Visby et Gdansk. Dernièrement ces voies terrestres et maritimes ont subi des raids par de la part des >Frères des victuailles<, une communauté d'avides pirates.\n La Ligue hanséatique est dirigée par le >Alderman< qui siège au >Tribunal de la Hanse< à Lübeck. L'Alderman doit surveiller attentivement les nombreux ennemis envieux de la Ligue. Et les relations entre les grandes dynasties dans l'alliance même ne sont pas toujours particulièrement fraternelles non plus...";
 		},
 		LocDirectEntry
 		{
@@ -17225,7 +17270,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$sce.desc.Mazovia";
-			Text = "Le puissant duché de Mazovie est situé au nord de l'Union de Krewo, l'union du Royaume de Pologne et du Grand-Duché de Lituanie. Le paysage du duché est principalement constitué de plaines et de forêts, mais pas de lacs. La rivière Vistula coule en son coeur.";
+			Text = "Le puissant duché de Mazovie est situé au nord de l'Union de Krewo, l'union du Royaume de Pologne et du Grand-Duché de Lituanie. Le paysage du duché est principalement constitué de plaines et de forêts, mais pas de lacs. La rivière Vistula coule en son coeur.";
 		},
 		LocDirectEntry
 		{
@@ -18095,7 +18140,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$SleightOfHandDesc";
-			Text = "Tour de passe-passe permet aux personnes douées de cette compétence de gagner leur vie en tant que voleur. Si vous continuez sur ce chemin, vous vous enfoncerez de plus en plus profondément dans le crime mondial, où vous pourrez apprendre d'autres >compétences<...";
+			Text = "Tour de passe-passe permet aux personnes douées de cette compétence de gagner leur vie en tant que voleur. Si vous continuez sur ce chemin, vous vous enfoncerez de plus en plus profondément dans le crime mondial, où vous pourrez apprendre d'autres >compétences<...";
 		},
 		LocDirectEntry
 		{
@@ -18540,7 +18585,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$society.thievesguild.desc";
-			Text = "Des citoyens en apparence respectables sont en fait des membres sous couverture de la guilde des voleurs, qui utilisent secrètement toutes sortes de moyens sournois et illégaux pour obtenir des avantages.";
+			Text = "Des citoyens en apparence respectables sont en fait des membres sous couverture de la guilde des voleurs, qui utilisent secrètement toutes sortes de moyens sournois et illégaux pour obtenir des avantages.";
 		},
 		LocDirectEntry
 		{
@@ -18625,7 +18670,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$SocietyKickMemberDesc";
-			Text = "Le chef d'une société peut exclure les membres s'ils agissent contrairement aux valeurs et aux principes de la société, s'ils ne respectent pas les ordres de la hiérarchie, ou simplement par caprice...";
+			Text = "Le chef d'une société peut exclure les membres s'ils agissent contrairement aux valeurs et aux principes de la société, s'ils ne respectent pas les ordres de la hiérarchie, ou simplement par caprice...";
 		},
 		LocDirectEntry
 		{
@@ -18635,7 +18680,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$SpellboundDesc";
-			Text = "Vous vous êtes mis à genoux pendant des années et vous êtes soumis à la grâce de Dieu, mais vous n'avez rien reçu en retour ! Alors vous en avez secrètement adopté un autre, strictement interdit...";
+			Text = "Vous vous êtes mis à genoux pendant des années et vous êtes soumis à la grâce de Dieu, mais vous n'avez rien reçu en retour ! Alors vous en avez secrètement adopté un autre, strictement interdit...";
 		},
 		LocDirectEntry
 		{
@@ -18685,7 +18730,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$splashHint14";
-			Text = "Vous pouvez suivre plusieurs chemins dans l'arbre des compétences. Vous devez sélectionner l'un de ces chemins au début du jeu, mais vous pouvez également apprendre les compétences d'un autre chemin plus tard.";
+			Text = "Vous pouvez suivre plusieurs chemins dans l'arbre des compétences. Vous devez sélectionner l'un de ces chemins au début du jeu, mais vous pouvez également apprendre les compétences d'un autre chemin plus tard.";
 		},
 		LocDirectEntry
 		{
@@ -19045,7 +19090,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$StreetSmartDesc";
-			Text = "Vous savez ce qui se passe dans les allées et les coins sombres autour de vous. Rien - ou pas grans chose - peut vraiment vous surprendre ou vous effrayer. Cela vous permet repérer les voyous bien avant qu'ils ne soient suffisamment proches pour commettre leurs crimes contre vous.";
+			Text = "Vous savez ce qui se passe dans les allées et les coins sombres autour de vous. Rien - ou pas grans chose - peut vraiment vous surprendre ou vous effrayer. Cela vous permet repérer les voyous bien avant qu'ils ne soient suffisamment proches pour commettre leurs crimes contre vous.";
 		},
 		LocDirectEntry
 		{
@@ -19330,7 +19375,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.EditRoute";
-			Text = "Modifier la route séléctionnée";
+			Text = "Modifier la route séléctionnée";
 		},
 		LocDirectEntry
 		{
@@ -19365,7 +19410,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.Filter4";
-			Text = "Produits de luxe";
+			Text = "Produits de luxe";
 		},
 		LocDirectEntry
 		{
@@ -19525,7 +19570,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.Route.Node.10";
-			Text = "Prendre des produits finis";
+			Text = "Prendre des produits finis";
 		},
 		LocDirectEntry
 		{
@@ -19565,7 +19610,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.Route.Node.18";
-			Text = "Votre transporteur attendra jusqu'à ce que le minimum de la marchandises requises soit ramassé avant de reprendre son itinéraire.";
+			Text = "Votre transporteur attendra jusqu'à ce que le minimum de la marchandises requises soit ramassé avant de reprendre son itinéraire.";
 		},
 		LocDirectEntry
 		{
@@ -19670,7 +19715,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.StorageSellprice";
-			Text = "Vous pouvez utiliser ce curseur pour déterminer à quel point le prix de votre magasin doit être supérieur ou inférieur au prix actuel du marché.";
+			Text = "Vous pouvez utiliser ce curseur pour déterminer à quel point le prix de votre magasin doit être supérieur ou inférieur au prix actuel du marché.";
 		},
 		LocDirectEntry
 		{
@@ -19705,7 +19750,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.TransportMoveUpDestination";
-			Text = "Ici, vous déterminez le meilleur endroit où vos employés devraient vendre vos marchandises en premier - ou les stocker dans vos propres bâtiments.";
+			Text = "Ici, vous déterminez le meilleur endroit où vos employés devraient vendre vos marchandises en premier - ou les stocker dans vos propres bâtiments.";
 		},
 		LocDirectEntry
 		{
@@ -19755,7 +19800,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip17";
-			Text = "Journal de quête";
+			Text = "Journal de quête";
 		},
 		LocDirectEntry
 		{
@@ -19780,7 +19825,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip21";
-			Text = "Action en cours du personnage";
+			Text = "Action en cours du personnage";
 		},
 		LocDirectEntry
 		{
@@ -19790,7 +19835,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip23";
-			Text = "Patrimoine de la dynastie";
+			Text = "Patrimoine de la dynastie";
 		},
 		LocDirectEntry
 		{
@@ -19870,22 +19915,22 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltipBudgetGray";
-			Text = "Le >Livre du budget< n'est pas disponible actuellement.";
+			Text = "Le >Livre du budget< n'est pas disponible actuellement.";
 		},
 		LocDirectEntry
 		{
 			Key = "$tooltipDynastiesGray";
-			Text = "Le >Livre des dynasties< n'est pas disponible actuellement.";
+			Text = "Le >Livre des dynasties< n'est pas disponible actuellement.";
 		},
 		LocDirectEntry
 		{
 			Key = "$tooltipPoliticsGray";
-			Text = "Les >Dossiers de la ville< ne sont pas disponible actuellement.";
+			Text = "Les >Dossiers de la ville< ne sont pas disponible actuellement.";
 		},
 		LocDirectEntry
 		{
 			Key = "$tooltipQuestsGray";
-			Text = "Le >Journal de quêtes< n'est pas disponible actuellement.";
+			Text = "Le >Journal de quêtes< n'est pas disponible actuellement.";
 		},
 		LocDirectEntry
 		{
@@ -19895,7 +19940,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltipTrialsGray";
-			Text = "Le >Livre preuve % procès< n'est pas disponible actuellement.";
+			Text = "Le >Livre preuve % procès< n'est pas disponible actuellement.";
 		},
 		LocDirectEntry
 		{
@@ -19940,7 +19985,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$trial.EventDescription.Neighborhood.verdict";
-			Text = "Le voisinage espère la peine suivante : %sentence%.";
+			Text = "Le voisinage espère la peine suivante : %sentence%.";
 		},
 		LocDirectEntry
 		{
@@ -19960,7 +20005,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$trial.EventDescription.target.family";
-			Text = "La cible était de la dynastie %family%.";
+			Text = "La cible était de la dynastie %family%.";
 		},
 		LocDirectEntry
 		{
@@ -19970,17 +20015,17 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$trial.Sentence.Cost.2";
-			Text = " (%cost% $(#3))";
+			Text = "(%cost% $(#3))";
 		},
 		LocDirectEntry
 		{
 			Key = "$trial.Sentence.Cost.1";
-			Text = "  (réputation -%cost%)";
+			Text = "(réputation -%cost%)";
 		},
 		LocDirectEntry
 		{
 			Key = "$trial.Sentence.Cost.3";
-			Text = "  (%cost% années)";
+			Text = "(%cost% années)";
 		},
 		LocDirectEntry
 		{
@@ -20000,7 +20045,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$trial.Sentence.Level.3";
-			Text = "peine de prison";
+			Text = "peine de prison";
 		},
 		LocDirectEntry
 		{
@@ -21990,7 +22035,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.ItemLVL2.Level";
-			Text = "Niveau %level%";
+			Text = "Niveau %level%";
 		},
 		LocDirectEntry
 		{
@@ -22145,7 +22190,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.message.NoAIOnHouses";
-			Text = "Vous ne pouvez pas configurer l'IA automatique pour une résidence";
+			Text = "Vous ne pouvez pas configurer l'IA automatique pour une résidence";
 		},
 		LocDirectEntry
 		{
@@ -22170,26 +22215,31 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.message.SpeedModifier.0";
-			Text = "x 0.5";
+			Text = "RALENTI";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.message.SpeedModifier.1";
-			Text = "NORMAL";
+			Text = "x 0.5";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.message.SpeedModifier.2";
-			Text = "x 2";
+			Text = "NORMAL";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.message.SpeedModifier.3";
-			Text = "x 3";
+			Text = "x 2";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.message.SpeedModifier.4";
+			Text = "x 3";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.message.SpeedModifier.5";
 			Text = "x 4";
 		},
 		LocDirectEntry
@@ -22230,7 +22280,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.miles";
-			Text = " miles";
+			Text = "miles";
 		},
 		LocDirectEntry
 		{
@@ -22574,48 +22624,38 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$ui.Production.biz.Button0";
+			Key = "$ui.Production.biz.Repair";
 			Text = "Réparer le bâtiment";
 		},
 		LocDirectEntry
 		{
-			Key = "$ui.Production.biz.Button1";
-			Text = "Attribuer budget";
-		},
-		LocDirectEntry
-		{
-			Key = "$ui.Production.biz.Button2";
+			Key = "$ui.Production.biz.Upgrade";
 			Text = "Améliorer le bâtiment";
 		},
 		LocDirectEntry
 		{
-			Key = "$ui.Production.biz.Button3";
-			Text = "Améliorations";
-		},
-		LocDirectEntry
-		{
-			Key = "$ui.Production.biz.Button4";
+			Key = "$ui.Production.biz.Statistics";
 			Text = "Statistiques";
 		},
 		LocDirectEntry
 		{
-			Key = "$ui.Production.biz.Button5";
+			Key = "$ui.Production.biz.Storage";
 			Text = "Règles de stockage";
 		},
 		LocDirectEntry
 		{
-			Key = "$ui.Production.biz.Button6";
+			Key = "$ui.Production.biz.Henchmen";
 			Text = "Embaucher un employé";
 		},
 		LocDirectEntry
 		{
-			Key = "$ui.Production.biz.Button7";
+			Key = "$ui.Production.biz.Destroy";
 			Text = "Détruire le bâtiment";
 		},
 		LocDirectEntry
 		{
-			Key = "$ui.Production.biz.Button8";
-			Text = "Règles du transport";
+			Key = "$ui.Production.biz.Transport";
+			Text = "Règles du transport";
 		},
 		LocDirectEntry
 		{
@@ -22624,38 +22664,28 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$ui.Production.biz.Line0";
+			Key = "$ui.Production.biz.Productivity";
 			Text = "Productivité";
 		},
 		LocDirectEntry
 		{
-			Key = "$ui.Production.biz.Line1";
+			Key = "$ui.Production.biz.Value";
 			Text = "Valeur";
 		},
 		LocDirectEntry
 		{
-			Key = "$ui.Production.biz.Line2";
-			Text = "Budget annuel";
-		},
-		LocDirectEntry
-		{
-			Key = "$ui.Production.biz.Line3";
-			Text = "Budget restant";
-		},
-		LocDirectEntry
-		{
-			Key = "$ui.Production.biz.Line2";
+			Key = "$ui.Production.biz.Addons";
 			Text = "Améliorations";
 		},
 		LocDirectEntry
 		{
-			Key = "$ui.Production.biz.Line3";
+			Key = "$ui.Production.biz.Attractiveness";
 			Text = "Satisfaction du client";
 		},
 		LocDirectEntry
 		{
-			Key = "$ui.Production.biz.Line3.Tooltip";
-			Text = "La 'Satisfaction du client' résulte de la relation avec village ou le quartier, du prix de vente dans le magasin et de certaines améliorations du bâtiment. Plus cette valeur est élevée, plus les clients acheteront des marchandises dans le magasin.";
+			Key = "$ui.tooltip.AttractivenessDesc";
+			Text = "La 'Satisfaction du client' résulte de la relation avec village ou le quartier, du prix de vente dans le magasin et de certaines améliorations du bâtiment. Plus cette valeur est élevée, plus les clients acheteront des marchandises dans le magasin.";
 		},
 		LocDirectEntry
 		{
@@ -23115,17 +23145,17 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.StoryQuest.Desc1";
-			Text = "Vous êtes un enfant de paysans pauvres. Vous êtes venu en ville pour prendre votre destinée en mains et pour fonder une dynastie riche et influente !";
+			Text = "Vous êtes un enfant de paysans pauvres. Vous êtes venu en ville pour prendre votre destinée en mains et pour fonder une dynastie riche et influente !";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.StoryQuest.Desc2";
-			Text = "Vous arrivez en ville et vous sentez littéralement l'air de la liberté - qui peut également sentir plutôt mauvais, mais vous sentez vraiment que c'est l'endroit où la liberté et la richesse sont à votre portée. Maintenant, choisissez une profession et travaillez dur dans votre secteur d'activité pour montrer à tous ce dont vous êtes capable.";
+			Text = "Vous arrivez en ville et vous sentez littéralement l'air de la liberté - qui peut également sentir plutôt mauvais, mais vous sentez vraiment que c'est l'endroit où la liberté et la richesse sont à votre portée. Maintenant, choisissez une profession et travaillez dur dans votre secteur d'activité pour montrer à tous ce dont vous êtes capable.";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.StoryQuest.Desc3";
-			Text = "Votre père s'embarquait toujours sur des voyages commerciaux. Son désir le plus ardent était de ramener cet ivoire légendaire à la maison, mais sa vie est maintenant terminée, alors, le trouverez-vous et le ramènerais vous ?";
+			Text = "Votre père s'embarquait toujours sur des voyages commerciaux. Son désir le plus ardent était de ramener cet ivoire légendaire à la maison, mais sa vie est maintenant terminée, alors, le trouverez-vous et le ramènerais vous ?";
 		},
 		LocDirectEntry
 		{
@@ -23150,7 +23180,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.StoryQuest.Name1";
-			Text = "Fonder une dynastie puissante";
+			Text = "Fonder une dynastie puissante";
 		},
 		LocDirectEntry
 		{
@@ -23180,7 +23210,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.StoryQuest.Narration0";
-			Text = "Vous êtes arrivez en ville sans objectif défini. Vous pouvez donc vous concentrer entièrement sur votre destin et celui de votre votre !";
+			Text = "Vous êtes arrivez en ville sans objectif défini. Vous pouvez donc vous concentrer entièrement sur votre destin et celui de votre votre !";
 		},
 		LocDirectEntry
 		{
@@ -23195,22 +23225,27 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.StoryQuest.Narration3";
-			Text = "Votre père était un marchand et un aventurier qui a beaucoup voyagés. À peine était il revenu quelques jours à la maison, qu'il repartai déjà pour son prochain voyage commercial. Son désir le plus ardent était de ramener un peu de cet ivoire légendaire, mais il n'en trouva jamais. Vous l'avez toujours admiré et voulu l'accompagner dans ses aventures, mais il voulait que vous restiez à la maison et que vous soyez concentré sur vos études. Un jour, votre père est revenu avec une fièvre grave après un long voyage et dont il ne s'est jamais rétabli... donc vous dirigez maintenant l'entreprise familiale. Trouverez vous cet ivoire mythique pour honorer le dernier souhait de votre père ?";
+			Text = "Votre père était un marchand et un aventurier qui a beaucoup voyagés. À peine était il revenu quelques jours à la maison, qu'il repartai déjà pour son prochain voyage commercial. Son désir le plus ardent était de ramener un peu de cet ivoire légendaire, mais il n'en trouva jamais. Vous l'avez toujours admiré et voulu l'accompagner dans ses aventures, mais il voulait que vous restiez à la maison et que vous soyez concentré sur vos études. Un jour, votre père est revenu avec une fièvre grave après un long voyage et dont il ne s'est jamais rétabli... donc vous dirigez maintenant l'entreprise familiale. Trouverez vous cet ivoire mythique pour honorer le dernier souhait de votre père ?";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.StoryQuest.Narration4";
-			Text = "Vous avez grandi dans une banlieue sale et oubliée de la ville. Personne de la ville ne se souciait vraiment des pauvres gens qui y vivaient et essayaient de survivre avec toutes sortes de travail modeste. Votre père semblait plus marié à la bière et au rhum qu'à votre mère, qui a toujours essayé de vous protéger vous et vos frères et sœurs plus jeunes contre tout cela. Et puis, les lansquenets des anciens de la ville sont venus, le conseil municipal a décidé de nettoyer votre voisinage pour y construire un nouveau quartier. Votre famille a donc perdu sa maison. Votre père est devenu un voleur et peu après, il est mort dans un combat contre les gardes de la ville... et vous ? Vous avez juré à Dieu que vous gouverniez cette ville un jour, à tout prix !";
+			Text = "Vous avez grandi dans une banlieue sale et oubliée de la ville. Personne de la ville ne se souciait vraiment des pauvres gens qui y vivaient et essayaient de survivre avec toutes sortes de travail modeste. Votre père semblait plus marié à la bière et au rhum qu'à votre mère, qui a toujours essayé de vous protéger vous et vos frères et sœurs plus jeunes contre tout cela. Et puis, les lansquenets des anciens de la ville sont venus, le conseil municipal a décidé de nettoyer votre voisinage pour y construire un nouveau quartier. Votre famille a donc perdu sa maison. Votre père est devenu un voleur et peu après, il est mort dans un combat contre les gardes de la ville... et vous ? Vous avez juré à Dieu que vous gouverniez cette ville un jour, à tout prix !";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.StoryQuest.Narration5";
-			Text = "Vous n'avez jamais été du type aventureux, vous étiez beaucoup plus intéressé par votre règle à calcul et vos tas de pièces que les bagarres. Donc les numéros et la comptabilité sont votre passion ! Vous aimez planifier vos stocks des semaines à l'avance, optimiser l'utilisation de vos transporteurs et identifier les routes commerciales les plus rentables avec les risques les plus faible. Y a-t-il quelque chose de plus merveilleux au monde ?";
+			Text = "Vous n'avez jamais été du type aventureux, vous étiez beaucoup plus intéressé par votre règle à calcul et vos tas de pièces que les bagarres. Donc les numéros et la comptabilité sont votre passion ! Vous aimez planifier vos stocks des semaines à l'avance, optimiser l'utilisation de vos transporteurs et identifier les routes commerciales les plus rentables avec les risques les plus faible. Y a-t-il quelque chose de plus merveilleux au monde ?";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.StoryQuest.Narration6";
-			Text = "Vous n'avez jamais été battu dans une bagarre, même étant enfant et peu importe que votre adversaire était deux têtes plus grand que vous, vous avez toujours lutté. Les principes sont une faiblesse que seuls vos adversaires ont, et vous savez les utiliser à votre avantage. Et si cela ne vous aide pas, revenez en à votre enfance et utilisez la violence pure ! Parce que seul le plus fort survivra !";
+			Text = "Vous n'avez jamais été battu dans une bagarre, même étant enfant et peu importe que votre adversaire était deux têtes plus grand que vous, vous avez toujours lutté. Les principes sont une faiblesse que seuls vos adversaires ont, et vous savez les utiliser à votre avantage. Et si cela ne vous aide pas, revenez en à votre enfance et utilisez la violence pure ! Parce que seul le plus fort survivra !";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.StoryQuest.Narration7";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -23270,7 +23305,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Subquest.Desc16.1";
-			Text = "Envoyez un membre de la famille faire un voyage à longue distance.";
+			Text = "Envoyez un membre de la famille faire un voyage à longue distance.";
 		},
 		LocDirectEntry
 		{
@@ -23465,7 +23500,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Subquest.Name13";
-			Text = "Obtenir le titre de >patricien<.";
+			Text = "Obtenir le titre de >patricien<.";
 		},
 		LocDirectEntry
 		{
@@ -23565,12 +23600,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Subquest.Name3";
-			Text = "Posséder %nb% bâtiments d'un arbre de compétences.";
+			Text = "Posséder %nb% bâtiments d'un arbre de compétences.";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Subquest.Name30";
-			Text = "Obtenir le titre >citoyen<.";
+			Text = "Obtenir le titre >citoyen<.";
 		},
 		LocDirectEntry
 		{
@@ -23600,7 +23635,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Subquest.Name36";
-			Text = "Faire un enfant.";
+			Text = "Faire un enfant.";
 		},
 		LocDirectEntry
 		{
@@ -23635,7 +23670,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Subquest.Name7";
-			Text = "Apprendre toutes les compétences d'un arbre de compétences.";
+			Text = "Apprendre toutes les compétences d'un arbre de compétences.";
 		},
 		LocDirectEntry
 		{
@@ -23885,7 +23920,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.nbbusinesses";
-			Text = "Vous ne pouvez gérer que %NBBusinesses% entreprises.";
+			Text = "Vous ne pouvez gérer que %NBBusinesses% entreprises.";
 		},
 		LocDirectEntry
 		{
@@ -24640,7 +24675,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$WonderCureDesc";
-			Text = "C'est le seul remède efficace contre la peste. Aucun medicus ne peut expliquer pourquoi il est efficace contre la Mort Noire, alors que tout le reste échoue - à l'exception des prières, bien sûr ! Par conséquent, le nom Remède miracle est au moins tout à fait approprié.";
+			Text = "C'est le seul remède efficace contre la peste. Aucun medicus ne peut expliquer pourquoi il est efficace contre la Mort Noire, alors que tout le reste échoue - à l'exception des prières, bien sûr ! Par conséquent, le nom Remède miracle est au moins tout à fait approprié.";
 		},
 		LocDirectEntry
 		{
@@ -24730,12 +24765,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.ApplyToadSlime.FailureTarget.Message";
-			Text = "La dynastie %FamilySource%  n'a pas réussi à saboter votre bâtiment %BuildingTarget% avec de la Bave de crapaud !";
+			Text = "La dynastie %FamilySource% n'a pas réussi à saboter votre bâtiment %BuildingTarget% avec de la Bave de crapaud !";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.StinkBomb.SuccessSource.Headline";
-			Text = "Bombe Puante  utilisé avec succès contre le bâtiment %BuildingTarget%.";
+			Text = "Bombe Puante utilisé avec succès contre le bâtiment %BuildingTarget%.";
 		},
 		LocDirectEntry
 		{
@@ -24815,7 +24850,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.UseAntidote.SuccessSource.Headline";
-			Text = "Grâce à l'Antidote  %CharacterTarget% se sent mieux.";
+			Text = "Grâce à l'Antidote %CharacterTarget% se sent mieux.";
 		},
 		LocDirectEntry
 		{
@@ -25315,7 +25350,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$pregnancy.NotificationFailure.Message";
-			Text = "%CharacterTarget% et %CharacterSource%  n'ont pas réussi à concevoir un enfant.";
+			Text = "%CharacterTarget% et %CharacterSource% n'ont pas réussi à concevoir un enfant.";
 		},
 		LocDirectEntry
 		{
@@ -25845,7 +25880,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$feedback.EffectAppliedblessed";
-			Text = "+$(blessed) Bénédiction !";
+			Text = "=+$(blessed) Bénédiction !";
 		},
 		LocDirectEntry
 		{
@@ -25855,7 +25890,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$feedback.EffectAppliedpregnant";
-			Text = "+$(pregnant) Grossesse !";
+			Text = "=+$(pregnant) Grossesse !";
 		},
 		LocDirectEntry
 		{
@@ -25870,7 +25905,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.dialog.BuySkillConfirmation";
-			Text = "Voulez-vous dépenser %Currency% pour déverrouiller  %SkillName% %SkillLevel% ?";
+			Text = "Voulez-vous dépenser %Currency% pour déverrouiller %SkillName% %SkillLevel% ?";
 		},
 		LocDirectEntry
 		{
@@ -25885,7 +25920,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.dialog.NotEnoughNobility";
-			Text = "Vous avez besoin d'un Titre plus élevé pour déverrouiller  %SkillName% %SkillLevel%.";
+			Text = "Vous avez besoin d'un Titre plus élevé pour déverrouiller %SkillName% %SkillLevel%.";
 		},
 		LocDirectEntry
 		{
@@ -25965,7 +26000,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$feedback.EffectAppliedprotected";
-			Text = "+ Protégé !";
+			Text = "=+ Protégé !";
 		},
 		LocDirectEntry
 		{
@@ -26150,7 +26185,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$feedback.EffectAppliedunconscious";
-			Text = "+$(unconscious) Etourdi !";
+			Text = "=+$(unconscious) Etourdi !";
 		},
 		LocDirectEntry
 		{
@@ -26250,7 +26285,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.tooltip.canBePlacedInVillage";
-			Text = "Peut être construit dans le  village";
+			Text = "Peut être construit dans le village";
 		},
 		LocDirectEntry
 		{
@@ -27280,7 +27315,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$fb.EnemyUnholyMarriage";
-			Text = "C'est un scandale ! %character% et %target%  se sont mariés sans l'autorisation du chef de la famille %family%.";
+			Text = "C'est un scandale ! %character% et %target% se sont mariés sans l'autorisation du chef de la famille %family%.";
 		},
 		LocDirectEntry
 		{
@@ -27885,7 +27920,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$feedback.EffectAppliedclosed";
-			Text = "+ $(closed) Obsolète !";
+			Text = "+$(closed) Obsolète !";
 		},
 		LocDirectEntry
 		{
@@ -28554,11 +28589,6 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$sce.dist.Muelln";
-			Text = "Muelln";
-		},
-		LocDirectEntry
-		{
 			Key = "$sce.dist.Nonntal";
 			Text = "Nonntal";
 		},
@@ -28576,16 +28606,6 @@ LocDirectData
 		{
 			Key = "$sce.sov.Salzburg.male";
 			Text = "Archbishop";
-		},
-		LocDirectEntry
-		{
-			Key = "$sce.dist.Bergheim";
-			Text = "Bergheim";
-		},
-		LocDirectEntry
-		{
-			Key = "$sce.dist.Hallein";
-			Text = "Hallein";
 		},
 		LocDirectEntry
 		{
@@ -28891,6 +28911,16 @@ LocDirectData
 		{
 			Key = "$objectives.sellToMarket.name";
 			Text = "Gagnez %nb% pièces en commercant avec %market%";
+		},
+		LocDirectEntry
+		{
+			Key = "$objectives.makeMoney.name";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$objectives.makePrestige.name";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -29305,7 +29335,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.HelpTutorial.DynastyOverview6";
-			Text = "Une autre information importante sur une dynastie sont les Attitudes: Honnête & Sombre, Généreuse & Egoïste et Diplomatique & Agressive. Chaque fois que vous ordonnez un de vos personnages d'effectuer une action,  gardez à l'esprit que cela peut changer la valeur de l'attitude de votre dynastie !\n\nPlus tard dans le jeu les Guildes inviteront les dynasties dans leur cercle si les attitutes de la dynastie et de la guilde correspondent.";
+			Text = "Une autre information importante sur une dynastie sont les Attitudes: Honnête & Sombre, Généreuse & Egoïste et Diplomatique & Agressive. Chaque fois que vous ordonnez un de vos personnages d'effectuer une action, gardez à l'esprit que cela peut changer la valeur de l'attitude de votre dynastie !\n\nPlus tard dans le jeu les Guildes inviteront les dynasties dans leur cercle si les attitutes de la dynastie et de la guilde correspondent.";
 		},
 		LocDirectEntry
 		{
@@ -30330,7 +30360,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.GameplayConceptTutorial.Offspring4";
-			Text = "Si vous êtes marié, déplacer à la fois votre chef et de son conjoint dans votre domicile et exécuter l'action Faire une enfant. En cas de succès de la femme sera enceinte et vous aurez bientôt  un enfant. Parfois, il faut essayer plusieurs fois. Consultez les attributs de la fertilité des deux vos personnages si vous voulez en savoir plus.";
+			Text = "Si vous êtes marié, déplacer à la fois votre chef et de son conjoint dans votre domicile et exécuter l'action Faire une enfant. En cas de succès de la femme sera enceinte et vous aurez bientôt un enfant. Parfois, il faut essayer plusieurs fois. Consultez les attributs de la fertilité des deux vos personnages si vous voulez en savoir plus.";
 		},
 		LocDirectEntry
 		{
@@ -30570,7 +30600,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.HelpTutorial.HUD6";
-			Text = "Le panneau méta vous permet d'accéder à la Livre de Dynasties,  Livre de Guildes, Livre de Quetes et Archives de la ville.";
+			Text = "Le panneau méta vous permet d'accéder à la Livre de Dynasties, Livre de Guildes, Livre de Quetes et Archives de la ville.";
 		},
 		LocDirectEntry
 		{
@@ -30749,7 +30779,7 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$ui.TutorialQuest.BuildBuilding1";
+			Key = "$ui.TutorialQuest.BuildAnotherBuilding1";
 			Text = "Il est temps de se développer. Construisez une autre entreprise.";
 		},
 		LocDirectEntry
@@ -31009,11 +31039,6 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$callToAction.StartRomance";
-			Text = "Sélectionnez un adulte qui n'est pas un employé et non chef d'une dynastie.";
-		},
-		LocDirectEntry
-		{
 			Key = "$gui.Options.GraphicsAdapter";
 			Text = "Carte graphique";
 		},
@@ -31021,6 +31046,541 @@ LocDirectData
 		{
 			Key = "$gui.Options.GraphicsOutput";
 			Text = "Dispositif d'affichage";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.storageRules.relevantItems.title";
+			Text = "Produits concernés";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.storageRules.relevantItems.tooltip";
+			Text = "Vous voyez ici tous les produits déverrouillés de ce bâtiment et de leurs composants.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.ToggleLobbyJoinable";
+			Text = "Rendre le jeu visible dans la liste des parties";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.tooltip.ToggleLobbyButton";
+			Text = "Ouvrir la fenêtre du lobby";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.tooltip.ToggleChatButton";
+			Text = "Basculer la fenêtre de discussion";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.storageRules.headers.item";
+			Text = "Objet$(Hint)";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.storageRules.headers.item.tooltip";
+			Text = "Un produit ou une matière première pouvant être stocké dans le bâtiment.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.storageRules.headers.keepStorage";
+			Text = "Conserver en stock$(Hint)";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.storageRules.headers.keepStorage.tooltip";
+			Text = "Déterminez combien d'unités d'un produit ou d'une matière première doivent être conservées dans l'entrepôt de ce bâtiment.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.storageRules.headers.keepFrontstore";
+			Text = "Conserve en magasin$(Hint)";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.storageRules.headers.keepFrontstore.tooltip";
+			Text = "Déterminez combien d'unités d'un produit doivent être conservées dans le magasin de ce bâtiment.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.storageRules.headers.priceDifference";
+			Text = "Prix de vente$(Hint)";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.storageRules.headers.priceDifference.tooltip";
+			Text = "C'est la différence entre le prix de vente d'un article et sa valeur marchande actuelle.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.storageRules.headers.SellAtMarket";
+			Text = "Vendre$(Hint)";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.storageRules.headers.SellAtMarket.tooltip";
+			Text = "Si vous décochez cette option, le transporteur automatisé ne vendra jamais cet article.";
+		},
+		LocDirectEntry
+		{
+			Key = "$routes.confirmDelete.title";
+			Text = "Supprimer la route ?";
+		},
+		LocDirectEntry
+		{
+			Key = "$routes.confirmDelete.message";
+			Text = "Êtes-vous sûr de vouloir supprimer la route %name% ?";
+		},
+		LocDirectEntry
+		{
+			Key = "$routes.noRoute";
+			Text = "Pas de route attribuée";
+		},
+		LocDirectEntry
+		{
+			Key = "$routes.paused";
+			Text = "En pause";
+		},
+		LocDirectEntry
+		{
+			Key = "$routes.paused.tooltip";
+			Text = "La route est en pause";
+		},
+		LocDirectEntry
+		{
+			Key = "$objectives.acquireOffice.apply.name";
+			Text = "Canditater pour le poste %office%";
+		},
+		LocDirectEntry
+		{
+			Key = "$objectives.acquireOffice.apply.any.name";
+			Text = "Canditater pour un poste";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.buttons.discard";
+			Text = "Jeter";
+		},
+		LocDirectEntry
+		{
+			Key = "$routes.creation.new.name";
+			Text = "Nouvelle route";
+		},
+		LocDirectEntry
+		{
+			Key = "$routes.confirmation.title";
+			Text = "Voulez-vous enregistrer vos modifications ?";
+		},
+		LocDirectEntry
+		{
+			Key = "$routes.confirmation.message";
+			Text = "Si vous continuez sans enregistrer toutes vos modifications en attente seront perdues. Voulez-vous les sauvegarder ?";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Secret.RefuseJoin.Title";
+			Text = "Refuser de rejoindre une guilde";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Secret.RefuseJoin.Body";
+			Text = "Êtes-vous sûr de vouloir refuser de rejoindre la %name% ? Cela affectera votre réputation auprès de tous les membres de cette guilde.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.routes.SelectRoute";
+			Text = "Sélectionnez une route";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.routes.WarehouseKeeper";
+			Text = "Magasinier";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.routes.BusinessKeeper";
+			Text = "Gardien de l'entreprise";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.routes.ResourceProvider";
+			Text = "Fournisseur de ressources";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.ServiceCustomers";
+			Text = "Aider les patients";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.TendToDamagedCustomersDesc";
+			Text = "Vous commencez à soigner les patients blessés et à panser leurs blessures. Le salaire dépend de la souffrance des patients.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.GetHealingService";
+			Text = "Faires soigner ses blessures";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.GetHealingServiceDesc";
+			Text = "Vous êtes blessé ! Allez chercher un medicus pour soigner vos blessures !";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.GetPoisonService";
+			Text = "Faire soigner le poison";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.GetPoisonServiceDesc";
+			Text = "Vous avez été empoisonné ! Allez trouver un apothicaire qui connaît l'antidote au poison qui coule dans vos veines !";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.GetDiseaseService";
+			Text = "Faire soigner la maladie";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.GetDiseaseServiceDesc";
+			Text = "Vous ne vous sentez pas bien. Allez chercher un herboriste, peut-être qu’il a un moyen d’atténuer vos symptômes.";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.BuildingOfferingService";
+			Text = "Sélectionnez une entreprise qui s'occupe de patients atteints de votre maladie.";
+		},
+		LocDirectEntry
+		{
+			Key = "$selectionPrompt.SelectHealingBusiness";
+			Text = "Choisissez une entreprise pour soigner vos maux";
+		},
+		LocDirectEntry
+		{
+			Key = "$selectionPrompt.NoServiceOffered";
+			Text = "Actuellement, aucune entreprise n'offre des services pour soigner vos maux !";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.WaitForService";
+			Text = "En attente d'être soigné";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.WaitForServiceDesc";
+			Text = "Vous attendez d'être traité. Un seul patient peut être soigné à la fois. Vous allez attendre un certain temps avant d’en avoir marre. Espérons que la file d'attente ne soit pas trop longue !";
+		},
+		LocDirectEntry
+		{
+			Key = "$confirmation.HealingService";
+			Text = "Le prix de votre traitement dépend des maux guéris et de leur gravité. Vous ne payez que lorsque vous êtes guéri.\n\nLe coût estimé pour soigner vos maux actuels est de : %price%\n\nVoulez-vous continuer ?";
+		},
+		LocDirectEntry
+		{
+			Key = "$effect.OpenForCustomers";
+			Text = "Propose des traitements";
+		},
+		LocDirectEntry
+		{
+			Key = "$DiseaseImmunity";
+			Text = "Guéri par un professionnel. Temporairement immunisé contre les maladies.";
+		},
+		LocDirectEntry
+		{
+			Key = "$IncreasedHygiene";
+			Text = "Hygiène accrue";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.tooltip.NextEntry";
+			Text = "Prochaine entrée";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.list.bullet";
+			Text = "•";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.list.separator";
+			Text = "\n";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.TradeMissionSuccess";
+			Text = "La mission commerciale a été un succès";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.TradeMissionFailure";
+			Text = "La mission commerciale a été un échec";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.TradeMission.Success";
+			Text = "%CharacterSource% a réussi à établir un partenariat commercial avec des marchands dans une ville éloignée. Le marché est donc ouvert au commerce avec votre dynastie !";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.TradeMission.Success.female";
+			Text = "%CharacterSource% a réussi à établir un partenariat commercial avec des marchands dans une ville éloignée. Le marché est donc ouvert au commerce avec votre dynastie !";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.TradeMission.Failure";
+			Text = "Malheureusement, %CharacterSource% n'a pas réussi à établir un partenariat commercial dans une ville éloignée. Le marché n’est toujours pas ouvert au commerce avec votre dynastie !";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.TradeMission.Failure.female";
+			Text = "Malheureusement, %CharacterSource% n'a pas réussi à établir un partenariat commercial dans une ville éloignée. Le marché n’est toujours pas ouvert au commerce avec votre dynastie !";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.TradeMission";
+			Text = "Mission commerciale";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.TradeMissionDesc";
+			Text = "Effectuer une mission commerciale en établissant un partenariat commercial avec un marché étranger.";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.SelectNewTradeMarket";
+			Text = "Sélectionnez un marché commercial auquel vous n’avez pas accès.";
+		},
+		LocDirectEntry
+		{
+			Key = "$selectionPrompt.SelectTradeMarket";
+			Text = "Choisissez un nouveau marché commercial pour établir un partenariat commercial.";
+		},
+		LocDirectEntry
+		{
+			Key = "$selectionPrompt.NoTradeMarkets";
+			Text = "Il n’existe aucun nouveau marché commercial pour l’établissement d’un partenariat commercial.";
+		},
+		LocDirectEntry
+		{
+			Key = "$message.MarketNotAvailable";
+			Text = "Ce marché commercial éloigné n'est actuellement pas disponible pour vous.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.FarMarketDestinationNotUnlocked";
+			Text = "Vous n’avez pas établi de partenariat commercial avec ce marché commercial éloigné.\nPour établir un partenariat commercial, envoyez un membre de votre famille pour une mission commerciale ou un long voyage.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.HelpTutorial.DynastyTree9";
+			Text = "Pour ouvrir l 'Arbre dynastique de votre dynastie, cliquez sur l'icône représentant une arborescence dans le coin supérieur gauche de votre écran. Vous pouvez également trouver le même bouton dans l’entrée Livre des dynasties d’autres dynasties. De cette façon, vous pouvez obtenir des informations sur la taille de la famille de vos concurrents.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.NavigateRoute.RouteIssueHeadline";
+			Text = "Un transporteur n'a pas pu terminer une route commerciale";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.NavigateRoute.RouteIssueMessage";
+			Text = "Votre transporteur %character%, travaillant dans votre entreprise %business%, n'a pas été en mesure de transférer des éléments de votre route commerciale '%routeName%'.";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.GuildKickWarning.title";
+			Text = "La guilde n'est pas satisfaite de vous";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.GuildKickWarning.body";
+			Text = "Vous vous éloignez de l'attitude de la guilde. Faite attention à cet avertissement ou les conséquences seront graves.";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.GuildKickedAnnouncement.title";
+			Text = "Vous avez été chassé de la guilde";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.GuildKickedAnnouncement.body";
+			Text = "Les avertissements ne vous ont pas dérangé - votre guilde a décidé de vous expulser hors de leur milieu honorable !";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.BuyBusiness.MaxReached";
+			Text = "Vous avez déjà atteint le nombre maximum d'entreprises que vous pouvez posséder. Réclamez un titre plus élevé afin d’augmenter ce nombre.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.BuyBusiness.PlaceTaken";
+			Text = "Ce terrain a déjà été pris. Placez votre bâtiment ailleurs.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.GoToBusinessToBuyItems";
+			Text = "Acheter en magasin";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.GoToBusinessToBuyItemsDesc";
+			Text = "Il y a toujours quelque chose dont on peut avoir besoin. Vérifiez les magasins locaux pour voir si vous pouvez trouver des offres spéciales.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.TendToPoisonedCustomersDesc";
+			Text = "Vous allez commencer à soigner des patients empoisonnés et à guérir leurs maux. Le salaire dépend du nombre de poisons différents qui traversent les veines du patient.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.TendToSickCustomersDesc";
+			Text = "Vous commencerez à soigner des patients malades et à guérir leurs maladies. Le salaire dépend de l'état de santé des patients.";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.Longshore.Bastard.Title";
+			Text = "Vous avez conçu enfant illégitime !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.Longshore.Bastard.Body";
+			Text = "Oh, il semble que les histoires de pays lointains et les cadeaux ne soient pas la seule chose que %CharacterSource% ait ramené de son voyage. \n\nLa société ces jours-ci méprise les enfants nés d'activités illégitimes. Le petit bâtard aura une vie difficile devant lui et coûtera à votre famille de l'Influence chaque fois que quelqu'un se souviendra de l'erreur de %CharacterSource%.";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.Longshore.Bastard.Body.female";
+			Text = "Oh, il semble que les histoires de pays lointains et les cadeaux ne soient pas la seule chose que %CharacterSource% ait ramenée de son voyage. \n\nLa société ces jours-ci méprise les enfants nés d'activités illégitimes. Le petit bâtard aura une vie difficile devant lui et coûtera à votre famille de l'Influence chaque fois que quelqu'un se souviendra de l'erreur de %CharacterSource%.";
+		},
+		LocDirectEntry
+		{
+			Key = "$debuff.Bastard";
+			Text = "Progéniture illégitime. Les gens vous méprisent.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Char.NaturalDecayMult";
+			Text = "Détérioration du bâtiment";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Char.BuildingSecurity";
+			Text = "Sécurité du bâtiment";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Char.FireProtection";
+			Text = "Protection contre les incendies";
+		},
+		LocDirectEntry
+		{
+			Key = "$unlock.JailTimeReduction";
+			Text = "Temps de prison réduit";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Char.DiseaseProtection";
+			Text = "Protection contre les maladies";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.dist.OldTownLeft";
+			Text = "Vieille ville Gauche";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.dist.OldTownRight";
+			Text = "Vieille ville Droite";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.TutorialQuest.ProduceSocialItems.Title";
+			Text = "Produire des objets sociaux";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.Salzburg.Monastery";
+			Text = "Monastère sur l'Imberg";
+		},
+		LocDirectEntry
+		{
+			Key = "$NPC.Conversation";
+			Text = "Discute";
+		},
+		LocDirectEntry
+		{
+			Key = "$NPC.ConversationDesc";
+			Text = "Le personnage parle à quelqu'un d'autre.";
+		},
+		LocDirectEntry
+		{
+			Key = "$NPC.Stroll";
+			Text = "Se promene";
+		},
+		LocDirectEntry
+		{
+			Key = "$NPC.StrollDesc";
+			Text = "Le personnage se promène.";
+		},
+		LocDirectEntry
+		{
+			Key = "$NPC.DoNothing";
+			Text = "S'ennui";
+		},
+		LocDirectEntry
+		{
+			Key = "$NPC.DoNothingDesc";
+			Text = "Le personnage ne fait actuellement rien de spécial ...";
+		},
+		LocDirectEntry
+		{
+			Key = "$NPC.Begging";
+			Text = "Mendie";
+		},
+		LocDirectEntry
+		{
+			Key = "$NPC.BeggingDesc";
+			Text = "Le personnageg mendie quelques pièces de monnaie.";
+		},
+		LocDirectEntry
+		{
+			Key = "$NPC.Riot";
+			Text = "En émeute";
+		},
+		LocDirectEntry
+		{
+			Key = "$NPC.RiotDesc";
+			Text = "Le personnage est en colère!";
+		},
+		LocDirectEntry
+		{
+			Key = "$NPC.Sitting";
+			Text = "Assis";
+		},
+		LocDirectEntry
+		{
+			Key = "$NPC.SittingDesc";
+			Text = "Le personnage est assis.";
+		},
+		LocDirectEntry
+		{
+			Key = "$NPC.Cheer";
+			Text = "En liesse";
+		},
+		LocDirectEntry
+		{
+			Key = "$NPC.CheerDesc";
+			Text = "Le personnage est en liesse.";
+		},
+		LocDirectEntry
+		{
+			Key = "$objectives.makeMoney.name";
+			Text = "Obtenu %nb% pièces.";
+		},
+		LocDirectEntry
+		{
+			Key = "$objectives.makePrestige.name";
+			Text = "Obtenu %nb% influence.";
 		},
 	);
 };
