@@ -10150,6 +10150,11 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.Budget.Item16";
+			Text = "Titres et Compétences";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Budget.Item17";
 			Text = "Autres";
 		},
 		LocDirectEntry
@@ -22315,7 +22320,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Objective.Desc1";
-			Text = "Atteignez le rang de Souverain";
+			Text = "Devenez Souverain avec l’un des membres de votre dynastie et gardez la position pendant un tour complet pour gagner.";
 		},
 		LocDirectEntry
 		{
@@ -22695,7 +22700,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Production.EmployeeRoutes";
-			Text = "Itinéraire de transport";
+			Text = "Routes commerciales";
 		},
 		LocDirectEntry
 		{
@@ -23145,32 +23150,27 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.StoryQuest.Desc1";
-			Text = "Vous êtes un enfant de paysans pauvres. Vous êtes venu en ville pour prendre votre destinée en mains et pour fonder une dynastie riche et influente !";
+			Text = "Vous êtes un enfant de paysans pauvres. Vous êtes venu en ville pour prendre votre destinée en mains et pour fonder une dynastie riche et influente !/nUne fois que votre famille est suffisamment riche et puissante, vous gagnez la partie.";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.StoryQuest.Desc2";
-			Text = "Vous arrivez en ville et vous sentez littéralement l'air de la liberté - qui peut également sentir plutôt mauvais, mais vous sentez vraiment que c'est l'endroit où la liberté et la richesse sont à votre portée. Maintenant, choisissez une profession et travaillez dur dans votre secteur d'activité pour montrer à tous ce dont vous êtes capable.";
-		},
-		LocDirectEntry
-		{
-			Key = "$ui.StoryQuest.Desc3";
-			Text = "Votre père s'embarquait toujours sur des voyages commerciaux. Son désir le plus ardent était de ramener cet ivoire légendaire à la maison, mais sa vie est maintenant terminée, alors, le trouverez-vous et le ramènerais vous ?";
+			Text = "Vous arrivez en ville et vous sentez littéralement l'air de la liberté - qui peut également sentir plutôt mauvais, mais vous sentez vraiment que c'est l'endroit où la liberté et la richesse sont à votre portée. Maintenant, choisissez une profession et travaillez dur dans votre secteur d'activité pour montrer à tous ce dont vous êtes capable./nLorsque les affaires sont florissantes et que vous avez prouvé que vous êtes le plus grand esprit économique du siècle, vous gagnez la partie !";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.StoryQuest.Desc4";
-			Text = "Vous êtes la progéniture d'une famille pauvre et oubliée, qui a perdu sa maison après une décision stupide du conseil municipal. Vous avez juré que vous gouverneriez la ville un jour et que vous vous vengeriez de ces idiots !";
+			Text = "Vous êtes la progéniture d'une famille pauvre et oubliée, qui a perdu sa maison après une décision stupide du conseil municipal. Vous avez juré que vous gouverneriez la ville un jour et que vous vous vengeriez de ces idiots !/nDevenir assez puissant pour acquérir et occuper des postes importants pour gagner la partie.";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.StoryQuest.Desc5";
-			Text = "Enfant, vous avez toujours regardé les navires qui partaient et rentraient au port, mais pas parce que vous vouliez désespérément partir en mer, mais parce que vous étiez toujours curieux de savoir quels biens les marchands avaient apportés, à partir de terres lointaines et quels profits ils en ont tirés.";
+			Text = "Enfant, vous avez toujours regardé les navires qui partaient et rentraient au port, mais pas parce que vous vouliez désespérément partir en mer, mais parce que vous étiez toujours curieux de savoir quels biens les marchands avaient apportés, à partir de terres lointaines et quels profits ils en ont tirés./nDevenez un bon commerçant longue distance pour gagner la partie.";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.StoryQuest.Desc6";
-			Text = "Les gens ne respectent qu'une seule chose - la force. Comme pour les loups et les lions, le plus fort conduit toujours la meute. Et ce sera vous !";
+			Text = "Les gens ne respectent qu'une seule chose - la force. Comme pour les loups et les lions, le plus fort conduit toujours la meute. Et ce sera vous !/nÉcrasez vos adversaires et vous gagnerez la partie !";
 		},
 		LocDirectEntry
 		{
@@ -23186,11 +23186,6 @@ LocDirectData
 		{
 			Key = "$ui.StoryQuest.Name2";
 			Text = "La ville sent la liberté";
-		},
-		LocDirectEntry
-		{
-			Key = "$ui.StoryQuest.Name3";
-			Text = "La longue recherche";
 		},
 		LocDirectEntry
 		{
@@ -25820,7 +25815,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.HealthRegenerationDesc";
-			Text = "Cet attribut dérivé définit le niveau de régénération de santé du personnages quand il est blessé.\nInfluencé positivement par : Dextérité";
+			Text = "Cet attribut dérivé définit le niveau de régénération de santé du personnages quand il est blessé.\nInfluencé positivement par : Niveau, Dextérité";
 		},
 		LocDirectEntry
 		{
@@ -28914,16 +28909,6 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$objectives.makeMoney.name";
-			Text = "";
-		},
-		LocDirectEntry
-		{
-			Key = "$objectives.makePrestige.name";
-			Text = "";
-		},
-		LocDirectEntry
-		{
 			Key = "$ui.waiting.for.players";
 			Text = "En attente de connexion joueurs.";
 		},
@@ -29230,7 +29215,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.HelpTutorial.Statistics3";
-			Text = "Entreprises et Résidences";
+			Text = "Entreprises";
 		},
 		LocDirectEntry
 		{
@@ -30795,7 +30780,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.TutorialQuest.ExecuteOfficeAction1";
-			Text = "Maintenant que vous avez un siège, il est temps d'utiliser votre pouvoir. Utilisez les actions déverrouillés à votre avantage. Vous trouverez les actions dans la catégorie politique dans la barre d'action du personnage qui occupe le poste.";
+			Text = "Maintenant que vous avez un siège, il est temps d'utiliser vos privilèges. Utilisez les actions déverrouillés à votre avantage. Vous trouverez les actions dans la catégorie politique dans la barre d'action du personnage qui occupe le poste.";
 		},
 		LocDirectEntry
 		{
@@ -30865,12 +30850,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.TutorialQuest.DeclareFeud1";
-			Text = "Rendons ça officiel. Déclarer une querelle sur une dynastie que vous détestez. Sélectionnez la dynastie et exécuter le Jeter le gant.";
+			Text = "Rendons ça officiel. Déclarer une querelle sur une dynastie que vous détestez. Sélectionnez la dynastie et exécuter le Déclarer une querelle.";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.TutorialQuest.MakeAnAlliance1";
-			Text = "Vous ne pouvez pas avoir que des ennemis, vous avez également besoin d'amis. Trouver quelqu'un avec qui Etablir une alliance avec vous.";
+			Text = "Vous ne pouvez pas avoir que des ennemis, vous avez également besoin d'amis. Trouver une dynastie avec qui Etablir une alliance.";
 		},
 		LocDirectEntry
 		{
@@ -31260,7 +31245,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$selectionPrompt.NoServiceOffered";
-			Text = "Actuellement, aucune entreprise n'offre des services pour soigner vos maux !";
+			Text = "À l'heure actuelle, aucune entreprise ne peut guérir votre maladie et dispose de suffisamment d'espace libre pour traiter vos patients!";
 		},
 		LocDirectEntry
 		{
@@ -31320,22 +31305,22 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.TradeMission.Success";
-			Text = "%CharacterSource% a réussi à établir un partenariat commercial avec des marchands dans une ville éloignée. Le marché est donc ouvert au commerce avec votre dynastie !";
+			Text = "%CharacterSource% a réussi à établir un partenariat commercial avec des marchands de %BuildingTarget%. Le marché est donc ouvert au commerce avec votre dynastie !";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.TradeMission.Success.female";
-			Text = "%CharacterSource% a réussi à établir un partenariat commercial avec des marchands dans une ville éloignée. Le marché est donc ouvert au commerce avec votre dynastie !";
+			Text = "%CharacterSource% a réussi à établir un partenariat commercial avec des marchands de %BuildingTarget%. Le marché est donc ouvert au commerce avec votre dynastie !";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.TradeMission.Failure";
-			Text = "Malheureusement, %CharacterSource% n'a pas réussi à établir un partenariat commercial dans une ville éloignée. Le marché n’est toujours pas ouvert au commerce avec votre dynastie !";
+			Text = "Malheureusement, %CharacterSource% n'a pas réussi à établir un partenariat commercial dans la ville de %BuildingTarget%. Le marché n’est toujours pas ouvert au commerce avec votre dynastie !";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.TradeMission.Failure.female";
-			Text = "Malheureusement, %CharacterSource% n'a pas réussi à établir un partenariat commercial dans une ville éloignée. Le marché n’est toujours pas ouvert au commerce avec votre dynastie !";
+			Text = "Malheureusement, %CharacterSource% n'a pas réussi à établir un partenariat commercial dans la ville de %BuildingTarget%. Le marché n’est toujours pas ouvert au commerce avec votre dynastie !";
 		},
 		LocDirectEntry
 		{
@@ -31581,6 +31566,106 @@ LocDirectData
 		{
 			Key = "$objectives.makePrestige.name";
 			Text = "Obtenu %nb% influence.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Options.Ultra";
+			Text = "Ultra";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.tooltip.sentence.not.committed";
+			Text = "Vous n'avez pas encore rendu de verdict";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.tooltip.sentence.committed";
+			Text = "Vous avez rendu un verdict";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.mp.serverName.invalid.title";
+			Text = "Nom de serveur invalide";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.mp.serverName.invalid.message";
+			Text = "Le nom du serveur doit comporter entre 1 et 20 caractères et contenir au moins un caractère visible.";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.TargetIsBusy";
+			Text = "La cible est occupée !";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Production.biz.WaitingCustomers";
+			Text = "Clients en attente";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Business.OfferHealthcareServices";
+			Text = "Offre des services de santé";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.sys.NBOppo.tooltip";
+			Text = "Choisissez le nombre d'autres dynasties que vous voulez affronter.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.sys.NBOppoHuman.tooltip";
+			Text = "Choisissez combien de dynasties peuvent être contrôlées par d'autres joueurs.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.LevelOfDifficulty.tooltip";
+			Text = "Le niveau de difficulté affecte vos conditions de départ (argent, influence, premières matières premières stockées, nombre d'expérience reçues jusqu'à ce que vous atteigniez le titre de 'Citoyen'), ainsi que la rapidité avec laquelle les adversaires de l'IA progresseront.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.GameMode.tooltip";
+			Text = "Avec le mode de jeu, vous pouvez choisir le niveau de progression auquel votre dynastie commence.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Char.StoryMode.tooltip";
+			Text = "Ici, vous pouvez choisir une campagne familiale. La campagne par défaut est gagnée lorsque vous devenez souverain et que vous occupez le poste pendant un tour complet. Vous pouvez également choisir 'Partie libre' pour ne pas avoir de conditions de victoire.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.YearsPerRound.tooltip";
+			Text = "Avec cette option, vous choisissez le nombre d'années qui s'écouleront à la fin d'un tour.\nCela affectera principalement la vitesse à laquelle les personnages du jeu vieillissent - et à quelle vitesse vos enfants atteignent un âge jouable.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.MPAIBehavior.tooltip";
+			Text = "Ici vous pouvez définir si une IA doit prendre en charge la dynastie d'un joueur au cas où il se déconnecterait de la partie.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.MPLanguage.tooltip";
+			Text = "Ici, vous pouvez définir la langue dans laquelle vous prévoyez de communiquer. Cela définira l'icône de drapeau qui est affichée à côté de votre nom dans le lobby.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.MPAI.Minimal.description";
+			Text = "L'IA maintiendra les entreprises de la dynastie en activité, mais ne fera pas progresser la dynastie dans son ensemble.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.MPAI.None.description";
+			Text = "Aucune IA ne prendra le relais et les entreprises de la dynastie resteront dans les paramètres définis avant le départ de l'autre joueur.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.MPAI.Total.description";
+			Text = "L’IA prendra complêtement le contrôle et se comportera comme une dynastie IA.";
+		},
+		LocDirectEntry
+		{
+			Key = "$Church.welcomeChild";
+			Text = "Salutations mon enfant. Tu es tout seul ici ? Où sont tes parents ?";
 		},
 	);
 };
