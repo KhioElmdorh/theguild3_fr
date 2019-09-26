@@ -940,7 +940,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.HireEmployee.AskToPay";
-			Text = "Un nouvel employé dans %business% vous coûterait %price% par an. Voulez-vous chercher un nouvel employé ?";
+			Text = "Souhaitez-vous embaucher un nouvel employé dans %business% pour un salaire de %price% ?\nLe salaire annuel dépend de l'expérience de votre employé.";
 		},
 		LocDirectEntry
 		{
@@ -10425,7 +10425,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.Career.7Desc";
-			Text = "Si vous continuez dans cette voie, vous vous retrouverez de plus en plus plongé dans un monde de crime, où vous pourrez apprendre d'autres \"compétences\"...";
+			Text = "Si vous continuez dans cette voie, vous vous retrouverez de plus en plus plongé dans un monde de crime, où vous pourrez apprendre d'autres compétences...";
 		},
 		LocDirectEntry
 		{
@@ -11140,7 +11140,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.GameTime.accelerateGameSpeed";
-			Text = "Accelerer le jeu (+)";
+			Text = "Accelerer le jeu";
 		},
 		LocDirectEntry
 		{
@@ -11160,7 +11160,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.GameTime.showPeople";
-			Text = "Membres de la dynastie";
+			Text = "Personnages";
 		},
 		LocDirectEntry
 		{
@@ -11170,7 +11170,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.GameTime.slowGameSpeed";
-			Text = "Ralentir le jeu (-)";
+			Text = "Ralentir le jeu";
 		},
 		LocDirectEntry
 		{
@@ -13010,7 +13010,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$guiChild";
-			Text = "Enfant";
+			Text = "Membre de la famille";
+		},
+		LocDirectEntry
+		{
+			Key = "$guiChild.female";
+			Text = "Membre de la famille";
 		},
 		LocDirectEntry
 		{
@@ -13034,8 +13039,18 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$guiHeir.female";
+			Text = "Héritière";
+		},
+		LocDirectEntry
+		{
 			Key = "$guiLeader";
-			Text = "Leader";
+			Text = "Chef de famille";
+		},
+		LocDirectEntry
+		{
+			Key = "$guiLeader.female";
+			Text = "Cheffe de famille";
 		},
 		LocDirectEntry
 		{
@@ -13065,6 +13080,11 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$guiSpouse";
+			Text = "Époux";
+		},
+		LocDirectEntry
+		{
+			Key = "$guiSpouse.female";
 			Text = "Épouse";
 		},
 		LocDirectEntry
@@ -15105,7 +15125,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$nobility.4desc";
-			Text = "Les résidents \"habitent\" \"dans\" la ville et cultivent les terres appartenant à la ville pour les classes dirigeantes.";
+			Text = "Les résidents habitent proche de la ville et cultivent les terres appartenant à la ville pour les classes dirigeantes.";
 		},
 		LocDirectEntry
 		{
@@ -16005,27 +16025,57 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$qs.BuildingHeader";
-			Text = "Accès rapide : bâtiments et lieux";
+			Text = "Accès rapide : Bâtiments et lieux";
 		},
 		LocDirectEntry
 		{
 			Key = "$qs.buildingtype.0";
-			Text = "Bâtiments possédés";
+			Text = "Résidences possédées";
 		},
 		LocDirectEntry
 		{
 			Key = "$qs.buildingtype.1";
-			Text = "Ressources naturelles";
+			Text = "Entreprises possédées";
 		},
 		LocDirectEntry
 		{
 			Key = "$qs.buildingtype.2";
-			Text = "Lieux publics";
+			Text = "Bâtiments espionnés";
 		},
 		LocDirectEntry
 		{
 			Key = "$qs.buildingtype.3";
+			Text = "Ressources naturelles";
+		},
+		LocDirectEntry
+		{
+			Key = "$qs.buildingtype.4";
+			Text = "Lieux publics";
+		},
+		LocDirectEntry
+		{
+			Key = "$qs.buildingtype.5";
 			Text = "Routes commerciales longue distance";
+		},
+		LocDirectEntry
+		{
+			Key = "$qs.charactertype.0";
+			Text = "Membres de la famille";
+		},
+		LocDirectEntry
+		{
+			Key = "$qs.charactertype.1";
+			Text = "Hommes de main";
+		},
+		LocDirectEntry
+		{
+			Key = "$qs.charactertype.2";
+			Text = "Transporteurs";
+		},
+		LocDirectEntry
+		{
+			Key = "$qs.charactertype.3";
+			Text = "Travailleurs";
 		},
 		LocDirectEntry
 		{
@@ -16045,7 +16095,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$qs.PeopleHeader";
-			Text = "Accès rapide : personnages";
+			Text = "Accès rapide : Personnages";
 		},
 		LocDirectEntry
 		{
@@ -19795,7 +19845,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip1";
-			Text = "Carte (M)";
+			Text = "Carte";
 		},
 		LocDirectEntry
 		{
@@ -20280,6 +20330,11 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.CharacterStatus.Single";
+			Text = "célibataire";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.CharacterStatus.Single.female";
 			Text = "célibataire";
 		},
 		LocDirectEntry
@@ -23160,12 +23215,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.StoryQuest.Desc1";
-			Text = "Vous êtes un enfant de paysans pauvres. Vous êtes venu en ville pour prendre votre destinée en mains et pour fonder une dynastie riche et influente !/nUne fois que votre famille est suffisamment riche et puissante, vous gagnez la partie.";
+			Text = "Vous êtes un enfant de paysans pauvres. Vous êtes venu en ville pour prendre votre destinée en mains et pour fonder une dynastie riche et influente !\nUne fois que votre famille est suffisamment riche et puissante, vous gagnez la partie.";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.StoryQuest.Desc2";
-			Text = "Vous arrivez en ville et vous sentez littéralement l'air de la liberté - qui peut également sentir plutôt mauvais, mais vous sentez vraiment que c'est l'endroit où la liberté et la richesse sont à votre portée. Maintenant, choisissez une profession et travaillez dur dans votre secteur d'activité pour montrer à tous ce dont vous êtes capable./nLorsque les affaires sont florissantes et que vous avez prouvé que vous êtes le plus grand esprit économique du siècle, vous gagnez la partie !";
+			Text = "Vous arrivez en ville et vous sentez littéralement l'air de la liberté - qui peut également sentir plutôt mauvais, mais vous sentez vraiment que c'est l'endroit où la liberté et la richesse sont à votre portée. Maintenant, choisissez une profession et travaillez dur dans votre secteur d'activité pour montrer à tous ce dont vous êtes capable.\nLorsque les affaires sont florissantes et que vous avez prouvé que vous êtes le plus grand esprit économique du siècle, vous gagnez la partie !";
 		},
 		LocDirectEntry
 		{
@@ -23175,12 +23230,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.StoryQuest.Desc5";
-			Text = "Enfant, vous avez toujours regardé les navires qui partaient et rentraient au port, mais pas parce que vous vouliez désespérément partir en mer, mais parce que vous étiez toujours curieux de savoir quels biens les marchands avaient apportés, à partir de terres lointaines et quels profits ils en ont tirés./nDevenez un bon commerçant longue distance pour gagner la partie.";
+			Text = "Enfant, vous avez toujours regardé les navires qui partaient et rentraient au port, mais pas parce que vous vouliez désespérément partir en mer, mais parce que vous étiez toujours curieux de savoir quels biens les marchands avaient apportés, à partir de terres lointaines et quels profits ils en ont tirés.\nDevenez un bon commerçant longue distance pour gagner la partie.";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.StoryQuest.Desc6";
-			Text = "Les gens ne respectent qu'une seule chose - la force. Comme pour les loups et les lions, le plus fort conduit toujours la meute. Et ce sera vous !/nÉcrasez vos adversaires et vous gagnerez la partie !";
+			Text = "Les gens ne respectent qu'une seule chose - la force. Comme pour les loups et les lions, le plus fort conduit toujours la meute. Et ce sera vous !\nÉcrasez vos adversaires et vous gagnerez la partie !";
 		},
 		LocDirectEntry
 		{
@@ -26100,7 +26155,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.pick.liaison.for.marriage";
-			Text = "Choisissez la personne que vous voulez épouser.";
+			Text = "Choisissez la personne que vous voulez demander en marriage !";
 		},
 		LocDirectEntry
 		{
@@ -26119,8 +26174,13 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$gui.no.liaisons.to.get.married.head";
+			Text = "Demande en mariage impossible";
+		},
+		LocDirectEntry
+		{
 			Key = "$gui.no.liaisons.to.get.married.to";
-			Text = "Vous n'avez aucune liaison avec qui vous marier !";
+			Text = "Vous n'avez aucune liaison avec qui vous marier ! Le personnage courtisé ne doit pas déjà être marié, ne doit pas être enceinte et ne doit jamais avoir fait partie de votre propre famille.";
 		},
 		LocDirectEntry
 		{
@@ -28180,7 +28240,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$sce.desc.Heligoland";
-			Text = "Deät Lun, comme l'appellent les Frisons vivant à Heligoland, est une île entourée de falaises dangereuses dans la mer du Nord. De nos jours, l’île appartient au Danemark, mais elle a également eu d’autres seigneurs dans le passé et appartiendra certainement à d’autres seigneurs dans le futur. Heligoland est toutefois réputé pour être le port d'attache des pirates qui naviguent dans les eaux environnantes. De nombreuses batailles ont eu lieu sur et autour de l'île, par exemple lorsque la flotte de la Ligue hanséatique s'est réunie et a vaincu le Likedeeler Klaus Störtebeker.\n\n Heligoland est une petite carte de scénario conçue pour un petit nombre de dynasties.";
+			Text = "Deät Lun, comme l'appellent les Frisons vivant à Heligoland, est une île entourée de falaises dangereuses dans la mer du Nord. De nos jours, l’île appartient au Danemark, mais elle a également eu d’autres seigneurs dans le passé et appartiendra certainement à d’autres seigneurs dans le futur. Heligoland est toutefois réputé pour être le port d'attache des pirates qui naviguent dans les eaux environnantes. De nombreuses batailles ont eu lieu sur et autour de l'île, par exemple lorsque la flotte de la Ligue hanséatique s'est réunie et a vaincu le Likedeeler Klaus Störtebeker.\n\nHeligoland est une petite carte de scénario conçue pour un petit nombre de dynasties.";
 		},
 		LocDirectEntry
 		{
@@ -28895,22 +28955,22 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$objectives.acquireOffice.acquire.name";
-			Text = "Acquérir le bureau %office%";
+			Text = "Occuper le poste de %office%";
 		},
 		LocDirectEntry
 		{
 			Key = "$objectives.acquireOffice.hold.name";
-			Text = "Acquérir le bureau %office% et le garder plusieurs tours";
+			Text = "Occuper le poste de %office% pendant le nombre de tours requis";
 		},
 		LocDirectEntry
 		{
 			Key = "$objectives.acquireOffice.acquire.any.name";
-			Text = "Acquérir n'importe quel bureau";
+			Text = "Occuper n'importe quel poste";
 		},
 		LocDirectEntry
 		{
 			Key = "$objectives.acquireOffice.hold.any.name";
-			Text = "Acquérir n'importe quel bureau et le garder plusieurs tours";
+			Text = "Occuper le poste pendant le nombre de tours requis";
 		},
 		LocDirectEntry
 		{
@@ -30450,7 +30510,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.GameplayConceptTutorial.Time1";
-			Text = "Temps";
+			Text = "Tours et années";
 		},
 		LocDirectEntry
 		{
@@ -30540,7 +30600,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.GameplayConceptTutorial.Combat5";
-			Text = "Rejoindre";
+			Text = "Rejoindre le combat";
 		},
 		LocDirectEntry
 		{
@@ -30560,12 +30620,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.GameplayConceptTutorial.Combat9";
-			Text = "Après le combat";
+			Text = "Personnages inconscients";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.GameplayConceptTutorial.Combat10";
-			Text = "Des actions comme tuer, briser les os ou de voler ne peuvent être exécutées que sur des personnages inconscients.";
+			Text = "Si un personnage est inconscient, vous pouvez lui briser les os, le voler ou même le tuer ...";
 		},
 		LocDirectEntry
 		{
@@ -30585,17 +30645,17 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.HelpTutorial.HUD4";
-			Text = "Dans le panneau de la dynastie, vous pouvez voir votre quantité d'argent et de l'influence, ouvrir votre arbre de compétences, votre livre de budget et votre arbre généalogique. Vous avez également un accès rapide à votre chef, conjoint et héritier.";
+			Text = "Le panneau de la dynastie est situé dans le coin supérieur gauche de l'ATH. Dans ce panneau vous pouvez voir votre quantité d'argent et de l'influence, ouvrir votre arbre de compétences, votre livre de budget et votre arbre généalogique. Vous avez également un accès rapide à votre chef, conjoint et héritier.";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.HelpTutorial.HUD5";
-			Text = "panneau Méta";
+			Text = "Panneau Méta";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.HelpTutorial.HUD6";
-			Text = "Le panneau méta vous permet d'accéder à la Livre de Dynasties, Livre de Guildes, Livre de Quetes et Archives de la ville.";
+			Text = "Le panneau méta est situé au milieu de l'ATH. Il vous permet d'accéder à la Livre de Dynasties, Livre de Guildes, Livre de Quetes et Archives de la ville.";
 		},
 		LocDirectEntry
 		{
@@ -30605,7 +30665,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.HelpTutorial.HUD8";
-			Text = "Le panneau de contrôle du temps vous permet de contrôler la vitesse du jeu et vous donne des informations sur l'année et le temps.";
+			Text = "Le panneau Temps est situé dans le coin supérieur droit de l'ATH. Le panneau de contrôle du temps vous permet de contrôler la vitesse du jeu et vous donne des informations sur l'année et le temps.";
 		},
 		LocDirectEntry
 		{
@@ -30615,27 +30675,27 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.HelpTutorial.HUD10";
-			Text = "Dans le panneau d'accès rapide, vous pouvez accéder au menu des options, la liste de bâtiment, la liste des membres de la famille, le bouton des personnages en attente, la liste des bâtiments espionné, la vue d'ensemble des transporteurs et le calendrier.";
+			Text = "Le panneau d'accès rapide est situé sur le côté droit de l'ATH et vous permet d'accéder rapidement à vos personnages, transports et bâtiments. Vous trouverez également les bâtiments publics, les villes de commerce à longue distance et vos rendez-vous.";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.HelpTutorial.HUD11";
-			Text = "Panneau Personnage";
+			Text = "Panneau Principal";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.HelpTutorial.HUD12";
-			Text = "Le panneau de personnage vous permet d'accéder aux actions du personnage ou des bâtiments, la fenêtre d'inspection de personnage, la fenêtre du bâtiment et le journal des messages.";
+			Text = "Le panneau principal est situé dans le coin inférieur gauche de l'ATH où vous trouverez vos messages. Lorsque vous sélectionnez un personnage, un portrait du personnage apparaît au bas de l'écran avec une barre d'action. Cela s'applique également aux bâtiments que vous avez sélectionnés.";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.HelpTutorial.HUD13";
-			Text = "Panneau Carte";
+			Text = "Panneau Monde";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.HelpTutorial.HUD14";
-			Text = "Le panneau de carte vous permet d'accéder à la fenêtre du bâtiment de construction, la carte et vous permet de changer de mode de la caméra.";
+			Text = "Le panneau Monde est situé dans le coin inférieur droit de l'ATH. Il contient le compas qui vous indique la direction dans laquelle vous regardez actuellement. Cliquez sur la boussole pour afficher la mini-carte. Au-dessus de la boussole se trouve le bouton Changer de mode de caméra, qui vous permet de basculer entre la caméra RTS et la caméra libre. À gauche de la boussole se trouve le bouton Construire un nouveau bâtiment, qui ouvre le menu de construction du bâtiment.";
 		},
 		LocDirectEntry
 		{
@@ -31405,7 +31465,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.BuyBusiness.MaxReached";
-			Text = "Vous avez déjà atteint le nombre maximum d'entreprises que vous pouvez posséder. Réclamez un titre plus élevé afin d’augmenter ce nombre.";
+			Text = "Vous avez déjà atteint le nombre maximum d'entreprises que vous pouvez posséder. Le nombre d'entreprises que vous êtes autorisé à posséder est limité par votre titre.";
 		},
 		LocDirectEntry
 		{
@@ -31816,6 +31876,296 @@ LocDirectData
 		{
 			Key = "$message.FamilyMemberCured.female";
 			Text = "%character% a été guérie. Le traitement réussi est : %cure%.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.stop";
+			Text = "Stop";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.toggle_qs_buildings";
+			Text = "Basculer la sélection rapide des bâtiments";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.toggle_qs_characters";
+			Text = "Basculer la sélection rapide des personnages";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.BuyBusiness.MaxReachedTarget";
+			Text = "Avec l'échange proposé, la dynastie %FamilyTarget% dépasserait le nombre maximum d’entreprises qu’elle peut posséder.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.unbound";
+			Text = "NON LIÉ";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.camera_pan_forward";
+			Text = "Caméra Panoramique Avant";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.camera_pan_backward";
+			Text = "Caméra Panoramique Arrière";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.camera_pan_left";
+			Text = "Caméra Panoramique Gauche";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.camera_pan_right";
+			Text = "Caméra Panoramique Droite";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.camera_orient_north";
+			Text = "Orienter Caméra au Nord";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.camera_zoom_in";
+			Text = "Zoomer";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.camera_zoom_out";
+			Text = "Dézoomer";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.camera_rotate_cw";
+			Text = "Tourner la Caméra sens horraire";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.camera_rotate_cww";
+			Text = "Tourner la Caméra sens anti-horraire";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.camera_pan_slower";
+			Text = "Ralentir la Caméra";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.toggle_skill_window";
+			Text = "Afficher l'arbre de compétences";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.toggle_statistics";
+			Text = "Afficher livre de budget";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.toggle_family_tree";
+			Text = "Afficher l'arbre généalogique";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.toggle_dynasty_window";
+			Text = "Afficher le livre des dynasties";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.toggle_societies_window";
+			Text = "Afficher le livre des guildes";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.toggle_quest_window";
+			Text = "Afficher le livre de quête";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.toggle_office_window";
+			Text = "Afficher les archives de la ville";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.toggle_main_menu";
+			Text = "Afficher le menu du jeu";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.toggle_area_map";
+			Text = "Afficher la carte de la région";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.toggle_business_window";
+			Text = "Afficher le menu de construction";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.toggle_inspection_window";
+			Text = "Afficher le fenêtre personnage ou bâtiment";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.hide_ui";
+			Text = "Masquer l'interface";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.quicksave";
+			Text = "Sauvegarde rapide";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.select_leader";
+			Text = "Sélectionnez un personnage";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.select_main_residence";
+			Text = "Sélectionnez la résidence principale";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.focus_selection";
+			Text = "Recentrer la caméra sur la sélection";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.selection_slot";
+			Text = "Sélectionner un emplacement";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.bind_selection_slot";
+			Text = "Lier la sélection à l'emplacement";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.goto_selection_slot";
+			Text = "Envoyer le personnage sélectionné à l'emplacement";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.clear_selection_slot";
+			Text = "Effacer l'emplacement";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.show_city_information";
+			Text = "Afficher les plaques";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.building_owner_highlight";
+			Text = "Afficher les couleurs sur les bâtiments des dynasties";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.mapping_1_header";
+			Text = "Disposition 1";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.mapping_2_header";
+			Text = "Disposition 2";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.command_header";
+			Text = "Commande";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Options.Keymap";
+			Text = "Attribution des touches";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.capturing_keys";
+			Text = "Enregistrement de la touche...";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.mapping_button_tooltip";
+			Text = "Bouton principal de la souris pour attribuer / Bouton secondaire de la souris pour supprimer";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.warning_already_bound.title";
+			Text = "Touches déjà attribuées";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.warning_already_bound";
+			Text = "Le combo de touche est déjà attribué à la commande :";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.warning_already_bound_question";
+			Text = "Voulez-vous dissocier l’autre commande et l'appliquer la commande actuelle ?";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.warning_mapping_required.title";
+			Text = "La commande nécessite une attribution";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.inputMapping.warning_mapping_required";
+			Text = "Vous avez tenté de dissocier la dernière attribution de touche valide pour cette commande. Cette commande nécessite au moins une attribution valide.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Options.ResetDefaultsSetting";
+			Text = "Réinitialiser les paramètres par défaut";
+		},
+		LocDirectEntry
+		{
+			Key = "$offices.application.warning_second_application.title";
+			Text = "Retirer la candidature actuelle ?";
+		},
+		LocDirectEntry
+		{
+			Key = "$offices.application.warning_second_application.message";
+			Text = "%Character% est déjà candidat pour le poste de %CurrentlyRunning%. Voulez-vous retirer la candidature et postuler pour le %OtherOffice% ?";
+		},
+		LocDirectEntry
+		{
+			Key = "$character.equipment.item_lost_warning.title";
+			Text = "Impossible d'équiper l'objet";
+		},
+		LocDirectEntry
+		{
+			Key = "$character.equipment.item_lost_warning.body";
+			Text = "L'objet actuel ne peut pas être équipé. Il n'y a pas assez de place dans l'inventaire pour placer l'objet actuellement équipé.";
+		},
+		LocDirectEntry
+		{
+			Key = "messageGameOverOtherCompletedCampaign";
+			Text = "La dynastie %FamilyTarget% a déployé plus d'efforts pour mener à bien la campagne familiale et a remporté la partie. Malheureusement, la famille %FamilySource% n'a pas pu suivre la planification sans faille du gagnant.";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.BuildingMarket";
+			Text = "Sélectionnez une tente de marché.";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.InnOrBakery";
+			Text = "Sélectionnez une entreprise de production alimentaire.";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.CharacterChildNotPlayers";
+			Text = "Sélectionnez un enfant qui n'appartient pas à votre dynastie.";
+		},
+		LocDirectEntry
+		{
+			Key = "$Bonus.Strength";
+			Text = "Force";
 		},
 	);
 };
