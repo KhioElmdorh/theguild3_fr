@@ -7080,7 +7080,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$callToAction.CharacterAdultNotPlayers";
-			Text = "Sélectionnez un personnage adulte qui ne fait pas partie d'une dynastie.";
+			Text = "Sélectionnez un personnage adulte qui ne fait pas partie de votre dynastie.";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.CharacterAdultNotOwnDynasty";
+			Text = "Sélectionnez un personnage adulte qui ne fait pas partie de votre dynastie.";
 		},
 		LocDirectEntry
 		{
@@ -8710,7 +8715,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Church.action.pay";
-			Text = "Bien sûr. J'espère que vous ferez un don de %coins% à l'Église pour un acte si délicat ?";
+			Text = "Bien sûr, la sainte mère église peut apporter son aide pour l'adoption d'un pauvre orphelin J'espère que vous ferez un don de %coins% à l'Église pour un acte si délicat ?";
 		},
 		LocDirectEntry
 		{
@@ -10245,7 +10250,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.Budget.Winning2";
-			Text = "Conjoint et héritiers";
+			Text = "Famille";
 		},
 		LocDirectEntry
 		{
@@ -10275,7 +10280,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.Budget.Winning5";
-			Text = "Nombre d'employés";
+			Text = "Employés";
 		},
 		LocDirectEntry
 		{
@@ -10615,7 +10620,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.Char.Resistance";
-			Text = "Résistibilité";
+			Text = "Résistance";
 		},
 		LocDirectEntry
 		{
@@ -19320,7 +19325,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.AttackPowerDesc";
-			Text = "La puissance d'attaque décrit les chances du personnage de toucher un adversaire en combat rapproché.\nInfluencé positivement par : Dextérité\nInfluencé négativement par : Force";
+			Text = "La puissance d'attaque décrit les chances du personnage de toucher un adversaire en combat rapproché.\nInfluencé positivement par : Dextérité, Perception";
 		},
 		LocDirectEntry
 		{
@@ -19400,7 +19405,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.DamageDesc";
-			Text = "Il s’agit des dommages que le personnage peut causer à son adversaire au corps à corps.\nInfluencé positivement par : Force, Perception\nInfluencé négativement par : Dextérité";
+			Text = "Il s’agit des dommages que le personnage peut causer à son adversaire au corps à corps.\nInfluencé positivement par : Force, Perception";
 		},
 		LocDirectEntry
 		{
@@ -19410,7 +19415,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.DefensePowerDesc";
-			Text = "Cet attribut dérivé décrit la capacité du personnage à se défendre en combat rapproché.\nInfluencé positivement par : Dexterité";
+			Text = "Cet attribut dérivé décrit la capacité du personnage à se défendre en combat rapproché.\nInfluencé positivement par : Dexterité, Perception";
 		},
 		LocDirectEntry
 		{
@@ -19580,7 +19585,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.ProductivityDesc";
-			Text = "Cet attribut dérivé montre la capacité du personnage à produire des biens de toutes sortes : plus la valeur est élevée, plus la production d'un produit est rapide.\nInfluencé positivement par : Niveau, Dextérité, Intelligence\nInfluencé négativement par : Dégâts subis, Charisme";
+			Text = "Cet attribut dérivé montre la capacité du personnage à produire des biens de toutes sortes : plus la valeur est élevée, plus la production d'un produit est rapide.\nInfluencé positivement par : Niveau, Dextérité, Intelligence\nInfluencé négativement par : Dégâts subis";
 		},
 		LocDirectEntry
 		{
@@ -19750,7 +19755,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.StealthDesc";
-			Text = "La furtivité est utilisée lorsque le personnage planifie quelque chose de sournois et doit se faufiler discrètement vers une cible ou s'assurer que sa victime ne détermine pas ses véritables intentions.\nInfluencé positivement par : Dextérité, Perception\nInfluencé négativement par : Force";
+			Text = "La furtivité est utilisée lorsque le personnage planifie quelque chose de sournois et doit se faufiler discrètement vers une cible ou s'assurer que sa victime ne détermine pas ses véritables intentions.\nInfluencé positivement par : Dextérité, Perception";
 		},
 		LocDirectEntry
 		{
@@ -22455,7 +22460,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Office.RejectReasonActionPlantNotUnlocked";
-			Text = "Vous n'avez pas encore le privilège de faire siéger d'autres membres de la famille.";
+			Text = "Malheureusement, le privilège Népotisme ne vous a pas encore été accordé";
 		},
 		LocDirectEntry
 		{
@@ -23345,7 +23350,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Subquest.Desc13";
-			Text = "Gagnez assez d'expérience pour obtenir le titre de \"Patricien\".";
+			Text = "Acquérir le titre Patricien";
 		},
 		LocDirectEntry
 		{
@@ -23450,7 +23455,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Subquest.Desc30";
-			Text = "Accumulez assez de points d'expérience pour acquérir le titre de \"Citoyen\".";
+			Text = "Acquérir le titre Citoyen";
 		},
 		LocDirectEntry
 		{
@@ -23520,7 +23525,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Subquest.Desc8";
-			Text = "Gagnez assez d'expérience pour obtenir le titre de \"Seigneur\".";
+			Text = "Acquérir le titre Seigneur";
 		},
 		LocDirectEntry
 		{
@@ -25050,7 +25055,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.AppointHeir.Locked";
-			Text = "Vous devez sélectionner un membre vivant de votre famille à désigner comme nouvel héritier !";
+			Text = "Vous pouvez nommer tout descendant naturel ou adopté par fondateur de votre famille comme héritier. Le nouvel héritier doit actuellement faire partie de votre famille et ne doit pas être le dirigeant ou l'héritier actuel.";
 		},
 		LocDirectEntry
 		{
@@ -25850,7 +25855,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.MovementSpeedMultDesc";
-			Text = "Cela vous montre à quelle vitesse le personnage est capable de se déplacer.\nInfluencé positivement par : Force, Dextérité\nInfluencé négativement par : Perception";
+			Text = "Cela vous montre à quelle vitesse le personnage est capable de se déplacer.\nInfluencé positivement par : Force, Dextérité";
 		},
 		LocDirectEntry
 		{
@@ -25870,12 +25875,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.MedicineMasteryDesc";
-			Text = "Cet attribut dérivé définit dans quelle mesure ce personnage réussira à utiliser des objets de soin comme des potions ou des bandages.\nInfluencé positivement par : Intelligence";
+			Text = "Cet attribut dérivé définit dans quelle mesure ce personnage réussira à utiliser des objets de soin comme des potions ou des bandages.\nInfluencé positivement par : Intelligence, Perception";
 		},
 		LocDirectEntry
 		{
 			Key = "$tooltip.GoodGeneticsDesc";
-			Text = "Affecte la probabilité que votre progéniture ait de meilleurs attributs de départ et des traits de naissance.\nInfluencé positivement par : Niveau, Intelligence, Force";
+			Text = "Affecte la probabilité que votre progéniture ait de meilleurs attributs de départ et des traits de naissance.\nInfluencé positivement par : Niveau, Intelligence, Force, Charisme";
 		},
 		LocDirectEntry
 		{
@@ -26025,12 +26030,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.Char.MaxHenchmen";
-			Text = "Plus d'hommes de main";
+			Text = "Hommes de main maximum";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.Char.MaxOwnedBusinesses";
-			Text = "Plus d'entreprises";
+			Text = "Entreprises maximum";
 		},
 		LocDirectEntry
 		{
@@ -26060,7 +26065,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$feedback.EffectAppliedprotected";
-			Text = "=+ Protégé !";
+			Text = "+ Protégé !";
 		},
 		LocDirectEntry
 		{
@@ -26916,6 +26921,11 @@ LocDirectData
 		{
 			Key = "$callToAction.Character.Adult.Unconscious";
 			Text = "Sélectionnez un personnage adulte inconscient !";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.Character.Adult.Unconscious.NotAllied.NotPlayers";
+			Text = "Sélectionnez un personnage adulte inconscient qui ne fait pas partie de votre dynastie, ni une dynastie alliée !";
 		},
 		LocDirectEntry
 		{
@@ -28605,7 +28615,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$callToAction.CharacterAdultNotPlayersNotAllies";
-			Text = "Sélectionnez un personnage adulte, conscient, qui ne se trouve pas à l'intérieur d'un bâtiment et d'une autre dynastie, qui ne vous est pas allié.";
+			Text = "Sélectionnez un personnage adulte, conscient, qui ne se trouve pas à l'intérieur d'un bâtiment et qui ne fait pas partie de votre dynastie, ni d'une dynastie alliée.";
 		},
 		LocDirectEntry
 		{
@@ -29300,7 +29310,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.HelpTutorial.Statistics6";
-			Text = "L'onglet famille présente les charges et produits liés aux actions et les salaires des membres de votre famille et les employés.";
+			Text = "L'onglet famille présente les charges et produits liés aux actions et les salaires des membres de votre famille et les hommes de main.";
 		},
 		LocDirectEntry
 		{
@@ -29760,7 +29770,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.HelpTutorial.ProductionWindow15";
-			Text = "Vous pouvez définir les règles de stockage afin d’optimiser davantage votre entreprise. Vous pouvez décider quels produits sont vendus et dans quelle mesure.";
+			Text = "Vous pouvez utiliser les règles de stockage pour optimiser l'IA Automatique de l’entreprise selon vos souhaits. Vous pouvez définir le nombre de ressources à acheter, le nombre minimum et maximum d'éléments stockés : tous les produits dépassant le maximum seront vendus par les transporteurs exécutant des itinéraires automatisés. Vous pouvez également déterminer le nombre de produits qui doivent figurer dans magasin et leur coût par rapport aux prix du marché.";
 		},
 		LocDirectEntry
 		{
@@ -29925,7 +29935,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.HelpTutorial.TradeRoutesDetail2";
-			Text = "Dans la fenêtre de détail de route commerciale, vous pouvez configurer la route comme vous le souhaitez. Vous pouvez sélectionner des destinations, définir la séquence et bien sûr les produits à ramasser et ceux à déposer.";
+			Text = "Dans la fenêtre de détail de route commerciale, vous pouvez configurer la route comme vous le souhaitez. Vous pouvez sélectionner des destinations, définir la séquence et bien sûr les produits à ramasser et ceux à déposer. Les transporteurs exécutant des routes commerciales personnalisées respecteront également les paramètres de stockage minimal et maximal pour chaque entreprise qu’ils visitent.";
 		},
 		LocDirectEntry
 		{
@@ -29945,7 +29955,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.HelpTutorial.TradeRoutesDetail6";
-			Text = "Pour définir un article qui doit être chargé ou déchargé, il suffit de cliquer sur un emplacement de l'une des deux sections. Un menu affichant tous les articles apparaîtra. Sélectionnez l'article que vous voulez et confirmez.";
+			Text = "Pour définir les marchandises à charger ou à décharger, il vous suffit de cliquer sur une icône d'emplacement vide, de sélectionner le produit souhaité et de définir une quantité. Les quantités sont relatives aux stocks du transporteur. Une valeur positive signifie que le transporteur doit récupérer les articles, une valeur négative signifie qu'il doit décharger les articles. Vous pouvez définir autant de ramassages et de dépots par arrêt que vous le souhaitez. L'ordre des éléments représente la priorité avec laquelle le transporteur gérera ces actions. Un transporteur essaiera d’abord de déposer des articles de gauche à droite, puis de ramasser des articles de gauche à droite. Si un article n'est pas disponible ou ne fait pas partie de l'inventaire, le transporteur vérifiera le prochain article jusqu'à ce qu'il se trouve à la fin de la liste.";
 		},
 		LocDirectEntry
 		{
@@ -29955,7 +29965,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.HelpTutorial.TradeRoutesDetail8";
-			Text = "Utilisez les boutons situés sous un emplacement d’article pour contrôler la quantité d’articles à charger ou à décharger.";
+			Text = "Pour modifier la quantité d'éléments à charger / décharger, cliquez sur le nombre situé sous l'élément. Vous pouvez déplacer le curseur de -20 à 20 (les valeurs négatives ne sont disponibles qu'aux points de passage pour lesquels vous êtes autorisé à décharger). Si vous souhaitez charger plus d'une pile complète de 20 éléments à la fois, vous pouvez ajouter le même élément plusieurs fois à une destination.";
 		},
 		LocDirectEntry
 		{
@@ -29965,7 +29975,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.HelpTutorial.TradeRoutesDetail10";
-			Text = "Sachez que le transporteur essaiera d'exécuter exactement ce que vous avez configuré dans les détails de la route commerciale. Il est donc préférable de toujours vérifier d’une destination à l’autre si les éléments sont configurés pour être correctement chargés ou déchargés.";
+			Text = "Sachez que le transporteur essaiera d'exécuter exactement ce que vous avez configuré dans les détails de la route commerciale. Il est donc préférable de toujours vérifier d’une destination à l’autre si les éléments sont configurés pour être correctement chargés ou déchargés. La fenêtre de route commerciale mettra en évidence les objets pour lesquels le nombre de ramassages et de dépots n'est pas équilibré. Sur le côté droit, vous aurez également un résumé qui listera également les avertissements si cela se produit. Vous pouvez toujours enregistrer et affecter ces itinéraires. Sachez simplement que les transporteurs peuvent rencontrer des problèmes en suivant ces itinéraires.";
 		},
 		LocDirectEntry
 		{
@@ -31140,12 +31150,22 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.storageRules.headers.keepStorage";
-			Text = "Conserver en stock$(Hint)";
+			Text = "Minimum en stock$(Hint)";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.storageRules.headers.keepStorage.tooltip";
-			Text = "Déterminez combien d'unités d'un produit ou d'une matière première doivent être conservées dans l'entrepôt de ce bâtiment.";
+			Text = "Les transporteurs automatisés vont transporter cette quantité de matières premières et intermédiaires que l’entreprise ne peut produire elle-même depuis le marché. Ils vendent des produits lorsque leur minimum est dépassé.\nEn outre, les travailleurs utilisent aussi ces ressources en même temps et les transporteurs empruntant des itinéraires personnalisés ne retirent pas les marchandises du stock si celui ci tombe au-dessous de ce minimum.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.storageRules.headers.maxStorage";
+			Text = "Maximum en stock$(Hint)";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.storageRules.headers.maxStorage.tooltip";
+			Text = "Cette règle s'applique uniquement aux transporteurs sur des itinéraires personnalisés. Ils ne déchargeront pas plus de biens dans l'entreprise que cette valeur.";
 		},
 		LocDirectEntry
 		{
@@ -31201,6 +31221,11 @@ LocDirectData
 		{
 			Key = "$routes.paused.tooltip";
 			Text = "La route est en pause";
+		},
+		LocDirectEntry
+		{
+			Key = "$routes.savingnotpossible";
+			Text = "L'enregistrement de l'itinéraire n'est pas possible - un itinéraire nécessite au moins deux points de passage !";
 		},
 		LocDirectEntry
 		{
@@ -32166,6 +32191,196 @@ LocDirectData
 		{
 			Key = "$Bonus.Strength";
 			Text = "Force";
+		},
+		LocDirectEntry
+		{
+			Key = "$statusEffect.prison";
+			Text = "Verrouillé";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.tradeHostage.MaxHostagesReached";
+			Text = "Vous n'avez pas assez d'espace de stockage pour les otages dans aucune de vos maisons.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.tradeHostage.MaxHostagesReachedTarget";
+			Text = "%FamilyTarget% ne dispose pas de suffisamment d'espace de stockage pour les otages dans leurs maisons.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.trade_window.marriage_proposals.header";
+			Text = "Propositions de mariage";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.trade_window.marriage_proposal.destination_family";
+			Text = "Famille de destination";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.trade_window.marriage_proposal.warning.is_pregnant";
+			Text = "Vous n'êtes pas autorisé à épouser une femme enceinte dans une dynastie";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.trade_window.marriage_proposal.warning.is_same_sex";
+			Text = "Vous ne pouvez épouser que des personnages du sexe opposé";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.trade_window.marriage_proposal.warning.is_leader";
+			Text = "Vous ne pouvez pas épouser un chef de dynastie dans une autre dynastie";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.trade_window.marriage_proposal.warning.is_not_true_bloodline";
+			Text = "Seuls les descendants naturels ou adoptés du fondateur d'une famille peuvent épouser quelqu'un dans leur dynastie";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.trade_window.marriage_proposal.warning.same_original_family";
+			Text = "Vous ne pouvez pas épouser quelqu'un dans une dynastie qui est originaire de cette dynastie";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.trade_window.marriage_proposal.warning.family_toggle_disabled";
+			Text = "Un personnage sélectionné ne peut pas être marié dans la famille de destination";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.trade_window.marriage_proposal.candidate.selection.title";
+			Text = "Sélectionnez un personnage pour la demande en mariage";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.trade_window.marriage_proposal.candidate.not_available.title";
+			Text = "Aucun candidat au mariage disponible";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.trade_window.marriage_proposal.candidate.not_available.msg";
+			Text = "La famille n'a pas de personnages supplémentaires disponibles pour le mariage";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.TutorialQuest.Marriage1.Title";
+			Text = "Épouser une de vos romances";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.TutorialQuest.ProduceOffspring1.Title";
+			Text = "Avoir un enfant";
+		},
+		LocDirectEntry
+		{
+			Key = "$build.GuardPostStPauli";
+			Text = "Maison de garde de David";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.tooltip.RouteNodeUp";
+			Text = "Déplacer vers le haut";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.tooltip.RouteNodeDown";
+			Text = "Déplacer vers le bas";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Routes.Summary";
+			Text = "Résumé\nNombre total de points de passage : %stops%\nNombre total d'articles chargés : %loaded%\nNombre total d'article déchargés : %unloaded%\nEmplacement d'inventaire nécessaires : %slots%\n";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Routes.Warnings.Title";
+			Text = "Attention";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Routes.Warnings.None";
+			Text = "Pas d'avertissement !";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Routes.Warnings.TooFewNodes";
+			Text = "Un itinéraire doit avoir au moins deux points de passage.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Routes.Warnings.AllStopsSame";
+			Text = "Tous les points de passage de cette route sont au même endroit.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Routes.Warnings.Overflow";
+			Text = "Cet itinéraire nécessite plus de quatre emplacements d'inventaire pour être effectuée.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Routes.Warnings.LoadBalance";
+			Text = "%item% : Les quantités chargées et déchargées ne sont pas équilibrées (différence : %difference%).";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.tooltip.Routes.Amount.Load";
+			Text = "Charger %amount% %item%.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.tooltip.Routes.Amount.Unload";
+			Text = "Décharger %amount% %item%.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.tooltip.Routes.LoadBalance";
+			Text = "Les quantités chargées et déchargées pour cet article ne sont pas équilibrées.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Routes.AddNewPosition";
+			Text = "Ajouter...";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.tooltip.Routes.AddNewPosition";
+			Text = "Cliquez pour ajouter une nouvel ordre.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Routes.SaveTitle";
+			Text = "Enregistrer l'itinéraire";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Routes.SaveWithWarnings";
+			Text = "Votre itinéraire comporte des avertissements:\n\n%warnings%\n\nEtes-vous sûr de vouloir l'enregistrer ?";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Routes.AssignmentWarning";
+			Text = "Cet itinéraire nécessite plus d'emplacement d'inventaire libre que ce dont votre transporteur dispose actuellement. Êtes-vous sûr de vouloir l'assigner ?";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.skipDialog.TransportRouteWindowSaveWarning";
+			Text = "Afficher l'avertissement de sauvegarde d'itinéraire";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.skipDialog.TransportRouteAssignSlotsWarning";
+			Text = "Afficher l'avertissement d'affectation de route";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.dialog.HideDialogBox";
+			Text = "Ne plus afficher ce dialogue";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Main.SaveQuit";
+			Text = "Enregistrer et quitter";
 		},
 	);
 };
