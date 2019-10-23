@@ -1375,7 +1375,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.Praised";
-			Text = "%CharacterSource% à fait l'éloge de %characterTargets% en public !";
+			Text = "%CharacterSource% à fait l'éloge de %CharacterTarget% en public !";
 		},
 		LocDirectEntry
 		{
@@ -32355,7 +32355,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Routes.SaveWithWarnings";
-			Text = "Votre itinéraire comporte des avertissements:\n\n%warnings%\n\nEtes-vous sûr de vouloir l'enregistrer ?";
+			Text = "Votre itinéraire comporte des avertissements :\n\n%warnings%\n\nEtes-vous sûr de vouloir l'enregistrer ?";
 		},
 		LocDirectEntry
 		{
