@@ -14,6 +14,26 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$ui.storageRules.headers.ProcureItem";
+			Text = "Procure$(Hint)";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.storageRules.headers.ProcureItem.tooltip";
+			Text = "Les transporteurs qui respectent les règles de stockage tenteront de se procurer des articles pour cette entreprise lorsque cela est nécessaire pour la production et tenteront de conserver le stock de ces articles à la valeur \"Stockage minimal\" si ce paramètre est activé. De plus, les ouvriers automatisés ne produiront pas cet article car ils s'attendent à ce que les transporteurs leur apportent.";
+		},
+		LocDirectEntry
+		{
+			Key = "$effect.UnhappyCustomer";
+			Text = "Les clients n'étaient pas satisfaits des prix en magasin.";
+		},
+		LocDirectEntry
+		{
+			Key = "$effect.HappyCustomer";
+			Text = "Les clients étaient satisfaits des prix en magasin.";
+		},
+		LocDirectEntry
+		{
 			Key = "$AboutTalents1";
 			Text = "Question de talent I";
 		},
@@ -375,7 +395,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.CommendDesc";
-			Text = "Vous pouvez utiliser cette action pour louer au ciel une famille amicale pour les fêtards qui aiment boire à l'auberge. Ils croiront volontiers ce que vous leur dites et les nouvelles circuleront bientôt dans l'ensemble du quartier - 'in vino veritas', peut-être ?";
+			Text = "Vous pouvez utiliser cette action pour louer au ciel une autre famille pour les fêtards qui aiment boire à l'auberge. Ils croiront volontiers ce que vous leur dites. Les nouvelles circuleront bientôt dans l'ensemble du quartier - 'in vino veritas', peut-être ?";
 		},
 		LocDirectEntry
 		{
@@ -520,7 +540,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.DenounceDesc";
-			Text = "Vous pouvez utiliser cette action pour ternir la réputation d'un de vos adversaires et de toute sa dynastie en public en racontant des demi-vérités sur sa famille...";
+			Text = "Vous pouvez utiliser cette action pour ternir la réputation d'un membre d'une famille adverse et de toute sa dynastie en public en racontant des demi-vérités sur sa famille...";
 		},
 		LocDirectEntry
 		{
@@ -1380,7 +1400,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.PraiseDesc";
-			Text = "Vous pouvez utiliser ceci pour mettre en évidence la droiture et le pouvoir de la foi d'une autre personne en public et ainsi accroître votre réputation auprès de sa famille.";
+			Text = "Vous pouvez utiliser ceci pour mettre en évidence la droiture et le pouvoir de la foi d'un membre d'une famille d'une autre dynastie en public et ainsi accroître votre réputation auprès de sa famille.";
 		},
 		LocDirectEntry
 		{
@@ -1960,7 +1980,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.WriteTrashLetterDesc";
-			Text = "Vous ne pouvez tout simplement pas supporter quelqu'un ? Alors il suffit d'écrire un pamphlet diffamatoire sur cette personne et de le diffuser dans toute la ville...";
+			Text = "Vous ne pouvez tout simplement pas supporter quelqu'un ? Alors il suffit d'écrire un pamphlet diffamatoire sur cette personne et l'afficher à l’un de leurs bâtiments. Cela diminuera votre réputation auprès du propriétaire du bâtiment.";
 		},
 		LocDirectEntry
 		{
@@ -2280,7 +2300,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Ambitious";
-			Text = "Ambitieux";
+			Text = "Talents";
 		},
 		LocDirectEntry
 		{
@@ -8940,12 +8960,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Culinary";
-			Text = "Préparation alimentaire";
+			Text = "Agriculture";
 		},
 		LocDirectEntry
 		{
 			Key = "$CulinaryDesc";
-			Text = "La préparation alimentaire consiste à préparer des aliments et des boissons. Le premier niveau de cette compétence vous fournit déjà tout le savoir et les connaissances nécessaires pour transformer le grain en farine. Ensuite, vous vous entraînez pour devenir agriculteur, boulanger et/ou boucher. Si vous continuez à suivre cette voie, vous pourrez un jour être capable de devenir aubergiste.";
+			Text = "Les metiers agricoles consiste à préparer des aliments et des boissons. Le premier niveau de cette compétence vous fournit déjà tout le savoir et les connaissances nécessaires pour transformer le grain en farine. Ensuite, vous vous entraînez pour devenir agriculteur, boulanger et/ou boucher. Si vous continuez à suivre cette voie, vous pourrez un jour être capable de devenir aubergiste.";
 		},
 		LocDirectEntry
 		{
@@ -10985,7 +11005,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.Erect.TypeName.2";
-			Text = "Entreprises de préparation alimentaire";
+			Text = "Entreprises Agricoles";
 		},
 		LocDirectEntry
 		{
@@ -11570,7 +11590,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.multiplayer.familynametaken";
-			Text = "Ce nom est déjà pris par un autre joueur.";
+			Text = "Ce nom de famille est déjà utilisé par un autre joueur.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.multiplayer.usernameexists";
+			Text = "Ce nom de d'utilisateur est déjà utilisé par un autre joueur.";
 		},
 		LocDirectEntry
 		{
@@ -12320,7 +12345,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.politics.office.SovereignDesc";
-			Text = "Le souverain règne sur la région et ses habitants. Seul le monarque du royaume est au-dessus de lui, qui emploie aussi le souverain à vie.";
+			Text = "Le Souverain règne sur la région et ses habitants. Seul le Monarque du royaume est au-dessus de lui, et nomme le Souverain à vie.";
 		},
 		LocDirectEntry
 		{
@@ -12435,7 +12460,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.politics.officegroup.SovereignDesc";
-			Text = "Le souverain est à ce niveau, qui est supérieur à tous les conseils municipaux, et il est le seul a être en lien avec le monarque du royaume.";
+			Text = "Le Souverain est supérieur à tous les membres du bureau de la ville. Le Souverain est seulement subordonné au Monarque du royaume.";
 		},
 		LocDirectEntry
 		{
@@ -14370,7 +14395,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.AreYouSureToDoAction.NoSkill";
-			Text = "Attention, vous n'avez pas la compétence appropriée %buildingSkillLvl% pour exploiter pleinement le bâtiment %buildingName%. Jusqu'à ce que vous ayez débloqué la compétence appropriée, vous devrez payer tous les frais du bâtiment. Êtes-vous sûr de vouloir faire l'action %actionName% ?";
+			Text = "Attention : Vous n'avez pas la compétence appropriée %buildingSkillLvl% pour exploiter pleinement le bâtiment %buildingName%. Jusqu'à ce que vous ayez débloqué la compétence appropriée, vous devrez payer tous les frais du bâtiment. Êtes-vous sûr de vouloir faire l'action %actionName% ?";
 		},
 		LocDirectEntry
 		{
@@ -15215,7 +15240,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$nobility.cat1";
-			Text = "Roturier";
+			Text = "Roturiers";
 		},
 		LocDirectEntry
 		{
@@ -15225,7 +15250,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$nobility.cat5";
-			Text = "Citoyen";
+			Text = "Citoyens";
 		},
 		LocDirectEntry
 		{
@@ -15235,7 +15260,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$nobility.cat10";
-			Text = "Noble";
+			Text = "Nobles";
 		},
 		LocDirectEntry
 		{
@@ -15540,7 +15565,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$PickPocketDesc";
-			Text = "La réaffectation des pièces de monnaie des portefeuilles des riches à ceux des pauvres - comme la vôtre - devient votre métier ! Ici, le choix d'un quartier cible n'est pas sans importance, car les quartiers riches peuvent vous faire gagner plus d'argent, mais les gardes de la ville y patrouillent beaucoup plus souvent.";
+			Text = "Le transfert des pièces de monnaie et des objets des sacs des riches à ceux des pauvres - comme le vôtre - devient votre métier ! Ici, le choix d'un quartier cible n'est pas sans importance, car les quartiers riches peuvent vous faire gagner plus d'argent, mais les gardes de la ville y patrouillent beaucoup plus souvent.";
 		},
 		LocDirectEntry
 		{
@@ -15590,7 +15615,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$PoemDesc";
-			Text = "Le poème écrit sur ce parchemin est fait pour être déclamé. Dédier ce chef-d'oeuvre poétique à une personne du sexe opposé et vous constaterez que sa crainte initial cèdera la place à la joie d'être le sujet de votre poème.";
+			Text = "Le poème écrit sur ce parchemin est fait pour être déclamé. Dédier ce chef-d'oeuvre poétique à une de vos laisons ou amants et vous constaterez que sa crainte initial cèdera la place à la joie d'être le sujet de votre poème.";
 		},
 		LocDirectEntry
 		{
@@ -16590,7 +16615,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$randomEvents.positive.3";
-			Text = "Par chance, vous remarquez un pickpocket sur le point de couper la bourse de %fullname%. Sans un moment d'hésitation, vous chassez le voleur.\nToute la famille %dynasty% exprime alors leur gratitude envers vous.";
+			Text = "Par chance, vous remarquez un pickpocket sur le point de couper la bourse de %fullname%. Sans un moment d'hésitation, vous chassez le voleur.\nToute la famille %dynasty% exprime alors leur gratitude envers vous.";
 		},
 		LocDirectEntry
 		{
@@ -23350,7 +23375,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Subquest.Desc13";
-			Text = "Acquérir le titre Patricien";
+			Text = "Acquérir le titre Ecuyer";
 		},
 		LocDirectEntry
 		{
@@ -25345,7 +25370,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$sce.name.Wenighusen";
-			Text = "Un petit début";
+			Text = "Un petit début (Tutoriel)";
 		},
 		LocDirectEntry
 		{
@@ -26045,7 +26070,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$CollectProtectionMoneyDesc";
-			Text = "Vous pouvez utiliser ceci pour envoyer votre lansquenet informer le propriétaire d'une entreprise que votre protection n’est pas gratuite. S'il paye, tout voyou saura qu'il doit rester à l'écart du bâtiment.";
+			Text = "Vous pouvez utiliser ceci pour envoyer votre lansquenet informer le propriétaire d'une entreprise que votre protection n’est pas gratuite. S'ils payent, tout voyou saura qu'il doit rester à l'écart du bâtiment.";
 		},
 		LocDirectEntry
 		{
@@ -26555,7 +26580,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.BribeOfficeHolderDesc";
-			Text = "Certains fonctionnaires sont susceptibles de corruption. Vous pouvez essayer de donner de l’argent à des fonctionnaires d’autres familles. Si vous êtes chanceux, cela pourrait vous aider à gagner de l'influence.";
+			Text = "Certains fonctionnaires sont susceptibles de corruption. Vous pouvez essayer de donner de l’argent à des fonctionnaires qui ne sont pas de votre famille. Si vous êtes chanceux, cela pourrait vous aider à gagner de l'influence.";
 		},
 		LocDirectEntry
 		{
@@ -26924,11 +26949,6 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$callToAction.Character.Adult.Unconscious.NotAllied.NotPlayers";
-			Text = "Sélectionnez un personnage adulte inconscient qui ne fait pas partie de votre dynastie, ni une dynastie alliée !";
-		},
-		LocDirectEntry
-		{
 			Key = "$message.politics.OfficeWin.Title";
 			Text = "Votre candidature a été retenue !";
 		},
@@ -27150,7 +27170,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$fb.Insult.Humilated";
-			Text = "%CharacterSource% a insulté %CharacterTarget% en pleine rue et les citoyens du %neighborhood% ont tout entendu. Maintenant, ils se moquent de votre famille...";
+			Text = "%CharacterSource% a insulté %CharacterTarget% en pleine rue et les citoyens du %NeighborhoodTarget% ont tout entendu. Maintenant, ils se moquent de votre famille...";
 		},
 		LocDirectEntry
 		{
@@ -27371,6 +27391,11 @@ LocDirectData
 		{
 			Key = "$notification.EnemyNewHeir";
 			Text = "Un adversaire désigne un héritier";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.EnemyNewHeir.female";
+			Text = "Un adversaire désigne une héritière";
 		},
 		LocDirectEntry
 		{
@@ -27865,7 +27890,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$callToAction.OtherDynastyAdultMember";
-			Text = "Sélectionnez un adulte qui est un membre de la famille d'une dynastie en concurrente.";
+			Text = "Sélectionnez un adulte membre de la famille d'une dynastie en concurrente.";
 		},
 		LocDirectEntry
 		{
@@ -28030,7 +28055,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.WriteRecommandationLetterDesc";
-			Text = "Épinglez une lettre de recommandation sur l'entreprise de quelqu'un. Les personnes qui passent liront la lettre, ce qui aura une influence positive sur l'opinion des gens sur le propriétaire de l'entreprise. Cela vous aidera à augmenter votre relation avec les autres dynasties.";
+			Text = "Épinglez une lettre de recommandation sur le bâtiment de quelqu'un. Les personnes qui passent liront la lettre, ce qui aura une influence positive sur l'opinion des gens sur le propriétaire du bâtiment. Cela vous aidera à augmenter votre relation avec les autres dynasties.";
 		},
 		LocDirectEntry
 		{
@@ -28485,12 +28510,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$notification.sovereign.appointed.body";
-			Text = "Le monarque a décidé que %character% gouvernera désormais la terre en son nom.";
+			Text = "Le monarque a décidé que %character% gouvernera désormais ce fief en tant que nouveau Souverain.";
 		},
 		LocDirectEntry
 		{
 			Key = "$notification.sovereign.appointed.body.female";
-			Text = "Le monarque a décidé que %character% gouvernera désormais la terre en son nom.";
+			Text = "Le monarque a décidé que %character% gouvernera désormais ce fief en tant que nouvelle Souveraine.";
 		},
 		LocDirectEntry
 		{
@@ -28955,12 +28980,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$objectives.diplomaticRelationships.alliance.name";
-			Text = "Maintenir des alliances avec d'autres dynasties";
+			Text = "Établir des alliances avec d'autres dynasties";
 		},
 		LocDirectEntry
 		{
 			Key = "$objectives.diplomaticRelationships.feud.name";
-			Text = "Maintenir des querelles avec d'autres dynasties";
+			Text = "Entrer en querelles avec d'autres dynasties";
 		},
 		LocDirectEntry
 		{
@@ -29955,7 +29980,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.HelpTutorial.TradeRoutesDetail6";
-			Text = "Pour définir les marchandises à charger ou à décharger, il vous suffit de cliquer sur une icône d'emplacement vide, de sélectionner le produit souhaité et de définir une quantité. Les quantités sont relatives aux stocks du transporteur. Une valeur positive signifie que le transporteur doit récupérer les articles, une valeur négative signifie qu'il doit décharger les articles. Vous pouvez définir autant de ramassages et de dépots par arrêt que vous le souhaitez. L'ordre des éléments représente la priorité avec laquelle le transporteur gérera ces actions. Un transporteur essaiera d’abord de déposer des articles de gauche à droite, puis de ramasser des articles de gauche à droite. Si un article n'est pas disponible ou ne fait pas partie de l'inventaire, le transporteur vérifiera le prochain article jusqu'à ce qu'il se trouve à la fin de la liste.";
+			Text = "Pour définir les marchandises à charger ou à décharger, il vous suffit de cliquer sur une icône d'emplacement vide, de sélectionner le produit souhaité et de définir une quantité. Les quantités sont relatives aux stocks du transporteur. Une valeur positive signifie que le transporteur doit récupérer les articles, une valeur négative signifie qu'il doit décharger les articles. Vous pouvez définir autant de ramassages et de dépots par point de passage que vous le souhaitez. L'ordre des éléments représente la priorité avec laquelle le transporteur gérera ces actions. Un transporteur essaiera d’abord de déposer des articles de gauche à droite, puis de ramasser des articles de gauche à droite. Si un article n'est pas disponible ou ne fait pas partie de l'inventaire, le transporteur vérifiera le prochain article jusqu'à ce qu'il se trouve à la fin de la liste.";
 		},
 		LocDirectEntry
 		{
@@ -29975,7 +30000,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.HelpTutorial.TradeRoutesDetail10";
-			Text = "Sachez que le transporteur essaiera d'exécuter exactement ce que vous avez configuré dans les détails de la route commerciale. Il est donc préférable de toujours vérifier d’une destination à l’autre si les éléments sont configurés pour être correctement chargés ou déchargés. La fenêtre de route commerciale mettra en évidence les objets pour lesquels le nombre de ramassages et de dépots n'est pas équilibré. Sur le côté droit, vous aurez également un résumé qui listera également les avertissements si cela se produit. Vous pouvez toujours enregistrer et affecter ces itinéraires. Sachez simplement que les transporteurs peuvent rencontrer des problèmes en suivant ces itinéraires.";
+			Text = "Sachez que le transporteur essaiera d'exécuter exactement ce que vous avez configuré dans les détails de la route commerciale. Il est donc préférable de toujours vérifier d’une destination à l’autre si les éléments sont configurés pour être correctement chargés ou déchargés. La fenêtre de route commerciale mettra en évidence les objets pour lesquels le nombre de ramassages et de dépots n'est pas équilibré. Sur le côté droit, vous aurez également un résumé qui listera également les avertissements. Vous pouvez toujours enregistrer et affecter ces itinéraires. Sachez simplement que les transporteurs peuvent rencontrer des problèmes en suivant ces itinéraires.";
 		},
 		LocDirectEntry
 		{
@@ -30850,7 +30875,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.TutorialQuest.ClaimHigherTitle1";
-			Text = "Votre prochain grand objectif est d'atteindre le titre : Citoyen. Continuer à produire, conduire vos travailleurs, gagner de l'influence et de la popularité, mais surtout, essayez d'obtenir autant d'argent que possible afin que vous puissiez obtenir les titres requis pour devenir citoyen.";
+			Text = "Votre prochain grand objectif est d'atteindre le titre : Citoyen Libre. Continuer à produire, conduire vos travailleurs, gagner de l'influence et de la popularité, mais surtout, essayez d'obtenir autant d'argent que possible afin que vous puissiez obtenir les titres requis pour devenir citoyen.";
 		},
 		LocDirectEntry
 		{
@@ -31130,7 +31155,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.ToggleLobbyButton";
-			Text = "Ouvrir la fenêtre du lobby";
+			Text = "Basculer la fenêtre du lobby";
 		},
 		LocDirectEntry
 		{
@@ -31155,7 +31180,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.storageRules.headers.keepStorage.tooltip";
-			Text = "Les transporteurs automatisés vont transporter cette quantité de matières premières et intermédiaires que l’entreprise ne peut produire elle-même depuis le marché. Ils vendent des produits lorsque leur minimum est dépassé.\nEn outre, les travailleurs utilisent aussi ces ressources en même temps et les transporteurs empruntant des itinéraires personnalisés ne retirent pas les marchandises du stock si celui ci tombe au-dessous de ce minimum.";
+			Text = "Les transporteurs automatisés vont transporter cette quantité de matières premières et intermédiaires depuis le marché si l’option \"Obtenir\" est activée et si elles sont actuellement nécessaires à la production. Les transporteurs vendent des produits lorsque leur minimum est dépassé et que l'option \"Vendre\" est activée. \nEn outre, les travailleurs utilisent ces ressources en même temps et les transporteurs sur des itinéraires personnalisés ne retirent pas les marchandises du stock si le stock tombe en dessous de ce minimum.";
 		},
 		LocDirectEntry
 		{
@@ -31165,7 +31190,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.storageRules.headers.maxStorage.tooltip";
-			Text = "Cette règle s'applique uniquement aux transporteurs sur des itinéraires personnalisés. Ils ne déchargeront pas plus de biens dans l'entreprise que cette valeur.";
+			Text = "Les transporteurs ne déposeront pas plus d'articles dans le stockage des bâtiments que ce paramètre. Exception : si ce paramètre est inférieur à ce qui est nécessaire pour la production en cours, les transporteurs seront toujours autorisés à déposer suffisamment d'articles pour répondre aux besoins de la production actuelle.";
 		},
 		LocDirectEntry
 		{
@@ -32169,7 +32194,7 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "messageGameOverOtherCompletedCampaign";
+			Key = "$messageGameOver.OtherCompletedCampaign";
 			Text = "La dynastie %FamilyTarget% a déployé plus d'efforts pour mener à bien la campagne familiale et a remporté la partie. Malheureusement, la famille %FamilySource% n'a pas pu suivre la planification sans faille du gagnant.";
 		},
 		LocDirectEntry
@@ -32180,7 +32205,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$callToAction.InnOrBakery";
-			Text = "Sélectionnez une entreprise de production alimentaire.";
+			Text = "Sélectionnez une entreprise de production alimentaire appartenant à quelqu'un d'autres.";
 		},
 		LocDirectEntry
 		{
@@ -32381,6 +32406,196 @@ LocDirectData
 		{
 			Key = "$gui.Main.SaveQuit";
 			Text = "Enregistrer et quitter";
+		},
+		LocDirectEntry
+		{
+			Key = "$Warning.MissingSkill.Business";
+			Text = "Vous n'avez pas encore déverrouillé la compétence appropriée pour ce bâtiment. Vous ne pourrez peut-être pas l'utiliser complètement.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.PowerSovereignLawmaker";
+			Text = "Changer les lois dans votre fief";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.PowerSovereignLawmakerDesc";
+			Text = "En tant que souverain, vous avez le privilège et le pouvoir de changer les lois de toutes les villes de votre fief sans l'approbation des responsables locaux.";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.BuildingPublicHouse";
+			Text = "Sélectionnez une taverne.";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.CharacterRomanticRelationship";
+			Text = "Sélectionnez un personnage avec qui vous avez une romance ou une liaison.";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.EnumerationComma";
+			Text = ",";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.ConcatenationComma";
+			Text = ",";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.MaxNumberOfHenchmen";
+			Text = "Vous êtes maintenant autorisé à engager jusqu'à %number% hommes de main.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.PursuitAggressor";
+			Text = "Poursuivant l'agresseur";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.PursuitAggressorDesc";
+			Text = "Vous êtes à la poursuite de quelqu'un qui vous a fait du tort ! Une fois que vous les aurez rattrapés, ils apprendront qu'il ne faut pas déconner avec vous !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.sovereign.vacant.title";
+			Text = "Le Souverain est parti, longue vie au Souverain !";
+		},
+		LocDirectEntry
+		{
+			Key = "$notification.sovereign.vacant.body";
+			Text = "Le trône du souverain est vacant. Maintenant, le monarque doit choisir un nouveau souverain pour ce fief. Cela se produira bientôt !\nUtilisez votre Influence pour montrer au Monarque que vous êtes la bonne personne pour le poste.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.offices.duration.lifetime";
+			Text = "Illimité (à vie)";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.offices.sovereign.pledge_influence_to_election";
+			Text = "Prêter serment";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.below_average";
+			Text = "Sous la moyenne";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.average";
+			Text = "Moyenne";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.above_average";
+			Text = "Au dessus de la moyenne";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.office_tree.sovereign.influence_spent_label";
+			Text = "Influence dépensée";
+		},
+		LocDirectEntry
+		{
+			Key = "$reason.NotEnoughInfluence";
+			Text = "Pas assez d'Influence";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.tooltip.sovereign.influenceSpent";
+			Text = "Montant total d'Influence investi dans la campagne pour devenir le nouveau Souverain";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.sovereign.appointment.title";
+			Text = "Un nouveau Souverain monte sur le trône";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.sovereign.appointment.description";
+			Text = "Notre Monarque a nommé un nouveau Souverain. Le nouveau seigneur du fief a un grand pouvoir, mais aussi de grandes responsabilités. Oh oui : et bien sûr beaucoup de nouveaux ennemis !";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.sovereign.appointment.influence_invested";
+			Text = "Influence investie";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.sovereign.appointment.popularity_boost";
+			Text = "Boost de popularité";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.sovereign.appointment.total";
+			Text = "Total";
+		},
+		LocDirectEntry
+		{
+			Key = "$Skilltree.Name.FoodPreparation";
+			Text = "Agriculture";
+		},
+		LocDirectEntry
+		{
+			Key = "$Skilltree.Name.Craftsmanship";
+			Text = "Artisanat";
+		},
+		LocDirectEntry
+		{
+			Key = "$Skilltree.Name.Scholarship";
+			Text = "Érudition";
+		},
+		LocDirectEntry
+		{
+			Key = "$Skilltree.Name.Delinquency";
+			Text = "Délinquance";
+		},
+		LocDirectEntry
+		{
+			Key = "$Skilltree.Name.Social";
+			Text = "Compétences sociales";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.Character.Adult.Unconscious.NotAllied.NotPlayers";
+			Text = "Sélectionnez un personnage adulte inconscient qui ne fait pas partie de votre dynastie, ni une dynastie alliée !";
+		},
+		LocDirectEntry
+		{
+			Key = "$buff.RatFree";
+			Text = "Exempt de parasites";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Office.RejectReasonOnlyLeaderAsSovereign";
+			Text = "Seul le chef d'une dynastie peut demander à devenir le souverain de ce fief";
+		},
+		LocDirectEntry
+		{
+			Key = "$unlock.BecomeSovereign";
+			Text = "Éligibilité à devenir souverain";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Options.DepthOfField";
+			Text = "Profondeur de champ";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.tooltip.sovereign.popularityBoost";
+			Text = "Cela montre à quel point la popularité moyenne de la dynastie auprès des citoyens du fief a affecté la décision du monarque de manière positive ou négative.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.tooltip.sovereign.overallWinChances";
+			Text = "La décision du Monarque de choisir le prochain souverain est influencée par le montant d'Influence consacré à la campagne et par la popularité globale d'une dynastie dans le fief. Cela représente les chances de gagner du candidat par rapport à tous les autres candidats.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.tooltip.sovereign.TotalRating";
+			Text = "Cela représente l'Influence investie, ajustée par l’effet de la popularité de la dynastie auprès des citoyens du fief.";
 		},
 	);
 };
